@@ -209,6 +209,39 @@ let dictCurrent = null;
 let dictAnswered = false;
 let dictCount = 0;
 let dictCorrectCount = 0;
+let dictHistory = []; // 已完成的默写记录 [{id, chinese, correct}]
+
+// ──────────────────── localStorage 会话持久化 ────────────────────
+function saveQuizSession() {
+  const today = new Date().toISOString().split('T')[0];
+  try {
+    localStorage.setItem('quiz_session', JSON.stringify({
+      date: today, questions: quizQuestions, results: quizResults, idx: quizIdx,
+    }));
+  } catch(e) {}
+}
+function loadQuizSession() {
+  const today = new Date().toISOString().split('T')[0];
+  try {
+    const s = JSON.parse(localStorage.getItem('quiz_session') || 'null');
+    return s && s.date === today ? s : null;
+  } catch(e) { return null; }
+}
+function saveDictSession() {
+  const today = new Date().toISOString().split('T')[0];
+  try {
+    localStorage.setItem('dict_session', JSON.stringify({
+      date: today, history: dictHistory, count: dictCount, correctCount: dictCorrectCount,
+    }));
+  } catch(e) {}
+}
+function loadDictSession() {
+  const today = new Date().toISOString().split('T')[0];
+  try {
+    const s = JSON.parse(localStorage.getItem('dict_session') || 'null');
+    return s && s.date === today ? s : null;
+  } catch(e) { return null; }
+}
 
 function showToast(msg) {
   const t = document.getElementById('toast');
@@ -358,6 +391,18 @@ async function markWord(wordID, known) {
 // ──────────────────── 测试模式 ────────────────────
 async function renderQuiz() {
   await loadTodayProgress();
+
+  // 优先从 localStorage 恢复今日测试会话
+  const saved = loadQuizSession();
+  if (saved && saved.questions && saved.questions.length > 0) {
+    quizQuestions = saved.questions;
+    quizResults = saved.results;
+    quizIdx = saved.idx;
+    quizCorrect = quizResults.filter(r => r && r.correct).length;
+    renderQuizQuestion(); // 若 idx >= length 则自动进结果页
+    return;
+  }
+
   quizQuestions = await api('GET', '/study/quiz?count=10');
   quizIdx = 0;
   quizCorrect = 0;
@@ -442,6 +487,8 @@ async function answerQuiz(answer, wordID) {
       userAnswer: answer,
       example: result.example,
     };
+    // 保存会话到 localStorage
+    saveQuizSession();
     // 重新渲染：更新圆圈颜色 + 显示反馈
     renderQuizQuestion();
   } catch(e) {
@@ -462,6 +509,8 @@ function nextQuiz() {
 }
 
 function renderQuizResult() {
+  // 清除已完成会话，下次重新生成
+  localStorage.removeItem('quiz_session');
   const correct = quizResults.filter(r => r && r.correct).length;
   const total = quizQuestions.length;
   const pct = total > 0 ? Math.round(correct / total * 100) : 0;
@@ -483,9 +532,18 @@ async function renderDictation() {
   dictCurrent = null;
   dictAnswered = false;
   await loadTodayProgress();
-  // 从今日进度恢复本轮计数起点
-  dictCount = todayProgress.dict_count || 0;
-  dictCorrectCount = todayProgress.dict_correct || 0;
+
+  // 优先从 localStorage 恢复今日默写历史
+  const saved = loadDictSession();
+  if (saved) {
+    dictHistory = saved.history || [];
+    dictCount = saved.count || 0;
+    dictCorrectCount = saved.correctCount || 0;
+  } else {
+    dictHistory = [];
+    dictCount = todayProgress.dict_count || 0;
+    dictCorrectCount = todayProgress.dict_correct || 0;
+  }
   await loadDictationWord();
 }
 
@@ -499,21 +557,53 @@ async function loadDictationWord() {
   }
 }
 
+// 构建默写题号圆圈导航（历史 + 当前）
+function buildDictNav() {
+  const circles = dictHistory.map((h, i) =>
+    `<div class="q-circle ${h.correct ? 'q-correct' : 'q-wrong'}" title="${escAttr(h.chinese)}">${i + 1}</div>`
+  ).join('');
+  const current = `<div class="q-circle q-current">${dictHistory.length + 1}</div>`;
+  return circles + current;
+}
+
 function renderDictCard() {
   if (!dictCurrent) return;
   const q = dictCurrent;
+  // 例句作为提示，默认隐藏
+  const hintHtml = q.example ? `
+    <div style="margin-top:10px;text-align:center">
+      <button id="dictHintBtn" class="btn btn-ghost" style="font-size:13px;padding:5px 14px" onclick="showDictHint()">💡 查看提示</button>
+      <div id="dictHintContent" style="display:none;margin-top:6px">
+        <div class="dict-ex">${escHtml(q.example)}</div>
+        ${q.example_cn ? `<div style="font-size:12px;color:#94a3b8;font-style:italic;margin-top:2px">${escHtml(q.example_cn)}</div>` : ''}
+      </div>
+    </div>` : '';
+
   document.getElementById('content').innerHTML = `
-    <div class="dict-counter">已练习 ${dictCount} 个，答对 ${dictCorrectCount} 个</div>
-    <div class="card dict-card">
-      <div class="dict-cn">${escHtml(q.chinese)}</div>
-      ${q.example ? `<div class="dict-ex">${escHtml(q.example)}</div><div style="font-size:12px;color:#94a3b8;font-style:italic">${escHtml(q.example_cn||'')}</div>` : ''}
-      <input class="dict-input" id="dictInput" type="text" placeholder="输入英文单词…" autocomplete="off" autocorrect="off" spellcheck="false"
-        onkeydown="if(event.key==='Enter') submitDict()">
-      <div id="dictFeedback"></div>
-      <button class="btn btn-primary btn-block" style="margin-top:14px" onclick="submitDict()" id="dictSubmitBtn">提交</button>
+    <div class="quiz-layout">
+      <div class="quiz-main">
+        <div class="dict-counter">已练习 ${dictCount} 个，答对 ${dictCorrectCount} 个</div>
+        <div class="card dict-card">
+          <div class="dict-cn">${escHtml(q.chinese)}</div>
+          ${hintHtml}
+          <input class="dict-input" id="dictInput" type="text" placeholder="输入英文单词…" autocomplete="off" autocorrect="off" spellcheck="false"
+            onkeydown="if(event.key==='Enter') submitDict()">
+          <div id="dictFeedback"></div>
+          <button class="btn btn-primary btn-block" style="margin-top:14px" onclick="submitDict()" id="dictSubmitBtn">提交</button>
+        </div>
+      </div>
+      <div class="quiz-nav-panel">${buildDictNav()}</div>
     </div>
   `;
   document.getElementById('dictInput').focus();
+}
+
+// 展示提示
+function showDictHint() {
+  const btn = document.getElementById('dictHintBtn');
+  const content = document.getElementById('dictHintContent');
+  if (btn) btn.style.display = 'none';
+  if (content) content.style.display = 'block';
 }
 
 async function submitDict() {
@@ -527,6 +617,9 @@ async function submitDict() {
     const result = await api('POST', '/study/dictation/answer', { word_id: dictCurrent.word_id, input: val });
     dictCount++;
     if (result.correct) dictCorrectCount++;
+    // 记录到历史并保存
+    dictHistory.push({ id: dictCurrent.word_id, chinese: dictCurrent.chinese, correct: result.correct });
+    saveDictSession();
     input.classList.add(result.correct ? 'correct' : 'wrong');
     const fb = document.getElementById('dictFeedback');
     if (fb) {
