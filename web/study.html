@@ -123,6 +123,28 @@
 <script>
 // ──────────────────── 语音朗读 ────────────────────
 let currentSpeakBtn = null;
+let preferredVoice = null; // 缓存最优音色
+
+// 按优先级选择英语音色：Google US > Google > Samantha(macOS) > 任意 en-US > 任意 en
+function pickVoice() {
+  if (preferredVoice) return preferredVoice;
+  const voices = speechSynthesis.getVoices();
+  const priority = [
+    v => v.name === 'Google US English',
+    v => v.name.startsWith('Google') && v.lang.startsWith('en'),
+    v => v.name === 'Samantha',
+    v => v.lang === 'en-US',
+    v => v.lang.startsWith('en'),
+  ];
+  for (const match of priority) {
+    const found = voices.find(match);
+    if (found) { preferredVoice = found; return found; }
+  }
+  return null;
+}
+
+// voices 异步加载，提前触发缓存
+speechSynthesis.addEventListener('voiceschanged', () => { preferredVoice = null; pickVoice(); });
 
 function speak(text, btnEl) {
   if (!window.speechSynthesis) { showToast('当前浏览器不支持语音朗读'); return; }
@@ -139,6 +161,8 @@ function speak(text, btnEl) {
   const utter = new SpeechSynthesisUtterance(text);
   utter.lang = 'en-US';
   utter.rate = 0.85;
+  const voice = pickVoice();
+  if (voice) utter.voice = voice;
   utter.onend = () => { if (btnEl) btnEl.classList.remove('speaking'); currentSpeakBtn = null; };
   utter.onerror = () => { if (btnEl) btnEl.classList.remove('speaking'); currentSpeakBtn = null; };
 
