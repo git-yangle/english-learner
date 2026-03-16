@@ -1,10 +1,262 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <title>English Learner</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>旅行英语学习</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; background: #f0f4f8; min-height: 100vh; }
+
+    /* 导航栏 */
+    .nav { background: #1e40af; color: #fff; padding: 14px 20px; display: flex; align-items: center; justify-content: space-between; box-shadow: 0 2px 8px rgba(0,0,0,.2); }
+    .nav-title { font-size: 18px; font-weight: 700; letter-spacing: 1px; }
+    .nav-links a { color: #bfdbfe; text-decoration: none; margin-left: 16px; font-size: 14px; }
+    .nav-links a:hover { color: #fff; }
+
+    .container { max-width: 700px; margin: 0 auto; padding: 20px 16px; }
+
+    /* 卡片 */
+    .card { background: #fff; border-radius: 12px; padding: 20px; margin-bottom: 16px; box-shadow: 0 1px 4px rgba(0,0,0,.08); }
+    .card-title { font-size: 16px; font-weight: 600; color: #1e3a5f; margin-bottom: 14px; }
+
+    /* 初始化引导 */
+    .init-card { text-align: center; padding: 32px 20px; }
+    .init-icon { font-size: 48px; margin-bottom: 16px; }
+    .init-title { font-size: 22px; font-weight: 700; color: #1e3a5f; margin-bottom: 8px; }
+    .init-desc { color: #64748b; font-size: 14px; margin-bottom: 24px; }
+    .select-lib { width: 100%; padding: 10px 14px; border: 2px solid #bfdbfe; border-radius: 8px; font-size: 15px; margin-bottom: 16px; outline: none; }
+    .select-lib:focus { border-color: #3b82f6; }
+    .btn { display: inline-block; padding: 11px 28px; border: none; border-radius: 8px; font-size: 15px; cursor: pointer; font-weight: 600; transition: opacity .15s; }
+    .btn:hover { opacity: .85; }
+    .btn-primary { background: #1e40af; color: #fff; }
+    .btn-success { background: #059669; color: #fff; }
+    .btn-block { display: block; width: 100%; text-align: center; }
+
+    /* 今日状态 */
+    .today-header { display: flex; align-items: center; justify-content: space-between; }
+    .day-badge { background: #dbeafe; color: #1e40af; font-size: 13px; font-weight: 600; padding: 4px 10px; border-radius: 20px; }
+    .today-stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin: 16px 0; }
+    .stat-item { text-align: center; background: #f8faff; border-radius: 8px; padding: 12px 8px; }
+    .stat-num { font-size: 24px; font-weight: 700; color: #1e40af; }
+    .stat-label { font-size: 12px; color: #64748b; margin-top: 2px; }
+    .checkin-done { color: #059669; font-weight: 600; font-size: 14px; }
+    .checkin-pending { color: #d97706; font-weight: 600; font-size: 14px; }
+
+    /* 学习入口按钮 */
+    .study-btns { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+    .study-btn { text-decoration: none; display: flex; flex-direction: column; align-items: center; padding: 14px 8px; border-radius: 10px; font-size: 13px; font-weight: 600; transition: transform .1s; }
+    .study-btn:hover { transform: scale(1.03); }
+    .study-btn .icon { font-size: 26px; margin-bottom: 6px; }
+    .btn-browse { background: #eff6ff; color: #1e40af; }
+    .btn-quiz { background: #f0fdf4; color: #059669; }
+    .btn-dictation { background: #fff7ed; color: #c2410c; }
+
+    /* 14天日历 */
+    .calendar { display: grid; grid-template-columns: repeat(7, 1fr); gap: 6px; }
+    .cal-day { border-radius: 8px; padding: 8px 4px; text-align: center; font-size: 11px; }
+    .cal-day .day-num { font-weight: 700; font-size: 14px; }
+    .cal-day .day-date { margin-top: 2px; color: #94a3b8; font-size: 10px; }
+    .cal-pending { background: #f1f5f9; color: #475569; }
+    .cal-completed { background: #d1fae5; color: #065f46; }
+    .cal-today { border: 2px solid #3b82f6; }
+    .cal-failed { background: #fee2e2; color: #991b1b; }
+
+    .score-bar { background: #e2e8f0; border-radius: 4px; height: 8px; margin-top: 6px; overflow: hidden; }
+    .score-fill { height: 100%; border-radius: 4px; background: #3b82f6; }
+
+    /* loading */
+    .loading { text-align: center; color: #94a3b8; padding: 40px; }
+
+    /* 提示 */
+    .toast { position: fixed; bottom: 24px; left: 50%; transform: translateX(-50%); background: #1e293b; color: #fff; padding: 10px 20px; border-radius: 8px; font-size: 14px; z-index: 9999; opacity: 0; transition: opacity .3s; pointer-events: none; }
+    .toast.show { opacity: 1; }
+  </style>
 </head>
 <body>
-    <h1>English Learner</h1>
+<nav class="nav">
+  <span class="nav-title">✈️ 旅行英语</span>
+  <div class="nav-links">
+    <a href="/web/stats.html">统计</a>
+  </div>
+</nav>
+
+<div class="container">
+  <div id="app"><div class="loading">加载中…</div></div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script>
+const app = document.getElementById('app');
+
+// 通用 API 请求
+async function api(method, path, body) {
+  const opts = { method, headers: { 'Content-Type': 'application/json' } };
+  if (body) opts.body = JSON.stringify(body);
+  const res = await fetch('/api' + path, opts);
+  const json = await res.json();
+  if (json.code !== 0) throw new Error(json.msg || '请求失败');
+  return json.data;
+}
+
+function showToast(msg) {
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.classList.add('show');
+  setTimeout(() => t.classList.remove('show'), 2500);
+}
+
+// 初始化入口
+async function init() {
+  try {
+    const status = await api('GET', '/plan/status');
+    if (status.has_plan) {
+      await renderMain();
+    } else {
+      await renderSetup();
+    }
+  } catch (e) {
+    app.innerHTML = `<div class="card"><p style="color:#ef4444">加载失败：${e.message}</p></div>`;
+  }
+}
+
+// 渲染引导页（无计划）
+async function renderSetup() {
+  let libraries = [];
+  try { libraries = await api('GET', '/libraries'); } catch(e) {}
+
+  const options = libraries.map(l => `<option value="${l.id}">${l.name}（${l.word_count} 词）</option>`).join('');
+
+  app.innerHTML = `
+    <div class="card init-card">
+      <div class="init-icon">📚</div>
+      <div class="init-title">开始你的旅行英语学习计划</div>
+      <div class="init-desc">选择词库，系统将自动生成 14 天学习计划，每天约 40 个单词</div>
+      <select class="select-lib" id="libSelect">
+        ${options || '<option value="travel">旅行场景（默认）</option>'}
+      </select>
+      <button class="btn btn-primary btn-block" onclick="startPlan()">开始 14 天计划</button>
+    </div>
+  `;
+}
+
+async function startPlan() {
+  const libID = document.getElementById('libSelect').value;
+  try {
+    await api('POST', '/plan/init', { library_id: libID });
+    showToast('计划创建成功！');
+    await renderMain();
+  } catch(e) {
+    showToast('创建失败：' + e.message);
+  }
+}
+
+// 渲染主页（有计划）
+async function renderMain() {
+  try {
+    const [todayPlan, overview, stats] = await Promise.all([
+      api('GET', '/plan/today'),
+      api('GET', '/plan/overview'),
+      api('GET', '/checkin/stats'),
+    ]);
+
+    const today = new Date().toISOString().split('T')[0];
+    const isCheckedIn = stats.check_ins && stats.check_ins.some(c => c.date === today && c.completed);
+    const todayCheckIn = stats.check_ins && stats.check_ins.find(c => c.date === today);
+
+    // 今日得分条
+    let scoreHtml = '';
+    if (todayCheckIn) {
+      const pct = Math.round(todayCheckIn.score * 100);
+      scoreHtml = `<div class="score-bar"><div class="score-fill" style="width:${pct}%"></div></div>
+        <div style="text-align:right;font-size:11px;color:#64748b;margin-top:2px">得分 ${pct}</div>`;
+    }
+
+    // 日历
+    const dateMap = {};
+    (stats.check_ins || []).forEach(c => dateMap[c.date] = c);
+
+    const calDays = overview.days.map(d => {
+      const checkin = dateMap[d.date];
+      let cls = 'cal-pending';
+      if (checkin && checkin.completed) cls = 'cal-completed';
+      else if (checkin && !checkin.completed) cls = 'cal-failed';
+      if (d.date === today) cls += ' cal-today';
+      return `<div class="cal-day ${cls}">
+        <div class="day-num">D${d.day}</div>
+        <div class="day-date">${d.date.slice(5)}</div>
+      </div>`;
+    }).join('');
+
+    const checkinStatus = isCheckedIn
+      ? `<span class="checkin-done">✅ 已打卡 ${Math.round((todayCheckIn.score||0)*100)}分</span>`
+      : `<span class="checkin-pending">⏳ 待打卡</span>`;
+
+    app.innerHTML = `
+      <div class="card">
+        <div class="today-header">
+          <div class="card-title" style="margin:0">今日学习</div>
+          <span class="day-badge">第 ${todayPlan.day} 天 / 14 天</span>
+        </div>
+        <div class="today-stats">
+          <div class="stat-item">
+            <div class="stat-num">${todayPlan.new_words.length}</div>
+            <div class="stat-label">今日新词</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num">${todayPlan.review_words.length}</div>
+            <div class="stat-label">复习单词</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num">${stats.streak_days}</div>
+            <div class="stat-label">连续打卡</div>
+          </div>
+        </div>
+        <div style="margin-bottom:8px">打卡状态：${checkinStatus}</div>
+        ${scoreHtml}
+      </div>
+
+      <div class="card">
+        <div class="card-title">开始学习</div>
+        <div class="study-btns">
+          <a href="/web/study.html?mode=browse" class="study-btn btn-browse">
+            <span class="icon">📖</span>浏览
+          </a>
+          <a href="/web/study.html?mode=quiz" class="study-btn btn-quiz">
+            <span class="icon">✏️</span>测试
+          </a>
+          <a href="/web/study.html?mode=dictation" class="study-btn btn-dictation">
+            <span class="icon">🔤</span>默写
+          </a>
+        </div>
+        ${!isCheckedIn ? `<button class="btn btn-success btn-block" style="margin-top:12px" onclick="doCheckIn()">📋 立即打卡</button>` : ''}
+      </div>
+
+      <div class="card">
+        <div class="card-title">14 天日历</div>
+        <div class="calendar">${calDays}</div>
+        <div style="margin-top:10px;font-size:12px;color:#94a3b8;display:flex;gap:12px">
+          <span>🟩 已完成</span><span>🟥 未达标</span><span>⬜ 待学习</span>
+        </div>
+      </div>
+    `;
+  } catch(e) {
+    app.innerHTML = `<div class="card"><p style="color:#ef4444">加载失败：${e.message}</p></div>`;
+  }
+}
+
+async function doCheckIn() {
+  try {
+    await api('POST', '/checkin', { study_duration_sec: 0 });
+    showToast('打卡成功！');
+    await renderMain();
+  } catch(e) {
+    showToast('打卡失败：' + e.message);
+  }
+}
+
+init();
+</script>
 </body>
 </html>

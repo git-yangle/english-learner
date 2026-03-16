@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>学习 - 旅行英语</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; background: #f0f4f8; min-height: 100vh; }
+
+    /* 导航栏 */
+    .nav { background: #1e40af; color: #fff; padding: 14px 20px; display: flex; align-items: center; gap: 12px; box-shadow: 0 2px 8px rgba(0,0,0,.2); }
+    .nav-back { color: #bfdbfe; text-decoration: none; font-size: 22px; line-height: 1; }
+    .nav-back:hover { color: #fff; }
+    .nav-title { font-size: 17px; font-weight: 700; }
+
+    /* 标签栏 */
+    .tabs { display: flex; background: #fff; border-bottom: 1px solid #e2e8f0; }
+    .tab { flex: 1; padding: 12px; text-align: center; font-size: 14px; font-weight: 600; color: #94a3b8; cursor: pointer; border-bottom: 3px solid transparent; transition: all .2s; }
+    .tab.active { color: #1e40af; border-bottom-color: #1e40af; }
+
+    .container { max-width: 700px; margin: 0 auto; padding: 20px 16px; }
+
+    .card { background: #fff; border-radius: 12px; padding: 20px; margin-bottom: 16px; box-shadow: 0 1px 4px rgba(0,0,0,.08); }
+    .btn { display: inline-block; padding: 10px 22px; border: none; border-radius: 8px; font-size: 15px; cursor: pointer; font-weight: 600; transition: opacity .15s; }
+    .btn:hover { opacity: .85; }
+    .btn-primary { background: #1e40af; color: #fff; }
+    .btn-success { background: #059669; color: #fff; }
+    .btn-danger { background: #dc2626; color: #fff; }
+    .btn-ghost { background: #f1f5f9; color: #475569; }
+    .btn-block { display: block; width: 100%; text-align: center; }
+
+    /* 浏览模式 */
+    .category-tabs { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px; }
+    .cat-btn { padding: 6px 14px; border-radius: 20px; border: 1px solid #cbd5e1; background: #f8fafc; color: #475569; font-size: 13px; cursor: pointer; }
+    .cat-btn.active { background: #1e40af; color: #fff; border-color: #1e40af; }
+
+    .words-list { display: flex; flex-direction: column; gap: 10px; }
+    .word-card { border: 1px solid #e2e8f0; border-radius: 10px; padding: 14px 16px; cursor: pointer; transition: box-shadow .15s; }
+    .word-card:hover { box-shadow: 0 2px 8px rgba(0,0,0,.1); }
+    .word-en { font-size: 18px; font-weight: 700; color: #1e3a5f; }
+    .word-ph { font-size: 13px; color: #94a3b8; margin-top: 2px; }
+    .word-cn { font-size: 15px; color: #059669; margin-top: 6px; }
+    .word-ex { font-size: 12px; color: #64748b; margin-top: 4px; font-style: italic; }
+    .word-cn, .word-ex { display: none; }
+    .word-card.revealed .word-cn, .word-card.revealed .word-ex { display: block; }
+
+    .mark-btns { display: flex; gap: 8px; margin-top: 10px; }
+    .mark-btn { flex: 1; padding: 6px; border-radius: 6px; border: none; font-size: 13px; font-weight: 600; cursor: pointer; }
+    .mark-known { background: #d1fae5; color: #065f46; }
+    .mark-unknown { background: #fee2e2; color: #991b1b; }
+    .word-card.marked-known { border-color: #6ee7b7; background: #f0fdf4; }
+    .word-card.marked-unknown { border-color: #fca5a5; background: #fef2f2; }
+
+    .browse-progress { display: flex; align-items: center; gap: 10px; margin-bottom: 16px; }
+    .progress-bar { flex: 1; background: #e2e8f0; border-radius: 4px; height: 8px; overflow: hidden; }
+    .progress-fill { height: 100%; background: #3b82f6; border-radius: 4px; transition: width .3s; }
+    .progress-text { font-size: 13px; color: #64748b; white-space: nowrap; }
+
+    /* 测试模式 */
+    .quiz-progress { font-size: 13px; color: #64748b; margin-bottom: 16px; }
+    .quiz-card { text-align: center; padding: 24px 20px; }
+    .quiz-word { font-size: 28px; font-weight: 800; color: #1e3a5f; }
+    .quiz-ph { font-size: 15px; color: #94a3b8; margin-top: 6px; }
+    .quiz-options { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 20px; }
+    .opt-btn { padding: 14px 10px; border: 2px solid #e2e8f0; border-radius: 10px; background: #fff; font-size: 15px; cursor: pointer; transition: all .15s; font-family: inherit; }
+    .opt-btn:hover:not([disabled]) { border-color: #3b82f6; background: #eff6ff; }
+    .opt-btn.correct { border-color: #059669; background: #d1fae5; color: #065f46; }
+    .opt-btn.wrong { border-color: #dc2626; background: #fee2e2; color: #991b1b; }
+    .feedback { margin-top: 14px; padding: 10px 14px; border-radius: 8px; font-size: 14px; }
+    .feedback.ok { background: #d1fae5; color: #065f46; }
+    .feedback.err { background: #fee2e2; color: #991b1b; }
+    .quiz-result { text-align: center; padding: 24px; }
+    .result-score { font-size: 48px; font-weight: 800; color: #1e40af; }
+    .result-label { color: #64748b; font-size: 15px; margin-top: 4px; }
+
+    /* 默写模式 */
+    .dict-card { text-align: center; padding: 24px 20px; }
+    .dict-cn { font-size: 22px; font-weight: 700; color: #1e3a5f; }
+    .dict-ex { font-size: 13px; color: #64748b; font-style: italic; margin-top: 8px; }
+    .dict-input { width: 100%; padding: 12px 16px; border: 2px solid #e2e8f0; border-radius: 8px; font-size: 18px; text-align: center; margin-top: 20px; outline: none; font-family: monospace; }
+    .dict-input:focus { border-color: #3b82f6; }
+    .dict-input.correct { border-color: #059669; background: #f0fdf4; }
+    .dict-input.wrong { border-color: #dc2626; background: #fef2f2; }
+    .dict-result { margin-top: 12px; font-size: 15px; font-weight: 600; }
+    .dict-result.ok { color: #059669; }
+    .dict-result.err { color: #dc2626; }
+    .dict-spelling { font-size: 18px; font-family: monospace; color: #1e40af; margin-top: 4px; }
+    .dict-ph { font-size: 13px; color: #94a3b8; }
+    .dict-counter { font-size: 13px; color: #94a3b8; margin-bottom: 12px; }
+
+    .loading { text-align: center; color: #94a3b8; padding: 40px; }
+    .empty { text-align: center; color: #94a3b8; padding: 40px; font-size: 15px; }
+
+    .toast { position: fixed; bottom: 24px; left: 50%; transform: translateX(-50%); background: #1e293b; color: #fff; padding: 10px 20px; border-radius: 8px; font-size: 14px; z-index: 9999; opacity: 0; transition: opacity .3s; pointer-events: none; }
+    .toast.show { opacity: 1; }
+  </style>
+</head>
+<body>
+<nav class="nav">
+  <a href="/web/index.html" class="nav-back">←</a>
+  <span class="nav-title">学习</span>
+</nav>
+
+<div class="tabs">
+  <div class="tab" id="tab-browse" onclick="switchMode('browse')">📖 浏览</div>
+  <div class="tab" id="tab-quiz" onclick="switchMode('quiz')">✏️ 测试</div>
+  <div class="tab" id="tab-dictation" onclick="switchMode('dictation')">🔤 默写</div>
+</div>
+
+<div class="container">
+  <div id="content"><div class="loading">加载中…</div></div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script>
+// 解析URL参数确定默认模式
+const urlMode = new URLSearchParams(location.search).get('mode') || 'browse';
+let currentMode = '';
+
+// 浏览模式状态
+let browseData = null;       // {category: [words]}
+let browseCategories = [];   // 分类列表
+let currentCat = 'all';
+let markedCount = 0;
+
+// 测试模式状态
+let quizQuestions = [];
+let quizIdx = 0;
+let quizCorrect = 0;
+let quizAnswered = false;
+
+// 默写模式状态
+let dictCurrent = null;
+let dictAnswered = false;
+let dictCount = 0;
+let dictCorrectCount = 0;
+
+function showToast(msg) {
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.classList.add('show');
+  setTimeout(() => t.classList.remove('show'), 2500);
+}
+
+async function api(method, path, body) {
+  const opts = { method, headers: { 'Content-Type': 'application/json' } };
+  if (body) opts.body = JSON.stringify(body);
+  const res = await fetch('/api' + path, opts);
+  const json = await res.json();
+  if (json.code !== 0) throw new Error(json.msg || '请求失败');
+  return json.data;
+}
+
+function switchMode(mode) {
+  if (currentMode === mode) return;
+  currentMode = mode;
+  document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+  document.getElementById('tab-' + mode).classList.add('active');
+  history.replaceState(null, '', '?mode=' + mode);
+  renderMode(mode);
+}
+
+async function renderMode(mode) {
+  const content = document.getElementById('content');
+  content.innerHTML = '<div class="loading">加载中…</div>';
+  try {
+    if (mode === 'browse') await renderBrowse();
+    else if (mode === 'quiz') await renderQuiz();
+    else if (mode === 'dictation') await renderDictation();
+  } catch(e) {
+    content.innerHTML = `<div class="card"><p style="color:#ef4444">加载失败：${e.message}</p></div>`;
+  }
+}
+
+// ──────────────────── 浏览模式 ────────────────────
+async function renderBrowse() {
+  const grouped = await api('GET', '/study/browse');
+  browseData = grouped;
+  browseCategories = Object.keys(grouped || {});
+  if (browseCategories.length === 0) {
+    document.getElementById('content').innerHTML = '<div class="empty">今日没有学习内容</div>';
+    return;
+  }
+  currentCat = 'all';
+  renderBrowseContent();
+}
+
+// 分类名称映射
+const catNames = {
+  airport: '机场', hotel: '酒店', restaurant: '餐厅', direction: '问路',
+  shopping: '购物', emergency: '紧急', transportation: '交通', entertainment: '娱乐', general: '通用',
+};
+
+function renderBrowseContent() {
+  // 统计所有词
+  const allWords = [];
+  if (currentCat === 'all') {
+    browseCategories.forEach(c => (browseData[c] || []).forEach(w => allWords.push(w)));
+  } else {
+    (browseData[currentCat] || []).forEach(w => allWords.push(w));
+  }
+
+  const total = allWords.length;
+
+  // 分类标签
+  const catTabs = ['all', ...browseCategories].map(c => {
+    const name = c === 'all' ? '全部' : (catNames[c] || c);
+    const cnt = c === 'all' ? browseCategories.reduce((s,cc) => s + (browseData[cc]||[]).length, 0) : (browseData[c]||[]).length;
+    return `<button class="cat-btn ${c === currentCat ? 'active' : ''}" onclick="selectCat('${c}')">${name} ${cnt}</button>`;
+  }).join('');
+
+  const wordCards = allWords.map(w => `
+    <div class="word-card" id="wc-${w.id}" onclick="revealWord('${w.id}')">
+      <div class="word-en">${escHtml(w.english)}</div>
+      ${w.phonetic ? `<div class="word-ph">${escHtml(w.phonetic)}</div>` : ''}
+      <div class="word-cn">${escHtml(w.chinese)}</div>
+      ${w.example ? `<div class="word-ex">${escHtml(w.example)}</div>` : ''}
+      <div class="mark-btns" onclick="event.stopPropagation()">
+        <button class="mark-btn mark-known" onclick="markWord('${w.id}', true)">✅ 认识</button>
+        <button class="mark-btn mark-unknown" onclick="markWord('${w.id}', false)">❌ 不认识</button>
+      </div>
+    </div>
+  `).join('');
+
+  document.getElementById('content').innerHTML = `
+    <div class="card" style="padding:14px">
+      <div class="browse-progress">
+        <div class="progress-bar"><div class="progress-fill" id="bpFill" style="width:${markedCount>0?Math.round(markedCount/total*100):0}%"></div></div>
+        <span class="progress-text" id="bpText">${markedCount}/${total} 已标记</span>
+      </div>
+      <div class="category-tabs">${catTabs}</div>
+    </div>
+    <div class="words-list">${wordCards}</div>
+  `;
+}
+
+function selectCat(cat) {
+  currentCat = cat;
+  renderBrowseContent();
+}
+
+function revealWord(id) {
+  const el = document.getElementById('wc-' + id);
+  if (el) el.classList.toggle('revealed');
+}
+
+async function markWord(wordID, known) {
+  const el = document.getElementById('wc-' + wordID);
+  if (!el) return;
+  const wasMarked = el.classList.contains('marked-known') || el.classList.contains('marked-unknown');
+  try {
+    await api('POST', '/study/browse/mark', { word_id: wordID, known });
+    el.classList.remove('marked-known', 'marked-unknown');
+    el.classList.add(known ? 'marked-known' : 'marked-unknown');
+    if (!wasMarked) markedCount++;
+    // 更新进度
+    const allTotal = browseCategories.reduce((s,c) => s + (browseData[c]||[]).length, 0);
+    const fill = document.getElementById('bpFill');
+    const text = document.getElementById('bpText');
+    if (fill) fill.style.width = Math.round(markedCount/allTotal*100) + '%';
+    if (text) text.textContent = markedCount + '/' + allTotal + ' 已标记';
+  } catch(e) {
+    showToast('标记失败');
+  }
+}
+
+// ──────────────────── 测试模式 ────────────────────
+async function renderQuiz() {
+  quizQuestions = await api('GET', '/study/quiz?count=10');
+  quizIdx = 0;
+  quizCorrect = 0;
+  if (!quizQuestions || quizQuestions.length === 0) {
+    document.getElementById('content').innerHTML = '<div class="empty">今日没有学习内容，请先浏览单词</div>';
+    return;
+  }
+  renderQuizQuestion();
+}
+
+function renderQuizQuestion() {
+  if (quizIdx >= quizQuestions.length) {
+    renderQuizResult();
+    return;
+  }
+  const q = quizQuestions[quizIdx];
+  quizAnswered = false;
+  const opts = q.options.map(o => `<button class="opt-btn" onclick="answerQuiz('${escAttr(o)}', '${q.word_id}')">${escHtml(o)}</button>`).join('');
+
+  document.getElementById('content').innerHTML = `
+    <div class="quiz-progress">第 ${quizIdx+1} / ${quizQuestions.length} 题</div>
+    <div class="card quiz-card">
+      <div class="quiz-word">${escHtml(q.english)}</div>
+      ${q.phonetic ? `<div class="quiz-ph">${escHtml(q.phonetic)}</div>` : ''}
+      <div class="quiz-options">${opts}</div>
+      <div id="quiz-feedback"></div>
+    </div>
+  `;
+}
+
+async function answerQuiz(answer, wordID) {
+  if (quizAnswered) return;
+  quizAnswered = true;
+  try {
+    const result = await api('POST', '/study/quiz/answer', { word_id: wordID, answer });
+    const buttons = document.querySelectorAll('.opt-btn');
+    buttons.forEach(b => {
+      b.disabled = true;
+      if (b.textContent === result.correct_answer) b.classList.add('correct');
+      if (b.textContent === answer && !result.correct) b.classList.add('wrong');
+    });
+    if (result.correct) quizCorrect++;
+    const fb = document.getElementById('quiz-feedback');
+    if (fb) {
+      fb.innerHTML = `<div class="feedback ${result.correct ? 'ok' : 'err'}">
+        ${result.correct ? '✅ 正确！' : `❌ 答案是：${escHtml(result.correct_answer)}`}
+        ${result.example ? `<div style="margin-top:6px;font-size:12px;font-style:italic">${escHtml(result.example)}</div>` : ''}
+      </div>
+      <button class="btn btn-primary btn-block" style="margin-top:12px" onclick="nextQuiz()">
+        ${quizIdx+1 < quizQuestions.length ? '下一题 →' : '查看结果'}
+      </button>`;
+    }
+  } catch(e) {
+    showToast('提交失败：' + e.message);
+  }
+}
+
+function nextQuiz() {
+  quizIdx++;
+  renderQuizQuestion();
+}
+
+function renderQuizResult() {
+  const pct = quizQuestions.length > 0 ? Math.round(quizCorrect / quizQuestions.length * 100) : 0;
+  document.getElementById('content').innerHTML = `
+    <div class="card quiz-result">
+      <div style="font-size:48px;margin-bottom:8px">🎉</div>
+      <div class="result-score">${pct}分</div>
+      <div class="result-label">${quizCorrect} / ${quizQuestions.length} 答对</div>
+      <div style="margin-top:20px;display:flex;gap:10px">
+        <button class="btn btn-primary" style="flex:1" onclick="renderMode('quiz')">再测一次</button>
+        <button class="btn btn-ghost" style="flex:1" onclick="switchMode('dictation')">去默写</button>
+      </div>
+    </div>
+  `;
+}
+
+// ──────────────────── 默写模式 ────────────────────
+async function renderDictation() {
+  dictCurrent = null;
+  dictAnswered = false;
+  dictCount = 0;
+  dictCorrectCount = 0;
+  await loadDictationWord();
+}
+
+async function loadDictationWord() {
+  try {
+    dictCurrent = await api('GET', '/study/dictation');
+    dictAnswered = false;
+    renderDictCard();
+  } catch(e) {
+    document.getElementById('content').innerHTML = `<div class="empty">今日没有学习内容：${e.message}</div>`;
+  }
+}
+
+function renderDictCard() {
+  if (!dictCurrent) return;
+  const q = dictCurrent;
+  document.getElementById('content').innerHTML = `
+    <div class="dict-counter">已练习 ${dictCount} 个，答对 ${dictCorrectCount} 个</div>
+    <div class="card dict-card">
+      <div class="dict-cn">${escHtml(q.chinese)}</div>
+      ${q.example ? `<div class="dict-ex">${escHtml(q.example)}</div><div style="font-size:12px;color:#94a3b8;font-style:italic">${escHtml(q.example_cn||'')}</div>` : ''}
+      <input class="dict-input" id="dictInput" type="text" placeholder="输入英文单词…" autocomplete="off" autocorrect="off" spellcheck="false"
+        onkeydown="if(event.key==='Enter') submitDict()">
+      <div id="dictFeedback"></div>
+      <button class="btn btn-primary btn-block" style="margin-top:14px" onclick="submitDict()" id="dictSubmitBtn">提交</button>
+    </div>
+  `;
+  document.getElementById('dictInput').focus();
+}
+
+async function submitDict() {
+  if (dictAnswered) return;
+  const input = document.getElementById('dictInput');
+  if (!input) return;
+  const val = input.value.trim();
+  dictAnswered = true;
+  document.getElementById('dictSubmitBtn').disabled = true;
+  try {
+    const result = await api('POST', '/study/dictation/answer', { word_id: dictCurrent.word_id, input: val });
+    dictCount++;
+    if (result.correct) dictCorrectCount++;
+    input.classList.add(result.correct ? 'correct' : 'wrong');
+    const fb = document.getElementById('dictFeedback');
+    if (fb) {
+      fb.innerHTML = `<div class="dict-result ${result.correct ? 'ok' : 'err'}">
+        ${result.correct ? '✅ 拼写正确！' : '❌ 拼写错误'}
+      </div>
+      <div class="dict-spelling">${escHtml(result.correct_spelling)}</div>
+      ${result.phonetic ? `<div class="dict-ph">${escHtml(result.phonetic)}</div>` : ''}
+      <button class="btn btn-primary btn-block" style="margin-top:14px" onclick="loadDictationWord()">下一个 →</button>`;
+      document.getElementById('dictSubmitBtn').style.display = 'none';
+    }
+  } catch(e) {
+    showToast('提交失败：' + e.message);
+    dictAnswered = false;
+    document.getElementById('dictSubmitBtn').disabled = false;
+  }
+}
+
+// 工具函数
+function escHtml(s) {
+  return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+function escAttr(s) {
+  return String(s||'').replace(/'/g,'&#39;').replace(/"/g,'&quot;');
+}
+
+// 初始化
+switchMode(urlMode);
+</script>
+</body>
+</html>

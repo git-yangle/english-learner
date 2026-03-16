@@ -4,6 +4,7 @@ import (
 	"embed"
 	"io/fs"
 	"net/http"
+	"strconv"
 
 	"github.com/gin-gonic/gin"
 
@@ -62,6 +63,8 @@ func (r *Router) Register(engine *gin.Engine) {
 	api.POST("/plan/init", r.initPlan)
 	api.GET("/plan/today", r.getTodayPlan)
 	api.GET("/plan/overview", r.getPlanOverview)
+	// 检查是否有计划（前端初始化判断用）
+	api.GET("/plan/status", r.getPlanStatus)
 
 	// 学习相关路由
 	api.GET("/study/browse", r.browse)
@@ -82,96 +85,227 @@ func (r *Router) Register(engine *gin.Engine) {
 
 // listLibraries 获取所有词库摘要列表
 func (r *Router) listLibraries(c *gin.Context) {
-	// TODO: 调用 librarySvc.ListLibraries()，返回词库摘要列表
-	c.JSON(http.StatusOK, gin.H{"message": "TODO"})
+	list, err := r.librarySvc.ListLibraries()
+	if err != nil {
+		c.JSON(http.StatusInternalServerError, gin.H{"code": 2, "msg": err.Error()})
+		return
+	}
+	c.JSON(http.StatusOK, gin.H{"code": 0, "data": list})
 }
 
-// getLibrary 获取词库详情
+// getLibrary 获取词库详情（含单词列表）
 func (r *Router) getLibrary(c *gin.Context) {
-	// TODO: 从路径参数获取 id，调用 librarySvc.GetLibrary(id)
-	c.JSON(http.StatusOK, gin.H{"message": "TODO"})
+	id := c.Param("id")
+	library, err := r.librarySvc.GetLibrary(id)
+	if err != nil {
+		c.JSON(http.StatusInternalServerError, gin.H{"code": 2, "msg": err.Error()})
+		return
+	}
+	c.JSON(http.StatusOK, gin.H{"code": 0, "data": library})
 }
 
-// reloadLibraries 重新加载词库（不重启服务）
+// reloadLibraries 重新加载词库（不重启服务，热更新）
 func (r *Router) reloadLibraries(c *gin.Context) {
-	// TODO: 调用 librarySvc.ReloadLibraries()
-	c.JSON(http.StatusOK, gin.H{"message": "TODO"})
+	if err := r.librarySvc.ReloadLibraries(); err != nil {
+		c.JSON(http.StatusInternalServerError, gin.H{"code": 2, "msg": err.Error()})
+		return
+	}
+	c.JSON(http.StatusOK, gin.H{"code": 0, "data": nil})
+}
+
+// initPlanRequest 初始化计划请求体
+type initPlanRequest struct {
+	LibraryID string `json:"library_id" binding:"required"`
 }
 
 // initPlan 初始化14天学习计划
 func (r *Router) initPlan(c *gin.Context) {
-	// TODO: 从请求体解析 libraryID，调用 planSvc.InitPlan(libraryID)
-	c.JSON(http.StatusOK, gin.H{"message": "TODO"})
+	var req initPlanRequest
+	if err := c.ShouldBindJSON(&req); err != nil {
+		c.JSON(http.StatusBadRequest, gin.H{"code": 1, "msg": err.Error()})
+		return
+	}
+	plan, err := r.planSvc.InitPlan(req.LibraryID)
+	if err != nil {
+		c.JSON(http.StatusInternalServerError, gin.H{"code": 2, "msg": err.Error()})
+		return
+	}
+	c.JSON(http.StatusOK, gin.H{"code": 0, "data": plan})
 }
 
-// getTodayPlan 获取今日学习计划
+// getTodayPlan 获取今日学习计划（含新词+复习词）
 func (r *Router) getTodayPlan(c *gin.Context) {
-	// TODO: 调用 planSvc.GetTodayPlan()，返回今日新词+复习词
-	c.JSON(http.StatusOK, gin.H{"message": "TODO"})
+	plan, err := r.planSvc.GetTodayPlan()
+	if err != nil {
+		c.JSON(http.StatusInternalServerError, gin.H{"code": 2, "msg": err.Error()})
+		return
+	}
+	c.JSON(http.StatusOK, gin.H{"code": 0, "data": plan})
 }
 
 // getPlanOverview 获取14天计划总览
 func (r *Router) getPlanOverview(c *gin.Context) {
-	// TODO: 调用 planSvc.GetOverview()，返回整体计划
-	c.JSON(http.StatusOK, gin.H{"message": "TODO"})
+	overview, err := r.planSvc.GetOverview()
+	if err != nil {
+		c.JSON(http.StatusInternalServerError, gin.H{"code": 2, "msg": err.Error()})
+		return
+	}
+	c.JSON(http.StatusOK, gin.H{"code": 0, "data": overview})
+}
+
+// getPlanStatus 检查是否已有学习计划（前端初始化判断用）
+func (r *Router) getPlanStatus(c *gin.Context) {
+	has, err := r.planSvc.HasPlan()
+	if err != nil {
+		c.JSON(http.StatusInternalServerError, gin.H{"code": 2, "msg": err.Error()})
+		return
+	}
+	c.JSON(http.StatusOK, gin.H{"code": 0, "data": gin.H{"has_plan": has}})
 }
 
 // browse 浏览模式：获取今日单词（按分类分组）
 func (r *Router) browse(c *gin.Context) {
-	// TODO: 调用 studySvc.Browse()，返回分类分组的单词列表
-	c.JSON(http.StatusOK, gin.H{"message": "TODO"})
+	grouped, err := r.studySvc.Browse()
+	if err != nil {
+		c.JSON(http.StatusInternalServerError, gin.H{"code": 2, "msg": err.Error()})
+		return
+	}
+	c.JSON(http.StatusOK, gin.H{"code": 0, "data": grouped})
+}
+
+// markBrowseRequest 浏览标记请求体
+type markBrowseRequest struct {
+	WordID string `json:"word_id" binding:"required"`
+	Known  bool   `json:"known"`
 }
 
 // markBrowse 浏览标记（认识/不认识）
 func (r *Router) markBrowse(c *gin.Context) {
-	// TODO: 从请求体解析 wordID 和 known，调用 studySvc.MarkBrowse()
-	c.JSON(http.StatusOK, gin.H{"message": "TODO"})
+	var req markBrowseRequest
+	if err := c.ShouldBindJSON(&req); err != nil {
+		c.JSON(http.StatusBadRequest, gin.H{"code": 1, "msg": err.Error()})
+		return
+	}
+	if err := r.studySvc.MarkBrowse(req.WordID, req.Known); err != nil {
+		c.JSON(http.StatusInternalServerError, gin.H{"code": 2, "msg": err.Error()})
+		return
+	}
+	c.JSON(http.StatusOK, gin.H{"code": 0, "data": nil})
 }
 
-// generateQuiz 生成测试题目
+// generateQuiz 生成测试题目（查询参数 ?count=10，默认10题）
 func (r *Router) generateQuiz(c *gin.Context) {
-	// TODO: 从查询参数获取 count，调用 studySvc.GenerateQuiz(count)
-	c.JSON(http.StatusOK, gin.H{"message": "TODO"})
+	countStr := c.DefaultQuery("count", "10")
+	count, err := strconv.Atoi(countStr)
+	if err != nil || count <= 0 {
+		c.JSON(http.StatusBadRequest, gin.H{"code": 1, "msg": "count 参数无效，需为正整数"})
+		return
+	}
+	questions, err := r.studySvc.GenerateQuiz(count)
+	if err != nil {
+		c.JSON(http.StatusInternalServerError, gin.H{"code": 2, "msg": err.Error()})
+		return
+	}
+	c.JSON(http.StatusOK, gin.H{"code": 0, "data": questions})
 }
 
-// submitQuizAnswer 提交测试答案
+// submitQuizAnswerRequest 提交测试答案请求体
+type submitQuizAnswerRequest struct {
+	WordID string `json:"word_id" binding:"required"`
+	Answer string `json:"answer" binding:"required"`
+}
+
+// submitQuizAnswer 提交测试答案，返回判题结果
 func (r *Router) submitQuizAnswer(c *gin.Context) {
-	// TODO: 从请求体解析 wordID 和 answer，调用 studySvc.SubmitQuizAnswer()
-	c.JSON(http.StatusOK, gin.H{"message": "TODO"})
+	var req submitQuizAnswerRequest
+	if err := c.ShouldBindJSON(&req); err != nil {
+		c.JSON(http.StatusBadRequest, gin.H{"code": 1, "msg": err.Error()})
+		return
+	}
+	result, err := r.studySvc.SubmitQuizAnswer(req.WordID, req.Answer)
+	if err != nil {
+		c.JSON(http.StatusInternalServerError, gin.H{"code": 2, "msg": err.Error()})
+		return
+	}
+	c.JSON(http.StatusOK, gin.H{"code": 0, "data": result})
 }
 
-// getDictationWord 获取下一个默写词
+// getDictationWord 获取下一个默写题（优先返回错误率高的词）
 func (r *Router) getDictationWord(c *gin.Context) {
-	// TODO: 调用 studySvc.GetDictationWord()，返回默写题目
-	c.JSON(http.StatusOK, gin.H{"message": "TODO"})
+	question, err := r.studySvc.GetDictationWord()
+	if err != nil {
+		c.JSON(http.StatusInternalServerError, gin.H{"code": 2, "msg": err.Error()})
+		return
+	}
+	c.JSON(http.StatusOK, gin.H{"code": 0, "data": question})
 }
 
-// submitDictation 提交默写答案
+// submitDictationRequest 提交默写答案请求体
+type submitDictationRequest struct {
+	WordID string `json:"word_id" binding:"required"`
+	Input  string `json:"input"`
+}
+
+// submitDictation 提交默写答案，返回判题结果
 func (r *Router) submitDictation(c *gin.Context) {
-	// TODO: 从请求体解析 wordID 和 input，调用 studySvc.SubmitDictation()
-	c.JSON(http.StatusOK, gin.H{"message": "TODO"})
+	var req submitDictationRequest
+	if err := c.ShouldBindJSON(&req); err != nil {
+		c.JSON(http.StatusBadRequest, gin.H{"code": 1, "msg": err.Error()})
+		return
+	}
+	result, err := r.studySvc.SubmitDictation(req.WordID, req.Input)
+	if err != nil {
+		c.JSON(http.StatusInternalServerError, gin.H{"code": 2, "msg": err.Error()})
+		return
+	}
+	c.JSON(http.StatusOK, gin.H{"code": 0, "data": result})
 }
 
-// calcScore 计算今日得分（不打卡）
+// calcScore 计算今日得分（不打卡，仅统计当前学习情况）
 func (r *Router) calcScore(c *gin.Context) {
-	// TODO: 调用 checkInSvc.CalcDailyScore()，返回各模式得分
-	c.JSON(http.StatusOK, gin.H{"message": "TODO"})
+	score, err := r.checkInSvc.CalcDailyScore()
+	if err != nil {
+		c.JSON(http.StatusInternalServerError, gin.H{"code": 2, "msg": err.Error()})
+		return
+	}
+	c.JSON(http.StatusOK, gin.H{"code": 0, "data": score})
 }
 
-// doCheckIn 执行打卡
+// doCheckInRequest 执行打卡请求体（学习时长可选）
+type doCheckInRequest struct {
+	StudyDurationSec int `json:"study_duration_sec"`
+}
+
+// doCheckIn 执行打卡（计算得分+保存+触发次日复习词生成）
 func (r *Router) doCheckIn(c *gin.Context) {
-	// TODO: 从请求体解析 studyDurationSec，调用 checkInSvc.DoCheckIn()
-	c.JSON(http.StatusOK, gin.H{"message": "TODO"})
+	var req doCheckInRequest
+	// ShouldBindJSON 允许空 body，duration 为可选字段
+	_ = c.ShouldBindJSON(&req)
+
+	checkIn, err := r.checkInSvc.DoCheckIn(req.StudyDurationSec)
+	if err != nil {
+		c.JSON(http.StatusInternalServerError, gin.H{"code": 2, "msg": err.Error()})
+		return
+	}
+	c.JSON(http.StatusOK, gin.H{"code": 0, "data": checkIn})
 }
 
-// getCheckInStats 获取打卡统计
+// getCheckInStats 获取打卡统计（日历、连续天数等）
 func (r *Router) getCheckInStats(c *gin.Context) {
-	// TODO: 调用 checkInSvc.GetStats()，返回打卡统计汇总
-	c.JSON(http.StatusOK, gin.H{"message": "TODO"})
+	stats, err := r.checkInSvc.GetStats()
+	if err != nil {
+		c.JSON(http.StatusInternalServerError, gin.H{"code": 2, "msg": err.Error()})
+		return
+	}
+	c.JSON(http.StatusOK, gin.H{"code": 0, "data": stats})
 }
 
-// getOverview 获取总览统计数据
+// getOverview 获取总览统计数据（打卡日历、得分趋势、分类进度等）
 func (r *Router) getOverview(c *gin.Context) {
-	// TODO: 调用 statsSvc.GetOverview()，返回总览统计
-	c.JSON(http.StatusOK, gin.H{"message": "TODO"})
+	overview, err := r.statsSvc.GetOverview()
+	if err != nil {
+		c.JSON(http.StatusInternalServerError, gin.H{"code": 2, "msg": err.Error()})
+		return
+	}
+	c.JSON(http.StatusOK, gin.H{"code": 0, "data": overview})
 }

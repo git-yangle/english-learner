@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>统计 - 旅行英语</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; background: #f0f4f8; min-height: 100vh; }
+
+    .nav { background: #1e40af; color: #fff; padding: 14px 20px; display: flex; align-items: center; gap: 12px; box-shadow: 0 2px 8px rgba(0,0,0,.2); }
+    .nav-back { color: #bfdbfe; text-decoration: none; font-size: 22px; line-height: 1; }
+    .nav-back:hover { color: #fff; }
+    .nav-title { font-size: 17px; font-weight: 700; }
+
+    .container { max-width: 700px; margin: 0 auto; padding: 20px 16px; }
+    .card { background: #fff; border-radius: 12px; padding: 20px; margin-bottom: 16px; box-shadow: 0 1px 4px rgba(0,0,0,.08); }
+    .card-title { font-size: 16px; font-weight: 600; color: #1e3a5f; margin-bottom: 14px; }
+
+    /* 摘要数字 */
+    .summary-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; }
+    .sum-item { background: #f8faff; border-radius: 10px; padding: 14px 12px; text-align: center; }
+    .sum-num { font-size: 28px; font-weight: 800; color: #1e40af; }
+    .sum-label { font-size: 12px; color: #64748b; margin-top: 4px; }
+    .sum-item.green .sum-num { color: #059669; }
+    .sum-item.amber .sum-num { color: #d97706; }
+    .sum-item.rose .sum-num { color: #e11d48; }
+
+    /* 14天日历 */
+    .calendar { display: grid; grid-template-columns: repeat(7, 1fr); gap: 6px; }
+    .cal-day { border-radius: 8px; padding: 8px 4px; text-align: center; }
+    .cal-day .d-num { font-weight: 700; font-size: 13px; }
+    .cal-day .d-date { font-size: 10px; color: #94a3b8; margin-top: 2px; }
+    .cal-day .d-score { font-size: 10px; font-weight: 600; margin-top: 2px; }
+    .cal-pending { background: #f1f5f9; color: #475569; }
+    .cal-completed { background: #d1fae5; color: #065f46; }
+    .cal-failed { background: #fee2e2; color: #991b1b; }
+    .cal-today { border: 2px solid #3b82f6; }
+
+    /* 得分趋势（SVG 折线图） */
+    .chart-wrap { overflow-x: auto; }
+    .chart-labels { display: flex; justify-content: space-between; margin-top: 4px; padding: 0 4px; }
+    .chart-label { font-size: 10px; color: #94a3b8; }
+
+    /* 分类进度 */
+    .cat-row { margin-bottom: 12px; }
+    .cat-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 4px; }
+    .cat-name { font-size: 14px; font-weight: 600; color: #1e3a5f; }
+    .cat-pct { font-size: 13px; color: #059669; font-weight: 600; }
+    .bar-bg { background: #e2e8f0; border-radius: 6px; height: 10px; overflow: hidden; }
+    .bar-fill { height: 100%; border-radius: 6px; transition: width .5s; }
+    .cat-sub { font-size: 11px; color: #94a3b8; margin-top: 3px; }
+
+    .loading { text-align: center; color: #94a3b8; padding: 40px; }
+    .empty { text-align: center; color: #94a3b8; padding: 40px; font-size: 15px; }
+  </style>
+</head>
+<body>
+<nav class="nav">
+  <a href="/web/index.html" class="nav-back">←</a>
+  <span class="nav-title">学习统计</span>
+</nav>
+
+<div class="container">
+  <div id="app"><div class="loading">加载中…</div></div>
+</div>
+
+<script>
+async function api(method, path) {
+  const res = await fetch('/api' + path, { method, headers: { 'Content-Type': 'application/json' } });
+  const json = await res.json();
+  if (json.code !== 0) throw new Error(json.msg || '请求失败');
+  return json.data;
+}
+
+function escHtml(s) {
+  return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+const catNames = {
+  airport: '机场', hotel: '酒店', restaurant: '餐厅', direction: '问路',
+  shopping: '购物', emergency: '紧急', transportation: '交通', entertainment: '娱乐', general: '通用',
+};
+
+async function init() {
+  const app = document.getElementById('app');
+  try {
+    const [overview, stats] = await Promise.all([
+      api('GET', '/stats/overview'),
+      api('GET', '/checkin/stats'),
+    ]);
+
+    const today = new Date().toISOString().split('T')[0];
+
+    // 摘要数字
+    const completedDays = stats.completed_days || 0;
+    const totalDays = stats.total_days || 0;
+    const streakDays = stats.streak_days || 0;
+    const avgScore = stats.avg_score || 0;
+    const masteredWords = overview.mastered_words || 0;
+    const totalWords = overview.total_words || 0;
+
+    // 日历
+    const dateMap = {};
+    (stats.check_ins || []).forEach(c => dateMap[c.date] = c);
+
+    // 获取完整14天计划日历
+    let planDays = [];
+    try {
+      const planOv = await api('GET', '/plan/overview');
+      planDays = planOv.days || [];
+    } catch(e) {}
+
+    const calHtml = planDays.map(d => {
+      const checkin = dateMap[d.date];
+      let cls = 'cal-pending';
+      let scoreStr = '';
+      if (checkin && checkin.completed) {
+        cls = 'cal-completed';
+        scoreStr = `<div class="d-score">${Math.round(checkin.score*100)}分</div>`;
+      } else if (checkin && !checkin.completed) {
+        cls = 'cal-failed';
+        scoreStr = `<div class="d-score">${Math.round(checkin.score*100)}分</div>`;
+      }
+      if (d.date === today) cls += ' cal-today';
+      return `<div class="cal-day ${cls}">
+        <div class="d-num">D${d.day}</div>
+        <div class="d-date">${d.date.slice(5)}</div>
+        ${scoreStr}
+      </div>`;
+    }).join('');
+
+    // 得分趋势 SVG
+    const scoreTrend = overview.score_trend || [];
+    const svgHtml = buildTrendChart(scoreTrend, planDays);
+
+    // 分类进度
+    const catProgress = (overview.category_progress || [])
+      .sort((a, b) => b.mastery_rate - a.mastery_rate)
+      .map(cp => {
+        const name = catNames[cp.category] || cp.category;
+        const pct = Math.round((cp.mastery_rate || 0) * 100);
+        const barColor = pct >= 80 ? '#059669' : pct >= 50 ? '#3b82f6' : pct > 0 ? '#f59e0b' : '#e2e8f0';
+        return `<div class="cat-row">
+          <div class="cat-header">
+            <span class="cat-name">${escHtml(name)}</span>
+            <span class="cat-pct">${pct}%</span>
+          </div>
+          <div class="bar-bg"><div class="bar-fill" style="width:${pct}%;background:${barColor}"></div></div>
+          <div class="cat-sub">共 ${cp.total} 词 · 已掌握 ${cp.mastered} · 学习中 ${cp.learning} · 未学 ${cp.not_learned}</div>
+        </div>`;
+      }).join('');
+
+    app.innerHTML = `
+      <div class="card">
+        <div class="card-title">总体进度</div>
+        <div class="summary-grid">
+          <div class="sum-item">
+            <div class="sum-num">${completedDays}<span style="font-size:16px;font-weight:400"> / ${Math.max(totalDays,14)}</span></div>
+            <div class="sum-label">完成天数</div>
+          </div>
+          <div class="sum-item amber">
+            <div class="sum-num">${streakDays}</div>
+            <div class="sum-label">连续打卡天数</div>
+          </div>
+          <div class="sum-item green">
+            <div class="sum-num">${Math.round(avgScore*100)}</div>
+            <div class="sum-label">平均得分</div>
+          </div>
+          <div class="sum-item rose">
+            <div class="sum-num">${masteredWords}<span style="font-size:16px;font-weight:400"> / ${totalWords}</span></div>
+            <div class="sum-label">已掌握单词</div>
+          </div>
+        </div>
+      </div>
+
+      ${planDays.length > 0 ? `
+      <div class="card">
+        <div class="card-title">14 天打卡日历</div>
+        <div class="calendar">${calHtml}</div>
+        <div style="margin-top:10px;font-size:12px;color:#94a3b8;display:flex;gap:12px">
+          <span>🟩 已完成</span><span>🟥 未达标</span><span>⬜ 待学习</span>
+        </div>
+      </div>` : ''}
+
+      ${scoreTrend.length > 0 ? `
+      <div class="card">
+        <div class="card-title">得分趋势</div>
+        <div class="chart-wrap">${svgHtml}</div>
+      </div>` : ''}
+
+      ${catProgress ? `
+      <div class="card">
+        <div class="card-title">词汇掌握情况</div>
+        ${catProgress || '<div class="empty">暂无数据</div>'}
+      </div>` : ''}
+    `;
+  } catch(e) {
+    document.getElementById('app').innerHTML = `<div class="card"><p style="color:#ef4444">加载失败：${e.message}</p></div>`;
+  }
+}
+
+// 构建得分趋势 SVG 折线图
+function buildTrendChart(scores, planDays) {
+  const W = 640, H = 120, PAD = 20;
+  const n = Math.max(scores.length, 1);
+  const step = (W - PAD * 2) / Math.max(n - 1, 1);
+
+  const pts = scores.map((s, i) => {
+    const x = PAD + i * step;
+    const y = PAD + (H - PAD * 2) * (1 - s);
+    return `${x},${y}`;
+  });
+
+  const lines = pts.length > 1 ? `<polyline points="${pts.join(' ')}" fill="none" stroke="#3b82f6" stroke-width="2.5" stroke-linejoin="round"/>` : '';
+  const dots = pts.map((p, i) => {
+    const [x, y] = p.split(',');
+    return `<circle cx="${x}" cy="${y}" r="4" fill="${scores[i] >= 0.6 ? '#059669' : '#f59e0b'}" stroke="#fff" stroke-width="1.5"/>`;
+  }).join('');
+
+  // 参考线 60%
+  const refY = PAD + (H - PAD * 2) * 0.4;
+  const refLine = `<line x1="${PAD}" y1="${refY}" x2="${W - PAD}" y2="${refY}" stroke="#e2e8f0" stroke-dasharray="4,3" stroke-width="1"/>
+    <text x="${PAD}" y="${refY - 4}" font-size="10" fill="#94a3b8">60分</text>`;
+
+  // X轴标签
+  const labels = scores.map((_, i) => {
+    const x = PAD + i * step;
+    const dayNum = (planDays[i] && planDays[i].day) || (i + 1);
+    return `<text x="${x}" y="${H + 4}" font-size="10" fill="#94a3b8" text-anchor="middle">D${dayNum}</text>`;
+  }).join('');
+
+  return `<svg viewBox="0 0 ${W} ${H + 16}" style="width:100%;height:auto">
+    ${refLine}
+    ${lines}
+    ${dots}
+    ${labels}
+  </svg>`;
+}
+
+init();
+</script>
+</body>
+</html>
