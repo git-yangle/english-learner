@@ -42,6 +42,15 @@ type DictationResult struct {
 	Phonetic        string `json:"phonetic"`
 }
 
+// TodayProgress 今日学习进度
+type TodayProgress struct {
+	BrowseMarks map[string]bool `json:"browse_marks"` // wordID -> true(认识)/false(不认识)
+	QuizCount   int             `json:"quiz_count"`   // 今日测试答题数
+	QuizCorrect int             `json:"quiz_correct"` // 今日测试答对数
+	DictCount   int             `json:"dict_count"`   // 今日默写答题数
+	DictCorrect int             `json:"dict_correct"` // 今日默写答对数
+}
+
 // StudyService 学习服务接口
 type StudyService interface {
 	// Browse 浏览模式：获取今日单词列表（按分类分组）
@@ -56,6 +65,8 @@ type StudyService interface {
 	GetDictationWord() (*DictationQuestion, error)
 	// SubmitDictation 提交默写答案
 	SubmitDictation(wordID, input string) (*DictationResult, error)
+	// GetTodayProgress 获取今日学习进度（浏览标记状态、测试/默写完成数）
+	GetTodayProgress() (*TodayProgress, error)
 }
 
 type studyService struct {
@@ -380,6 +391,42 @@ func (s *studyService) SubmitDictation(wordID, input string) (*DictationResult, 
 		CorrectSpelling: word.English,
 		Phonetic:        word.Phonetic,
 	}, nil
+}
+
+// GetTodayProgress 获取今日三种学习模式的进度
+// 浏览：返回每个单词的标记状态（同一单词以最后一条记录为准）
+// 测试/默写：统计答题总数和答对数
+func (s *studyService) GetTodayProgress() (*TodayProgress, error) {
+	// 获取今日所有学习记录
+	records, err := s.recordRepo.GetByDate(today())
+	if err != nil {
+		return nil, fmt.Errorf("获取今日学习记录失败: %w", err)
+	}
+
+	progress := &TodayProgress{
+		BrowseMarks: make(map[string]bool),
+	}
+
+	// 遍历记录，按模式分类统计
+	for _, r := range records {
+		switch r.Mode {
+		case domain.StudyModeBrowse:
+			// 同一单词以最后一条记录为准（顺序追加，后写覆盖前写）
+			progress.BrowseMarks[r.WordID] = r.Correct
+		case domain.StudyModeQuiz:
+			progress.QuizCount++
+			if r.Correct {
+				progress.QuizCorrect++
+			}
+		case domain.StudyModeDictation:
+			progress.DictCount++
+			if r.Correct {
+				progress.DictCorrect++
+			}
+		}
+	}
+
+	return progress, nil
 }
 
 // getWordFromPlan 从今日计划中通过词库查找指定单词

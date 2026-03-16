@@ -73,6 +73,7 @@ func (r *Router) Register(engine *gin.Engine) {
 	api.POST("/study/quiz/answer", r.submitQuizAnswer)
 	api.GET("/study/dictation", r.getDictationWord)
 	api.POST("/study/dictation/answer", r.submitDictation)
+	api.GET("/study/today-progress", r.getTodayProgress)
 
 	// 打卡相关路由
 	api.GET("/checkin/score", r.calcScore)
@@ -259,6 +260,16 @@ func (r *Router) submitDictation(c *gin.Context) {
 		return
 	}
 	c.JSON(http.StatusOK, gin.H{"code": 0, "data": result})
+}
+
+// getTodayProgress 获取今日学习进度（浏览标记、测试/默写答题数）
+func (r *Router) getTodayProgress(c *gin.Context) {
+	progress, err := r.studySvc.GetTodayProgress()
+	if err != nil {
+		c.JSON(200, gin.H{"code": 1, "msg": err.Error()})
+		return
+	}
+	c.JSON(200, gin.H{"code": 0, "data": progress})
 }
 
 // calcScore 计算今日得分（不打卡，仅统计当前学习情况）
