@@ -1,0 +1,5587 @@
+{
+  "id": "travel",
+  "name": "旅游场景",
+  "desc": "基于 Oxford 3000 高频词表筛选 + 旅游专项短语，共 558 词，覆盖机场、酒店、餐厅、问路、购物等场景",
+  "words": [
+    {
+      "id": "travel_0001",
+      "english": "food",
+      "phonetic": "fu:d",
+      "chinese": "食物",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0002",
+      "english": "market",
+      "phonetic": "'mɑ:kit",
+      "chinese": "市场",
+      "example": "",
+      "example_cn": "",
+      "category": "shopping",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0003",
+      "english": "visit",
+      "phonetic": "'vizit",
+      "chinese": "拜访",
+      "example": "",
+      "example_cn": "",
+      "category": "entertainment",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0004",
+      "english": "bill",
+      "phonetic": "bil",
+      "chinese": "帐单",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0005",
+      "english": "art",
+      "phonetic": "ɑ:t",
+      "chinese": "艺术",
+      "example": "",
+      "example_cn": "",
+      "category": "entertainment",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0006",
+      "english": "confirm",
+      "phonetic": "kәn'fә:m",
+      "chinese": "证实",
+      "example": "",
+      "example_cn": "",
+      "category": "hotel",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0007",
+      "english": "port",
+      "phonetic": "pɒ:t",
+      "chinese": "港口",
+      "example": "",
+      "example_cn": "",
+      "category": "transportation",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0008",
+      "english": "beside",
+      "phonetic": "bi'said",
+      "chinese": "在旁边",
+      "example": "",
+      "example_cn": "",
+      "category": "direction",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0009",
+      "english": "departure",
+      "phonetic": "di'pɑ:tʃә",
+      "chinese": "离开",
+      "example": "",
+      "example_cn": "",
+      "category": "airport",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0010",
+      "english": "dinner",
+      "phonetic": "'dinә",
+      "chinese": "晚餐",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0011",
+      "english": "gate",
+      "phonetic": "geit",
+      "chinese": "门, 牌楼, 大门, 通道, 闸\\nvt. 装门于\\n[计] 门",
+      "example": "",
+      "example_cn": "",
+      "category": "airport",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0012",
+      "english": "locate",
+      "phonetic": "'lәukeit",
+      "chinese": "找出",
+      "example": "",
+      "example_cn": "",
+      "category": "direction",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0013",
+      "english": "water",
+      "phonetic": "'wɒ:tә",
+      "chinese": "水, 雨水, 海水,",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0014",
+      "english": "address",
+      "phonetic": "ә'dres",
+      "chinese": "住址",
+      "example": "",
+      "example_cn": "",
+      "category": "direction",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0015",
+      "english": "distance",
+      "phonetic": "'distәns",
+      "chinese": "距离",
+      "example": "",
+      "example_cn": "",
+      "category": "direction",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0016",
+      "english": "medicine",
+      "phonetic": "'medisin",
+      "chinese": "药, 医学, 内科\\",
+      "example": "",
+      "example_cn": "",
+      "category": "emergency",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0017",
+      "english": "path",
+      "phonetic": "pɑ:θ",
+      "chinese": "路径, 小路, 道路, 途径, 路线, 轨道\\n[计] 路径",
+      "example": "",
+      "example_cn": "",
+      "category": "direction",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0018",
+      "english": "aid",
+      "phonetic": "eid",
+      "chinese": "帮助",
+      "example": "",
+      "example_cn": "",
+      "category": "emergency",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0019",
+      "english": "menu",
+      "phonetic": "'menju:",
+      "chinese": "菜单",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0020",
+      "english": "along",
+      "phonetic": "ә'lɒŋ",
+      "chinese": "平行地",
+      "example": "",
+      "example_cn": "",
+      "category": "direction",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0021",
+      "english": "protect",
+      "phonetic": "prә'tekt",
+      "chinese": "防卫",
+      "example": "",
+      "example_cn": "",
+      "category": "emergency",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0022",
+      "english": "rent",
+      "phonetic": "rent",
+      "chinese": "租金",
+      "example": "",
+      "example_cn": "",
+      "category": "transportation",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0023",
+      "english": "way",
+      "phonetic": "wei",
+      "chinese": "路, 路线, 路途,",
+      "example": "",
+      "example_cn": "",
+      "category": "direction",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0024",
+      "english": "fish",
+      "phonetic": "fiʃ",
+      "chinese": "鱼, 鱼肉, 鱼类,",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0025",
+      "english": "bake",
+      "phonetic": "beik",
+      "chinese": "烘焙",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0026",
+      "english": "bottle",
+      "phonetic": "'bɒtl",
+      "chinese": "瓶子",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0027",
+      "english": "hurt",
+      "phonetic": "hә:t",
+      "chinese": "伤害",
+      "example": "",
+      "example_cn": "",
+      "category": "emergency",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0028",
+      "english": "illness",
+      "phonetic": "'ilnis",
+      "chinese": "疾病",
+      "example": "",
+      "example_cn": "",
+      "category": "emergency",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0029",
+      "english": "apartment",
+      "phonetic": "ә'pɑ:tmәnt",
+      "chinese": "房间",
+      "example": "",
+      "example_cn": "",
+      "category": "hotel",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0030",
+      "english": "boat",
+      "phonetic": "bәut",
+      "chinese": "船\\nvi. 乘船\\",
+      "example": "",
+      "example_cn": "",
+      "category": "transportation",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0031",
+      "english": "book",
+      "phonetic": "buk",
+      "chinese": "书, 书籍, 帐簿,",
+      "example": "",
+      "example_cn": "",
+      "category": "hotel",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0032",
+      "english": "exhibition",
+      "phonetic": ".eksi'biʃәn",
+      "chinese": "表现",
+      "example": "",
+      "example_cn": "",
+      "category": "entertainment",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0033",
+      "english": "lake",
+      "phonetic": "leik",
+      "chinese": "湖, 池, 色淀\\n",
+      "example": "",
+      "example_cn": "",
+      "category": "entertainment",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0034",
+      "english": "nearby",
+      "phonetic": "'niәbai",
+      "chinese": "附近的",
+      "example": "",
+      "example_cn": "",
+      "category": "direction",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0035",
+      "english": "tour",
+      "phonetic": "tuә",
+      "chinese": "旅游",
+      "example": "",
+      "example_cn": "",
+      "category": "entertainment",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0036",
+      "english": "direction",
+      "phonetic": "di'rekʃәn",
+      "chinese": "方向, 指导, 趋势\\n[计] 方向",
+      "example": "",
+      "example_cn": "",
+      "category": "direction",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0037",
+      "english": "dirty",
+      "phonetic": "'dә:ti",
+      "chinese": "肮脏的",
+      "example": "",
+      "example_cn": "",
+      "category": "hotel",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0038",
+      "english": "map",
+      "phonetic": "mæp",
+      "chinese": "地图",
+      "example": "",
+      "example_cn": "",
+      "category": "direction",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0039",
+      "english": "station",
+      "phonetic": "'steiʃәn",
+      "chinese": "车站",
+      "example": "",
+      "example_cn": "",
+      "category": "transportation",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0040",
+      "english": "exit",
+      "phonetic": "'eksit",
+      "chinese": "出口, 退场, 离去, 去世\\nvi. 退出, 脱离, 去世\\n[计] 退出",
+      "example": "",
+      "example_cn": "",
+      "category": "direction",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0041",
+      "english": "gift",
+      "phonetic": "gift",
+      "chinese": "礼物",
+      "example": "",
+      "example_cn": "",
+      "category": "shopping",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0042",
+      "english": "buy",
+      "phonetic": "bai",
+      "chinese": "买, 获得\\nvi.",
+      "example": "",
+      "example_cn": "",
+      "category": "shopping",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0043",
+      "english": "camera",
+      "phonetic": "'kæmәrә",
+      "chinese": "照相机",
+      "example": "",
+      "example_cn": "",
+      "category": "entertainment",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0044",
+      "english": "coffee",
+      "phonetic": "'kɒfi",
+      "chinese": "咖啡",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0045",
+      "english": "fever",
+      "phonetic": "'fi:vә",
+      "chinese": "发烧",
+      "example": "",
+      "example_cn": "",
+      "category": "emergency",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0046",
+      "english": "language",
+      "phonetic": "'læŋgwidʒ",
+      "chinese": "语言",
+      "example": "",
+      "example_cn": "",
+      "category": "entertainment",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0047",
+      "english": "meal",
+      "phonetic": "mi:l",
+      "chinese": "一餐",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0048",
+      "english": "pain",
+      "phonetic": "pein",
+      "chinese": "痛苦",
+      "example": "",
+      "example_cn": "",
+      "category": "emergency",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0049",
+      "english": "travel",
+      "phonetic": "'trævl",
+      "chinese": "旅行",
+      "example": "",
+      "example_cn": "",
+      "category": "airport",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0050",
+      "english": "connect",
+      "phonetic": "kә'nekt",
+      "chinese": "连接",
+      "example": "",
+      "example_cn": "",
+      "category": "airport",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0051",
+      "english": "desert",
+      "phonetic": "'dezәt. di'sә:t",
+      "chinese": "沙漠",
+      "example": "",
+      "example_cn": "",
+      "category": "entertainment",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0052",
+      "english": "north",
+      "phonetic": "nɒ:θ",
+      "chinese": "北方",
+      "example": "",
+      "example_cn": "",
+      "category": "direction",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0053",
+      "english": "taste",
+      "phonetic": "teist",
+      "chinese": "味道",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0054",
+      "english": "transport",
+      "phonetic": "træns'pɒ:t",
+      "chinese": "运输",
+      "example": "",
+      "example_cn": "",
+      "category": "transportation",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0055",
+      "english": "city",
+      "phonetic": "'siti",
+      "chinese": "城市",
+      "example": "",
+      "example_cn": "",
+      "category": "direction",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0056",
+      "english": "deliver",
+      "phonetic": "di'livә",
+      "chinese": "递送",
+      "example": "",
+      "example_cn": "",
+      "category": "shopping",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0057",
+      "english": "milk",
+      "phonetic": "milk",
+      "chinese": "奶, 乳状物\\nvt",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0058",
+      "english": "safe",
+      "phonetic": "seif",
+      "chinese": "保险箱",
+      "example": "",
+      "example_cn": "",
+      "category": "emergency",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0059",
+      "english": "seat",
+      "phonetic": "si:t",
+      "chinese": "座, 座位, 位子,",
+      "example": "",
+      "example_cn": "",
+      "category": "transportation",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0060",
+      "english": "shopping",
+      "phonetic": "'ʃɒpiŋ",
+      "chinese": "买东西",
+      "example": "",
+      "example_cn": "",
+      "category": "shopping",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0061",
+      "english": "west",
+      "phonetic": "west",
+      "chinese": "西方",
+      "example": "",
+      "example_cn": "",
+      "category": "direction",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0062",
+      "english": "chicken",
+      "phonetic": "'tʃikin",
+      "chinese": "小鸡",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0063",
+      "english": "purchase",
+      "phonetic": "'pә:tʃәs",
+      "chinese": "购买",
+      "example": "",
+      "example_cn": "",
+      "category": "shopping",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0064",
+      "english": "sign",
+      "phonetic": "sain",
+      "chinese": "符号, 招牌, 征兆, 正负号, 手势\\nvt. 签名, 打手势表达\\nvi. 签名\\n[计] 正负号",
+      "example": "",
+      "example_cn": "",
+      "category": "direction",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0065",
+      "english": "underground",
+      "phonetic": "'ʌndәgraund",
+      "chinese": "地下",
+      "example": "",
+      "example_cn": "",
+      "category": "transportation",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0066",
+      "english": "driver",
+      "phonetic": "'draivә",
+      "chinese": "驾驶员",
+      "example": "",
+      "example_cn": "",
+      "category": "transportation",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0067",
+      "english": "ill",
+      "phonetic": "il",
+      "chinese": "疾病",
+      "example": "",
+      "example_cn": "",
+      "category": "emergency",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0068",
+      "english": "hospital",
+      "phonetic": "'hɒspitәl",
+      "chinese": "医院\\n[医] 医院",
+      "example": "",
+      "example_cn": "",
+      "category": "emergency",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0069",
+      "english": "river",
+      "phonetic": "'rivә",
+      "chinese": "河, 江\\n[法]",
+      "example": "",
+      "example_cn": "",
+      "category": "entertainment",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0070",
+      "english": "diet",
+      "phonetic": "'daiәt",
+      "chinese": "日常饮食",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0071",
+      "english": "hungry",
+      "phonetic": "'hʌŋgi",
+      "chinese": "饥饿的",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0072",
+      "english": "island",
+      "phonetic": "'ailәnd",
+      "chinese": "岛, 岛屿, 孤立地",
+      "example": "",
+      "example_cn": "",
+      "category": "entertainment",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0073",
+      "english": "opposite",
+      "phonetic": "'ɒpәzit",
+      "chinese": "相对的",
+      "example": "",
+      "example_cn": "",
+      "category": "direction",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0074",
+      "english": "room",
+      "phonetic": "ru:m",
+      "chinese": "房间",
+      "example": "",
+      "example_cn": "",
+      "category": "hotel",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0075",
+      "english": "sell",
+      "phonetic": "sel",
+      "chinese": "卖, 背叛, 销售,",
+      "example": "",
+      "example_cn": "",
+      "category": "shopping",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0076",
+      "english": "valley",
+      "phonetic": "'væli",
+      "chinese": "山谷",
+      "example": "",
+      "example_cn": "",
+      "category": "entertainment",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0077",
+      "english": "waiter",
+      "phonetic": "'weitә",
+      "chinese": "侍者",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0078",
+      "english": "dance",
+      "phonetic": "dæns. dɑ:ns",
+      "chinese": "跳舞",
+      "example": "",
+      "example_cn": "",
+      "category": "entertainment",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0079",
+      "english": "sauce",
+      "phonetic": "sɒ:s",
+      "chinese": "酱油",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0080",
+      "english": "drive",
+      "phonetic": "draiv",
+      "chinese": "驾车",
+      "example": "",
+      "example_cn": "",
+      "category": "transportation",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0081",
+      "english": "stay",
+      "phonetic": "stei",
+      "chinese": "停留",
+      "example": "",
+      "example_cn": "",
+      "category": "hotel",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0082",
+      "english": "entrance",
+      "phonetic": "'entrәns",
+      "chinese": "入口",
+      "example": "",
+      "example_cn": "",
+      "category": "direction",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0083",
+      "english": "left",
+      "phonetic": "left",
+      "chinese": "左边的",
+      "example": "",
+      "example_cn": "",
+      "category": "direction",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0084",
+      "english": "sweet",
+      "phonetic": "swi:t",
+      "chinese": "甜蜜",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0085",
+      "english": "hurry",
+      "phonetic": "'hʌri",
+      "chinese": "匆忙",
+      "example": "",
+      "example_cn": "",
+      "category": "direction",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0086",
+      "english": "customs",
+      "phonetic": "",
+      "chinese": "海关",
+      "example": "",
+      "example_cn": "",
+      "category": "airport",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0087",
+      "english": "across",
+      "phonetic": "ә'krɒs",
+      "chinese": "越过",
+      "example": "",
+      "example_cn": "",
+      "category": "direction",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0088",
+      "english": "beef",
+      "phonetic": "bi:f",
+      "chinese": "牛肉",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0089",
+      "english": "health",
+      "phonetic": "'helθ",
+      "chinese": "健康",
+      "example": "",
+      "example_cn": "",
+      "category": "emergency",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0090",
+      "english": "suitcase",
+      "phonetic": "'sju:tkeis",
+      "chinese": "手提箱",
+      "example": "",
+      "example_cn": "",
+      "category": "airport",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0091",
+      "english": "swim",
+      "phonetic": "swim",
+      "chinese": "游泳",
+      "example": "",
+      "example_cn": "",
+      "category": "entertainment",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0092",
+      "english": "walk",
+      "phonetic": "wɒ:k",
+      "chinese": "走, 散步, 步行,",
+      "example": "",
+      "example_cn": "",
+      "category": "direction",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0093",
+      "english": "right",
+      "phonetic": "rait",
+      "chinese": "权利",
+      "example": "",
+      "example_cn": "",
+      "category": "direction",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0094",
+      "english": "bank",
+      "phonetic": "bæŋk",
+      "chinese": "银行",
+      "example": "",
+      "example_cn": "",
+      "category": "shopping",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0095",
+      "english": "passenger",
+      "phonetic": "'pæsindʒә",
+      "chinese": "乘客",
+      "example": "",
+      "example_cn": "",
+      "category": "transportation",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0096",
+      "english": "fresh",
+      "phonetic": "freʃ",
+      "chinese": "新鲜的",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0097",
+      "english": "car",
+      "phonetic": "kɑ:",
+      "chinese": "汽车",
+      "example": "",
+      "example_cn": "",
+      "category": "transportation",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0098",
+      "english": "mountain",
+      "phonetic": "'mauntin",
+      "chinese": "山, 山脉, 大堆",
+      "example": "",
+      "example_cn": "",
+      "category": "entertainment",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0099",
+      "english": "temperature",
+      "phonetic": "'temprәtʃә",
+      "chinese": "温度",
+      "example": "",
+      "example_cn": "",
+      "category": "hotel",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0100",
+      "english": "cheese",
+      "phonetic": "tʃi:z",
+      "chinese": "乳酪\\n[化] 干酪",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0101",
+      "english": "duty",
+      "phonetic": "'dju:ti",
+      "chinese": "责任",
+      "example": "",
+      "example_cn": "",
+      "category": "airport",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0102",
+      "english": "local",
+      "phonetic": "'lәukәl",
+      "chinese": "地方性的, 当地的, 局部的, 乡土的, 本地的\\nn. 当地居民, 本地新闻, 局部\\n[计] 本地的",
+      "example": "",
+      "example_cn": "",
+      "category": "entertainment",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0103",
+      "english": "platform",
+      "phonetic": "'plætfɒ:m",
+      "chinese": "站台",
+      "example": "",
+      "example_cn": "",
+      "category": "transportation",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0104",
+      "english": "sport",
+      "phonetic": "spɒ:t",
+      "chinese": "运动",
+      "example": "",
+      "example_cn": "",
+      "category": "entertainment",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0105",
+      "english": "store",
+      "phonetic": "stɒ:",
+      "chinese": "商店, 贮藏, 仓库, 备用品, 存储器\\nvt. 储存, 贮藏, 供给\\nvi. 贮藏\\na. 贮藏的, 现成的\\n[计] 存储器操作",
+      "example": "",
+      "example_cn": "",
+      "category": "shopping",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0106",
+      "english": "bag",
+      "phonetic": "bæg",
+      "chinese": "袋子",
+      "example": "",
+      "example_cn": "",
+      "category": "airport",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0107",
+      "english": "eat",
+      "phonetic": "i:t",
+      "chinese": "吃, 腐蚀",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0108",
+      "english": "miss",
+      "phonetic": "mis",
+      "chinese": "失误",
+      "example": "",
+      "example_cn": "",
+      "category": "airport",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0109",
+      "english": "nurse",
+      "phonetic": "nә:s",
+      "chinese": "护士",
+      "example": "",
+      "example_cn": "",
+      "category": "emergency",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0110",
+      "english": "bargain",
+      "phonetic": "'bɑ:gin",
+      "chinese": "交易",
+      "example": "",
+      "example_cn": "",
+      "category": "shopping",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0111",
+      "english": "cash",
+      "phonetic": "kæʃ",
+      "chinese": "现金\\nvt. 兑现",
+      "example": "",
+      "example_cn": "",
+      "category": "shopping",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0112",
+      "english": "charge",
+      "phonetic": "tʃɑ:dʒ",
+      "chinese": "指控",
+      "example": "",
+      "example_cn": "",
+      "category": "shopping",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0113",
+      "english": "guide",
+      "phonetic": "gaid",
+      "chinese": "引导者",
+      "example": "",
+      "example_cn": "",
+      "category": "entertainment",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0114",
+      "english": "photograph",
+      "phonetic": "'fәutәgrɑ:f",
+      "chinese": "相片",
+      "example": "",
+      "example_cn": "",
+      "category": "entertainment",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0115",
+      "english": "sea",
+      "phonetic": "si:",
+      "chinese": "海, 海洋, 海浪,",
+      "example": "",
+      "example_cn": "",
+      "category": "entertainment",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0116",
+      "english": "steal",
+      "phonetic": "sti:l",
+      "chinese": "剽窃",
+      "example": "",
+      "example_cn": "",
+      "category": "emergency",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0117",
+      "english": "tip",
+      "phonetic": "tip",
+      "chinese": "顶, 尖端, 梢,",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0118",
+      "english": "explore",
+      "phonetic": "ik'splɒ:",
+      "chinese": "探险",
+      "example": "",
+      "example_cn": "",
+      "category": "entertainment",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0119",
+      "english": "highway",
+      "phonetic": "'haiwei",
+      "chinese": "公路",
+      "example": "",
+      "example_cn": "",
+      "category": "direction",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0120",
+      "english": "resort",
+      "phonetic": "ri'zɒ:t",
+      "chinese": "度假胜地",
+      "example": "",
+      "example_cn": "",
+      "category": "hotel",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0121",
+      "english": "weather",
+      "phonetic": "'weðә",
+      "chinese": "天气",
+      "example": "",
+      "example_cn": "",
+      "category": "entertainment",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0122",
+      "english": "abroad",
+      "phonetic": "ә'brɒ:d",
+      "chinese": "往国外",
+      "example": "",
+      "example_cn": "",
+      "category": "airport",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0123",
+      "english": "centre",
+      "phonetic": "'sentә",
+      "chinese": "中心",
+      "example": "",
+      "example_cn": "",
+      "category": "direction",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0124",
+      "english": "go",
+      "phonetic": "gou",
+      "chinese": "去, 走, 达到,",
+      "example": "",
+      "example_cn": "",
+      "category": "direction",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0125",
+      "english": "baggage",
+      "phonetic": "'bægidʒ",
+      "chinese": "行李\\n[经] 行李",
+      "example": "",
+      "example_cn": "",
+      "category": "airport",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0126",
+      "english": "plane",
+      "phonetic": "plein",
+      "chinese": "平面",
+      "example": "",
+      "example_cn": "",
+      "category": "airport",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0127",
+      "english": "service",
+      "phonetic": "'sә:vis",
+      "chinese": "服务",
+      "example": "",
+      "example_cn": "",
+      "category": "hotel",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0128",
+      "english": "soup",
+      "phonetic": "su:p",
+      "chinese": "汤, 马力\\nvt.",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0129",
+      "english": "crowded",
+      "phonetic": "'kraudid",
+      "chinese": "拥挤的",
+      "example": "",
+      "example_cn": "",
+      "category": "entertainment",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0130",
+      "english": "exchange",
+      "phonetic": "iks'tʃeindʒ",
+      "chinese": "交换, (电话)交换局, 交换机, 汇兑, 交易所\\nv. 交换, 交易, 兑换\\n[计] 交换",
+      "example": "",
+      "example_cn": "",
+      "category": "shopping",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0131",
+      "english": "foreign",
+      "phonetic": "'fɒ:rin",
+      "chinese": "外国的",
+      "example": "",
+      "example_cn": "",
+      "category": "airport",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0132",
+      "english": "ocean",
+      "phonetic": "'әuʃәn",
+      "chinese": "海洋",
+      "example": "",
+      "example_cn": "",
+      "category": "entertainment",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0133",
+      "english": "cook",
+      "phonetic": "kuk",
+      "chinese": "厨子",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0134",
+      "english": "tunnel",
+      "phonetic": "'tʌnl",
+      "chinese": "隧道",
+      "example": "",
+      "example_cn": "",
+      "category": "direction",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0135",
+      "english": "beer",
+      "phonetic": "biә",
+      "chinese": "啤酒\\n[化] 啤酒",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0136",
+      "english": "cold",
+      "phonetic": "kәuld",
+      "chinese": "感冒",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0137",
+      "english": "attraction",
+      "phonetic": "ә'trækʃәn",
+      "chinese": "吸引",
+      "example": "",
+      "example_cn": "",
+      "category": "entertainment",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0138",
+      "english": "border",
+      "phonetic": "'bɒ:dә",
+      "chinese": "边缘",
+      "example": "",
+      "example_cn": "",
+      "category": "airport",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0139",
+      "english": "pack",
+      "phonetic": "pæk",
+      "chinese": "包裹",
+      "example": "",
+      "example_cn": "",
+      "category": "airport",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0140",
+      "english": "straight",
+      "phonetic": "streit",
+      "chinese": "直线",
+      "example": "",
+      "example_cn": "",
+      "category": "direction",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0141",
+      "english": "accident",
+      "phonetic": "'æksidәnt",
+      "chinese": "意外事件, 机遇, 事故, 次要方面\\n[化] 意外事故",
+      "example": "",
+      "example_cn": "",
+      "category": "emergency",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0142",
+      "english": "concert",
+      "phonetic": "'kɒnsәt",
+      "chinese": "音乐会",
+      "example": "",
+      "example_cn": "",
+      "category": "entertainment",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0143",
+      "english": "schedule",
+      "phonetic": "'skedʒuәl",
+      "chinese": "时间表",
+      "example": "",
+      "example_cn": "",
+      "category": "transportation",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0144",
+      "english": "ship",
+      "phonetic": "ʃip",
+      "chinese": "船, 舰\\nvt.",
+      "example": "",
+      "example_cn": "",
+      "category": "transportation",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0145",
+      "english": "single",
+      "phonetic": "'siŋgl",
+      "chinese": "单身的",
+      "example": "",
+      "example_cn": "",
+      "category": "hotel",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0146",
+      "english": "train",
+      "phonetic": "trein",
+      "chinese": "火车",
+      "example": "",
+      "example_cn": "",
+      "category": "transportation",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0147",
+      "english": "amount",
+      "phonetic": "ә'maunt",
+      "chinese": "总数",
+      "example": "",
+      "example_cn": "",
+      "category": "shopping",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0148",
+      "english": "danger",
+      "phonetic": "'deindʒә",
+      "chinese": "危险",
+      "example": "",
+      "example_cn": "",
+      "category": "emergency",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0149",
+      "english": "fruit",
+      "phonetic": "fru:t",
+      "chinese": "水果",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0150",
+      "english": "sale",
+      "phonetic": "seil",
+      "chinese": "出售, 卖, 拍卖, 销售额, 廉价出售\\n[经] 卖, 出售",
+      "example": "",
+      "example_cn": "",
+      "category": "shopping",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0151",
+      "english": "cheap",
+      "phonetic": "tʃi:p",
+      "chinese": "便宜的",
+      "example": "",
+      "example_cn": "",
+      "category": "shopping",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0152",
+      "english": "free",
+      "phonetic": "fri:",
+      "chinese": "自由的",
+      "example": "",
+      "example_cn": "",
+      "category": "shopping",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0153",
+      "english": "land",
+      "phonetic": "lænd",
+      "chinese": "陆地, 地面, 地界, 地产, 国土, 土地\\nvi. 登陆, 登岸, 到达\\nvt. 使上岸, 使登陆, 使到达\\n[计] 连接盘",
+      "example": "",
+      "example_cn": "",
+      "category": "airport",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0154",
+      "english": "arrive",
+      "phonetic": "ә'raiv",
+      "chinese": "到达",
+      "example": "",
+      "example_cn": "",
+      "category": "airport",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0155",
+      "english": "climb",
+      "phonetic": "klaim",
+      "chinese": "攀登",
+      "example": "",
+      "example_cn": "",
+      "category": "entertainment",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0156",
+      "english": "pay",
+      "phonetic": "pei",
+      "chinese": "薪资",
+      "example": "",
+      "example_cn": "",
+      "category": "shopping",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0157",
+      "english": "transfer",
+      "phonetic": "træns'fә:",
+      "chinese": "迁移",
+      "example": "",
+      "example_cn": "",
+      "category": "transportation",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0158",
+      "english": "complaint",
+      "phonetic": "kәm'pleint",
+      "chinese": "诉苦, 抱怨, 控诉\\n[医] 陈诉",
+      "example": "",
+      "example_cn": "",
+      "category": "hotel",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0159",
+      "english": "expensive",
+      "phonetic": "ik'spensiv",
+      "chinese": "贵的",
+      "example": "",
+      "example_cn": "",
+      "category": "shopping",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0160",
+      "english": "lunch",
+      "phonetic": "lʌntʃ",
+      "chinese": "午餐",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0161",
+      "english": "price",
+      "phonetic": "prais",
+      "chinese": "价格",
+      "example": "",
+      "example_cn": "",
+      "category": "shopping",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0162",
+      "english": "towel",
+      "phonetic": "'tauәl",
+      "chinese": "手巾",
+      "example": "",
+      "example_cn": "",
+      "category": "hotel",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0163",
+      "english": "arrival",
+      "phonetic": "ә'raivl",
+      "chinese": "到达",
+      "example": "",
+      "example_cn": "",
+      "category": "airport",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0164",
+      "english": "injury",
+      "phonetic": "'indʒәri",
+      "chinese": "伤害",
+      "example": "",
+      "example_cn": "",
+      "category": "emergency",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0165",
+      "english": "ambulance",
+      "phonetic": "'æmbjulәns",
+      "chinese": "救护车\\n[医] 救",
+      "example": "",
+      "example_cn": "",
+      "category": "emergency",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0166",
+      "english": "cost",
+      "phonetic": "kɒst",
+      "chinese": "代价",
+      "example": "",
+      "example_cn": "",
+      "category": "shopping",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0167",
+      "english": "restaurant",
+      "phonetic": "'restәrɒŋ",
+      "chinese": "餐馆",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0168",
+      "english": "broken",
+      "phonetic": "'brәukәn",
+      "chinese": "坏掉的",
+      "example": "",
+      "example_cn": "",
+      "category": "emergency",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0169",
+      "english": "far",
+      "phonetic": "fɑ:",
+      "chinese": "远的",
+      "example": "",
+      "example_cn": "",
+      "category": "direction",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0170",
+      "english": "key",
+      "phonetic": "ki:",
+      "chinese": "钥匙",
+      "example": "",
+      "example_cn": "",
+      "category": "hotel",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0171",
+      "english": "international",
+      "phonetic": ".intә'næʃәnәl",
+      "chinese": "国际的\\nn. 国别",
+      "example": "",
+      "example_cn": "",
+      "category": "airport",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0172",
+      "english": "music",
+      "phonetic": "'mju:zik",
+      "chinese": "音乐",
+      "example": "",
+      "example_cn": "",
+      "category": "entertainment",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0173",
+      "english": "shower",
+      "phonetic": "'ʃauә",
+      "chinese": "阵雨",
+      "example": "",
+      "example_cn": "",
+      "category": "hotel",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0174",
+      "english": "street",
+      "phonetic": "stri:t",
+      "chinese": "街道",
+      "example": "",
+      "example_cn": "",
+      "category": "direction",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0175",
+      "english": "tax",
+      "phonetic": "tæks",
+      "chinese": "税, 税款, 重负,",
+      "example": "",
+      "example_cn": "",
+      "category": "shopping",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0176",
+      "english": "bicycle",
+      "phonetic": "'baisikl",
+      "chinese": "自行车",
+      "example": "",
+      "example_cn": "",
+      "category": "transportation",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0177",
+      "english": "hire",
+      "phonetic": "haiә",
+      "chinese": "租金",
+      "example": "",
+      "example_cn": "",
+      "category": "transportation",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0178",
+      "english": "police",
+      "phonetic": "pә'li:s",
+      "chinese": "警察",
+      "example": "",
+      "example_cn": "",
+      "category": "emergency",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0179",
+      "english": "between",
+      "phonetic": "bi'twi:n",
+      "chinese": "在...之间",
+      "example": "",
+      "example_cn": "",
+      "category": "direction",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0180",
+      "english": "emergency",
+      "phonetic": "i'mә:dʒәnsi",
+      "chinese": "紧急状况",
+      "example": "",
+      "example_cn": "",
+      "category": "emergency",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0181",
+      "english": "floor",
+      "phonetic": "flɒ:",
+      "chinese": "地板",
+      "example": "",
+      "example_cn": "",
+      "category": "hotel",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0182",
+      "english": "rice",
+      "phonetic": "rais",
+      "chinese": "米, 米饭, 稻\\n",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0183",
+      "english": "safety",
+      "phonetic": "'seifti",
+      "chinese": "安全",
+      "example": "",
+      "example_cn": "",
+      "category": "emergency",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0184",
+      "english": "spend",
+      "phonetic": "spend",
+      "chinese": "花费",
+      "example": "",
+      "example_cn": "",
+      "category": "shopping",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0185",
+      "english": "vehicle",
+      "phonetic": "'vi:ikl",
+      "chinese": "交通工具, 车辆, 传播媒介\\n[化] 载体",
+      "example": "",
+      "example_cn": "",
+      "category": "transportation",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0186",
+      "english": "welcome",
+      "phonetic": "'welkәm",
+      "chinese": "欢迎",
+      "example": "",
+      "example_cn": "",
+      "category": "hotel",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0187",
+      "english": "cross",
+      "phonetic": "krɒs",
+      "chinese": "十字架",
+      "example": "",
+      "example_cn": "",
+      "category": "direction",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0188",
+      "english": "insurance",
+      "phonetic": "in'ʃurәns",
+      "chinese": "保险",
+      "example": "",
+      "example_cn": "",
+      "category": "emergency",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0189",
+      "english": "money",
+      "phonetic": "'mʌni",
+      "chinese": "金钱",
+      "example": "",
+      "example_cn": "",
+      "category": "shopping",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0190",
+      "english": "route",
+      "phonetic": "ru:t",
+      "chinese": "路径",
+      "example": "",
+      "example_cn": "",
+      "category": "direction",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0191",
+      "english": "lift",
+      "phonetic": "lift",
+      "chinese": "举起",
+      "example": "",
+      "example_cn": "",
+      "category": "hotel",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0192",
+      "english": "bus",
+      "phonetic": "bʌs",
+      "chinese": "公共汽车\\n[计] 总线",
+      "example": "",
+      "example_cn": "",
+      "category": "transportation",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0193",
+      "english": "doctor",
+      "phonetic": "'dɒktә",
+      "chinese": "医生",
+      "example": "",
+      "example_cn": "",
+      "category": "emergency",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0194",
+      "english": "vegetable",
+      "phonetic": "'vedʒәtәbl",
+      "chinese": "蔬菜",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0195",
+      "english": "order",
+      "phonetic": "'ɒ:dә",
+      "chinese": "次序",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0196",
+      "english": "view",
+      "phonetic": "vju:",
+      "chinese": "视野",
+      "example": "",
+      "example_cn": "",
+      "category": "entertainment",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0197",
+      "english": "deal",
+      "phonetic": "di:l",
+      "chinese": "交易",
+      "example": "",
+      "example_cn": "",
+      "category": "shopping",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0198",
+      "english": "egg",
+      "phonetic": "eg",
+      "chinese": "蛋, 卵\\nvt.",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0199",
+      "english": "spicy",
+      "phonetic": "'spaisi",
+      "chinese": "香的",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0200",
+      "english": "airport",
+      "phonetic": "'єәpɒ:t",
+      "chinese": "飞机场\\n[机] 航空站",
+      "example": "",
+      "example_cn": "",
+      "category": "airport",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0201",
+      "english": "cycle",
+      "phonetic": "'saikl",
+      "chinese": "周期, 循环, 自行车, 一段时间, 整套\\nvi. 循环, 轮转, 骑自行车\\nvt. 使循环, 使轮转\\n[计] 环路",
+      "example": "",
+      "example_cn": "",
+      "category": "transportation",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0202",
+      "english": "sugar",
+      "phonetic": "'ʃugә",
+      "chinese": "糖, 糖块, 甜言蜜",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0203",
+      "english": "ticket",
+      "phonetic": "'tikit",
+      "chinese": "票, 券, 车票,",
+      "example": "",
+      "example_cn": "",
+      "category": "transportation",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0204",
+      "english": "bar",
+      "phonetic": "bɑ:",
+      "chinese": "条, 棒, 酒吧,",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0205",
+      "english": "breakfast",
+      "phonetic": "'brekfәst",
+      "chinese": "早餐",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0206",
+      "english": "disease",
+      "phonetic": "di'zi:z",
+      "chinese": "疾病",
+      "example": "",
+      "example_cn": "",
+      "category": "emergency",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0207",
+      "english": "thirsty",
+      "phonetic": "'θә:sti",
+      "chinese": "口渴的",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0208",
+      "english": "turn",
+      "phonetic": "tә:n",
+      "chinese": "转弯",
+      "example": "",
+      "example_cn": "",
+      "category": "direction",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0209",
+      "english": "journey",
+      "phonetic": "'dʒә:ni",
+      "chinese": "旅程",
+      "example": "",
+      "example_cn": "",
+      "category": "airport",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0210",
+      "english": "location",
+      "phonetic": "lәu'keiʃәn",
+      "chinese": "位置",
+      "example": "",
+      "example_cn": "",
+      "category": "direction",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0211",
+      "english": "museum",
+      "phonetic": "mju:'ziәm",
+      "chinese": "博物馆",
+      "example": "",
+      "example_cn": "",
+      "category": "entertainment",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0212",
+      "english": "salt",
+      "phonetic": "sɒ:lt",
+      "chinese": "盐, 风趣, 刺激\\",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0213",
+      "english": "sick",
+      "phonetic": "sik",
+      "chinese": "病人\\na. 不舒服",
+      "example": "",
+      "example_cn": "",
+      "category": "emergency",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0214",
+      "english": "east",
+      "phonetic": "i:st",
+      "chinese": "东方",
+      "example": "",
+      "example_cn": "",
+      "category": "direction",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0215",
+      "english": "cinema",
+      "phonetic": "'sinәmә",
+      "chinese": "电影院",
+      "example": "",
+      "example_cn": "",
+      "category": "entertainment",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0216",
+      "english": "accommodation",
+      "phonetic": "ә.kɒmә'deiʃәn",
+      "chinese": "膳宿, 预订铺位, 适应性调节, 调和, 贷款\\n[医] 调节(眼)",
+      "example": "",
+      "example_cn": "",
+      "category": "hotel",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0217",
+      "english": "potato",
+      "phonetic": "pә'teitәu",
+      "chinese": "马铃薯",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0218",
+      "english": "alcohol",
+      "phonetic": "'ælkәhɒl",
+      "chinese": "酒精, 酒\\n[化] 醇",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0219",
+      "english": "corner",
+      "phonetic": "'kɒ:nә",
+      "chinese": "角落",
+      "example": "",
+      "example_cn": "",
+      "category": "direction",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0220",
+      "english": "aircraft",
+      "phonetic": "'єәkræft",
+      "chinese": "航空器",
+      "example": "",
+      "example_cn": "",
+      "category": "airport",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0221",
+      "english": "bread",
+      "phonetic": "bred",
+      "chinese": "面包",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0222",
+      "english": "cake",
+      "phonetic": "keik",
+      "chinese": "蛋糕",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0223",
+      "english": "credit",
+      "phonetic": "'kredit",
+      "chinese": "信用",
+      "example": "",
+      "example_cn": "",
+      "category": "shopping",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0224",
+      "english": "culture",
+      "phonetic": "'kʌltʃә",
+      "chinese": "文化",
+      "example": "",
+      "example_cn": "",
+      "category": "entertainment",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0225",
+      "english": "cancel",
+      "phonetic": "'kænsәl",
+      "chinese": "取消",
+      "example": "",
+      "example_cn": "",
+      "category": "airport",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0226",
+      "english": "delay",
+      "phonetic": "di'lei",
+      "chinese": "耽搁",
+      "example": "",
+      "example_cn": "",
+      "category": "airport",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0227",
+      "english": "discount",
+      "phonetic": "'diskaunt",
+      "chinese": "折扣",
+      "example": "",
+      "example_cn": "",
+      "category": "shopping",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0228",
+      "english": "juice",
+      "phonetic": "dʒu:s",
+      "chinese": "汁, 活力, 体液\\",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0229",
+      "english": "luggage",
+      "phonetic": "'lʌgidʒ",
+      "chinese": "行李",
+      "example": "",
+      "example_cn": "",
+      "category": "airport",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0230",
+      "english": "meat",
+      "phonetic": "mi:t",
+      "chinese": "肉, 餐, 食物\\n",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0231",
+      "english": "nature",
+      "phonetic": "'neitʃә",
+      "chinese": "自然, 大自然, 本性, 性格, 性质\\n[医] 自然, 大自然",
+      "example": "",
+      "example_cn": "",
+      "category": "entertainment",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0232",
+      "english": "tea",
+      "phonetic": "ti:",
+      "chinese": "茶, 茶叶\\n[医]",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0233",
+      "english": "coin",
+      "phonetic": "kɒin",
+      "chinese": "硬币",
+      "example": "",
+      "example_cn": "",
+      "category": "shopping",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0234",
+      "english": "drink",
+      "phonetic": "driŋk",
+      "chinese": "饮料",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0235",
+      "english": "festival",
+      "phonetic": "'festәvәl",
+      "chinese": "节日的",
+      "example": "",
+      "example_cn": "",
+      "category": "entertainment",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0236",
+      "english": "help",
+      "phonetic": "help",
+      "chinese": "帮忙, 帮助者, 补救办法, 有益的东西\\nvt. 帮助, 帮忙, 接济, 治疗, 款待\\nvi. 有用, 救命, 招待\\n[计] 帮助, 帮助程序",
+      "example": "",
+      "example_cn": "",
+      "category": "emergency",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0237",
+      "english": "payment",
+      "phonetic": "'peimәnt",
+      "chinese": "付款",
+      "example": "",
+      "example_cn": "",
+      "category": "shopping",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0238",
+      "english": "photo",
+      "phonetic": "'fәutәu",
+      "chinese": "相片",
+      "example": "",
+      "example_cn": "",
+      "category": "entertainment",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0239",
+      "english": "recommend",
+      "phonetic": ".rekә'mend",
+      "chinese": "推荐",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0240",
+      "english": "forest",
+      "phonetic": "'fɒrist",
+      "chinese": "森林",
+      "example": "",
+      "example_cn": "",
+      "category": "entertainment",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0241",
+      "english": "behind",
+      "phonetic": "bi'haind",
+      "chinese": "在后地\\nprep.",
+      "example": "",
+      "example_cn": "",
+      "category": "direction",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0242",
+      "english": "hill",
+      "phonetic": "hil",
+      "chinese": "小山",
+      "example": "",
+      "example_cn": "",
+      "category": "entertainment",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0243",
+      "english": "park",
+      "phonetic": "pɑ:k",
+      "chinese": "公园",
+      "example": "",
+      "example_cn": "",
+      "category": "entertainment",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0244",
+      "english": "south",
+      "phonetic": "sauθ",
+      "chinese": "南方",
+      "example": "",
+      "example_cn": "",
+      "category": "direction",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0245",
+      "english": "afford",
+      "phonetic": "ә'fɒ:d",
+      "chinese": "买得起",
+      "example": "",
+      "example_cn": "",
+      "category": "shopping",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0246",
+      "english": "chocolate",
+      "phonetic": "'tʃɒkәlit",
+      "chinese": "巧克力\\na. 巧克",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0247",
+      "english": "dish",
+      "phonetic": "diʃ",
+      "chinese": "盘子",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0248",
+      "english": "history",
+      "phonetic": "'histәri",
+      "chinese": "历史",
+      "example": "",
+      "example_cn": "",
+      "category": "entertainment",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0249",
+      "english": "air",
+      "phonetic": "єә",
+      "chinese": "空气",
+      "example": "",
+      "example_cn": "",
+      "category": "airport",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0250",
+      "english": "motor",
+      "phonetic": "'mәutә",
+      "chinese": "马达",
+      "example": "",
+      "example_cn": "",
+      "category": "transportation",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0251",
+      "english": "pilot",
+      "phonetic": "'pailәt",
+      "chinese": "飞行员",
+      "example": "",
+      "example_cn": "",
+      "category": "airport",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0252",
+      "english": "timetable",
+      "phonetic": "'taimteibl",
+      "chinese": "时间表",
+      "example": "",
+      "example_cn": "",
+      "category": "transportation",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0253",
+      "english": "trip",
+      "phonetic": "trip",
+      "chinese": "旅行",
+      "example": "",
+      "example_cn": "",
+      "category": "airport",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0254",
+      "english": "bridge",
+      "phonetic": "bridʒ",
+      "chinese": "桥, 舰桥, 桥梁,",
+      "example": "",
+      "example_cn": "",
+      "category": "direction",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0255",
+      "english": "lost",
+      "phonetic": "lɒst",
+      "chinese": "失去的",
+      "example": "",
+      "example_cn": "",
+      "category": "emergency",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0256",
+      "english": "oil",
+      "phonetic": "ɒil",
+      "chinese": "油, 石油, 油画颜",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0257",
+      "english": "road",
+      "phonetic": "rәud",
+      "chinese": "路, 道路, 公路,",
+      "example": "",
+      "example_cn": "",
+      "category": "direction",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0258",
+      "english": "bed",
+      "phonetic": "bed",
+      "chinese": "床, 睡眠处, 河床",
+      "example": "",
+      "example_cn": "",
+      "category": "hotel",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0259",
+      "english": "clean",
+      "phonetic": "kli:n",
+      "chinese": "干净的",
+      "example": "",
+      "example_cn": "",
+      "category": "hotel",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0260",
+      "english": "flight",
+      "phonetic": "flait",
+      "chinese": "飞行",
+      "example": "",
+      "example_cn": "",
+      "category": "airport",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0261",
+      "english": "shop",
+      "phonetic": "ʃɒp",
+      "chinese": "商店",
+      "example": "",
+      "example_cn": "",
+      "category": "shopping",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0262",
+      "english": "tourist",
+      "phonetic": "'tuәrist",
+      "chinese": "观光客",
+      "example": "",
+      "example_cn": "",
+      "category": "entertainment",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0263",
+      "english": "wine",
+      "phonetic": "wain",
+      "chinese": "葡萄酒",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0264",
+      "english": "elevator",
+      "phonetic": "'eliveitә",
+      "chinese": "电梯",
+      "example": "",
+      "example_cn": "",
+      "category": "hotel",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0265",
+      "english": "hotel",
+      "phonetic": "hәu'tel",
+      "chinese": "旅馆",
+      "example": "",
+      "example_cn": "",
+      "category": "hotel",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0266",
+      "english": "boarding pass",
+      "phonetic": "/ˈbɔːrdɪŋ pæs/",
+      "chinese": "登机牌",
+      "example": "Please show your boarding pass at the gate.",
+      "example_cn": "请在登机口出示您的登机牌。",
+      "category": "airport",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0267",
+      "english": "carry-on baggage",
+      "phonetic": "/ˈkæri ɒn ˈbægɪdʒ/",
+      "chinese": "随身行李",
+      "example": "Carry-on baggage must fit in the overhead bin.",
+      "example_cn": "随身行李必须能放入头顶行李架。",
+      "category": "airport",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0268",
+      "english": "checked baggage",
+      "phonetic": "/tʃekt ˈbægɪdʒ/",
+      "chinese": "托运行李",
+      "example": "There is a fee for checked baggage over 23kg.",
+      "example_cn": "超过23公斤的托运行李需要收费。",
+      "category": "airport",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0269",
+      "english": "baggage claim",
+      "phonetic": "/ˈbægɪdʒ kleɪm/",
+      "chinese": "行李认领处",
+      "example": "Please proceed to baggage claim area 3.",
+      "example_cn": "请前往第三号行李认领处。",
+      "category": "airport",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0270",
+      "english": "duty-free shop",
+      "phonetic": "/ˌdjuːti ˈfriː ʃɒp/",
+      "chinese": "免税店",
+      "example": "You can buy perfume at the duty-free shop.",
+      "example_cn": "你可以在免税店购买香水。",
+      "category": "airport",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0271",
+      "english": "connecting flight",
+      "phonetic": "/kəˈnektɪŋ flaɪt/",
+      "chinese": "转机航班",
+      "example": "My connecting flight departs in two hours.",
+      "example_cn": "我的转机航班两小时后起飞。",
+      "category": "airport",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0272",
+      "english": "window seat",
+      "phonetic": "/ˈwɪndəʊ siːt/",
+      "chinese": "靠窗座位",
+      "example": "I prefer a window seat on long flights.",
+      "example_cn": "长途飞行我更喜欢靠窗座位。",
+      "category": "airport",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0273",
+      "english": "aisle seat",
+      "phonetic": "/ˈaɪl siːt/",
+      "chinese": "靠通道座位",
+      "example": "Can I have an aisle seat, please?",
+      "example_cn": "请问我可以要靠过道的座位吗？",
+      "category": "airport",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0274",
+      "english": "overhead bin",
+      "phonetic": "/ˌəʊvəhed ˈbɪn/",
+      "chinese": "头顶行李架",
+      "example": "Please place your bag in the overhead bin.",
+      "example_cn": "请将您的包放入头顶行李架。",
+      "category": "airport",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0275",
+      "english": "security check",
+      "phonetic": "/sɪˈkjʊərɪti tʃek/",
+      "chinese": "安全检查",
+      "example": "Please remove your shoes for the security check.",
+      "example_cn": "安全检查时请脱下鞋子。",
+      "category": "airport",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0276",
+      "english": "baggage allowance",
+      "phonetic": "/ˈbægɪdʒ əˈlaʊəns/",
+      "chinese": "行李限额",
+      "example": "The baggage allowance is 20 kilograms.",
+      "example_cn": "行李限额是20公斤。",
+      "category": "airport",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0277",
+      "english": "flight number",
+      "phonetic": "/flaɪt ˈnʌmbər/",
+      "chinese": "航班号",
+      "example": "What is your flight number?",
+      "example_cn": "您的航班号是多少？",
+      "category": "airport",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0278",
+      "english": "departure lounge",
+      "phonetic": "/dɪˈpɑːtʃər laʊndʒ/",
+      "chinese": "候机室",
+      "example": "Please wait in the departure lounge.",
+      "example_cn": "请在候机室等候。",
+      "category": "airport",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0279",
+      "english": "entry card",
+      "phonetic": "/ˈentri kɑːrd/",
+      "chinese": "入境卡",
+      "example": "Please fill in the entry card before landing.",
+      "example_cn": "请在降落前填写入境卡。",
+      "category": "airport",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0280",
+      "english": "jet lag",
+      "phonetic": "/ˈdʒet læɡ/",
+      "chinese": "时差反应",
+      "example": "I'm suffering from jet lag after my long flight.",
+      "example_cn": "长途飞行后我有时差反应。",
+      "category": "airport",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0281",
+      "english": "transit visa",
+      "phonetic": "/ˈtrænsɪt ˈviːzə/",
+      "chinese": "过境签证",
+      "example": "Do I need a transit visa for this stopover?",
+      "example_cn": "这次中转我需要过境签证吗？",
+      "category": "airport",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0282",
+      "english": "customs declaration",
+      "phonetic": "/ˈkʌstəmz ˌdekləˈreɪʃn/",
+      "chinese": "海关申报",
+      "example": "Please complete the customs declaration form.",
+      "example_cn": "请填写海关申报表。",
+      "category": "airport",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0283",
+      "english": "boarding time",
+      "phonetic": "/ˈbɔːrdɪŋ taɪm/",
+      "chinese": "登机时间",
+      "example": "Boarding time is 30 minutes before departure.",
+      "example_cn": "登机时间在起飞前30分钟。",
+      "category": "airport",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0284",
+      "english": "excess baggage",
+      "phonetic": "/ˈekses ˈbægɪdʒ/",
+      "chinese": "超重行李",
+      "example": "You have to pay for excess baggage.",
+      "example_cn": "您需要为超重行李付费。",
+      "category": "airport",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0285",
+      "english": "passport control",
+      "phonetic": "/ˈpɑːspɔːrt kənˈtrəʊl/",
+      "chinese": "护照检查",
+      "example": "Please queue at passport control.",
+      "example_cn": "请在护照检查处排队。",
+      "category": "airport",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0286",
+      "english": "round trip",
+      "phonetic": "/ˌraʊnd ˈtrɪp/",
+      "chinese": "往返行程",
+      "example": "I'd like to book a round trip ticket.",
+      "example_cn": "我想预订一张往返机票。",
+      "category": "airport",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0287",
+      "english": "one way",
+      "phonetic": "/ˌwʌn ˈweɪ/",
+      "chinese": "单程",
+      "example": "Is this a one-way ticket or round trip?",
+      "example_cn": "这是单程票还是往返票？",
+      "category": "airport",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0288",
+      "english": "hand luggage",
+      "phonetic": "/hænd ˈlʌɡɪdʒ/",
+      "chinese": "手提行李",
+      "example": "Only one piece of hand luggage is allowed.",
+      "example_cn": "只允许携带一件手提行李。",
+      "category": "airport",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0289",
+      "english": "direct flight",
+      "phonetic": "/dəˈrekt flaɪt/",
+      "chinese": "直飞航班",
+      "example": "Is there a direct flight to Paris?",
+      "example_cn": "有直飞巴黎的航班吗？",
+      "category": "airport",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0290",
+      "english": "layover",
+      "phonetic": "/ˈleɪəʊvər/",
+      "chinese": "中转停留",
+      "example": "We have a three-hour layover in Dubai.",
+      "example_cn": "我们在迪拜有三小时中转停留。",
+      "category": "airport",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0291",
+      "english": "check-in",
+      "phonetic": "/ˌtʃek ˈɪn/",
+      "chinese": "入住登记",
+      "example": "Check-in time is 3 PM.",
+      "example_cn": "入住时间是下午3点。",
+      "category": "hotel",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0292",
+      "english": "check-out",
+      "phonetic": "/ˌtʃek ˈaʊt/",
+      "chinese": "退房",
+      "example": "Check-out time is 12 noon.",
+      "example_cn": "退房时间是中午12点。",
+      "category": "hotel",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0293",
+      "english": "room service",
+      "phonetic": "/ˈruːm ˌsɜːrvɪs/",
+      "chinese": "客房服务",
+      "example": "I'd like to order room service, please.",
+      "example_cn": "我想点客房服务。",
+      "category": "hotel",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0294",
+      "english": "front desk",
+      "phonetic": "/frʌnt desk/",
+      "chinese": "前台",
+      "example": "Please ask at the front desk.",
+      "example_cn": "请在前台询问。",
+      "category": "hotel",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0295",
+      "english": "single room",
+      "phonetic": "/ˈsɪŋɡl ruːm/",
+      "chinese": "单人房",
+      "example": "I need a single room for two nights.",
+      "example_cn": "我需要一间单人房住两晚。",
+      "category": "hotel",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0296",
+      "english": "double room",
+      "phonetic": "/ˈdʌbl ruːm/",
+      "chinese": "双人房（大床）",
+      "example": "A double room with a sea view, please.",
+      "example_cn": "请给我一间海景双人大床房。",
+      "category": "hotel",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0297",
+      "english": "twin room",
+      "phonetic": "/twɪn ruːm/",
+      "chinese": "双人房（双床）",
+      "example": "We'd like a twin room with two single beds.",
+      "example_cn": "我们想要一间有两张单人床的双床房。",
+      "category": "hotel",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0298",
+      "english": "suite",
+      "phonetic": "/swiːt/",
+      "chinese": "套房",
+      "example": "The presidential suite on the top floor.",
+      "example_cn": "顶层总统套房。",
+      "category": "hotel",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0299",
+      "english": "keycard",
+      "phonetic": "/ˈkiːkɑːrd/",
+      "chinese": "房卡",
+      "example": "Here is your keycard for room 302.",
+      "example_cn": "这是您302房间的房卡。",
+      "category": "hotel",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0300",
+      "english": "late checkout",
+      "phonetic": "/leɪt ˈtʃekaʊt/",
+      "chinese": "延迟退房",
+      "example": "Can I request a late checkout?",
+      "example_cn": "我可以申请延迟退房吗？",
+      "category": "hotel",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0301",
+      "english": "do not disturb",
+      "phonetic": "/duː nɒt dɪˈstɜːrb/",
+      "chinese": "请勿打扰",
+      "example": "Please hang the do not disturb sign on the door.",
+      "example_cn": "请把请勿打扰的牌子挂在门上。",
+      "category": "hotel",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0302",
+      "english": "minibar",
+      "phonetic": "/ˈmɪnibɑːr/",
+      "chinese": "小冰箱（迷你吧）",
+      "example": "Drinks from the minibar will be charged.",
+      "example_cn": "迷你吧里的饮品需要收费。",
+      "category": "hotel",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0303",
+      "english": "complimentary breakfast",
+      "phonetic": "/ˌkɒmplɪˈmentri ˈbrekfəst/",
+      "chinese": "免费早餐",
+      "example": "Complimentary breakfast is served from 7 to 10.",
+      "example_cn": "免费早餐供应时间是7点到10点。",
+      "category": "hotel",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0304",
+      "english": "housekeeping",
+      "phonetic": "/ˈhaʊskiːpɪŋ/",
+      "chinese": "客房清洁",
+      "example": "Can housekeeping clean my room now?",
+      "example_cn": "客房服务现在可以打扫我的房间吗？",
+      "category": "hotel",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0305",
+      "english": "wake-up call",
+      "phonetic": "/ˈweɪk ʌp kɔːl/",
+      "chinese": "叫醒服务",
+      "example": "Can I have a wake-up call at 7 AM?",
+      "example_cn": "我可以安排早上7点的叫醒服务吗？",
+      "category": "hotel",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0306",
+      "english": "safe deposit box",
+      "phonetic": "/seɪf dɪˈpɒzɪt bɒks/",
+      "chinese": "保险箱",
+      "example": "I'd like to use the safe deposit box.",
+      "example_cn": "我想使用保险箱。",
+      "category": "hotel",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0307",
+      "english": "laundry service",
+      "phonetic": "/ˈlɔːndri ˌsɜːrvɪs/",
+      "chinese": "洗衣服务",
+      "example": "Does the hotel offer laundry service?",
+      "example_cn": "酒店提供洗衣服务吗？",
+      "category": "hotel",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0308",
+      "english": "continental breakfast",
+      "phonetic": "/ˌkɒntɪˈnentl ˈbrekfəst/",
+      "chinese": "欧式早餐",
+      "example": "The room rate includes continental breakfast.",
+      "example_cn": "房费包含欧式早餐。",
+      "category": "hotel",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0309",
+      "english": "air conditioning",
+      "phonetic": "/ˌeər kənˈdɪʃənɪŋ/",
+      "chinese": "空调",
+      "example": "How do I adjust the air conditioning?",
+      "example_cn": "怎么调节空调？",
+      "category": "hotel",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0310",
+      "english": "room upgrade",
+      "phonetic": "/ruːm ˈʌpɡreɪd/",
+      "chinese": "升级房间",
+      "example": "Could you upgrade my room, please?",
+      "example_cn": "请问可以帮我升级房间吗？",
+      "category": "hotel",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0311",
+      "english": "non-smoking room",
+      "phonetic": "/nɒn ˈsməʊkɪŋ ruːm/",
+      "chinese": "禁烟房",
+      "example": "I'd like a non-smoking room on a high floor.",
+      "example_cn": "我想要高楼层的禁烟房。",
+      "category": "hotel",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0312",
+      "english": "fitness center",
+      "phonetic": "/ˈfɪtnəs ˈsentər/",
+      "chinese": "健身中心",
+      "example": "Where is the fitness center?",
+      "example_cn": "健身中心在哪里？",
+      "category": "hotel",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0313",
+      "english": "concierge",
+      "phonetic": "/ˈkɒnsɪerʒ/",
+      "chinese": "礼宾员",
+      "example": "Please ask the concierge for restaurant recommendations.",
+      "example_cn": "请向礼宾员询问餐厅推荐。",
+      "category": "hotel",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0314",
+      "english": "bellhop",
+      "phonetic": "/ˈbelhɒp/",
+      "chinese": "行李员",
+      "example": "The bellhop will bring your luggage up.",
+      "example_cn": "行李员会把您的行李送上来。",
+      "category": "hotel",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0315",
+      "english": "valet parking",
+      "phonetic": "/ˈvæleɪ ˈpɑːrkɪŋ/",
+      "chinese": "代客泊车",
+      "example": "Does the hotel offer valet parking?",
+      "example_cn": "酒店提供代客泊车服务吗？",
+      "category": "hotel",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0316",
+      "english": "set menu",
+      "phonetic": "/set ˈmenjuː/",
+      "chinese": "套餐",
+      "example": "I'll have the set menu for lunch.",
+      "example_cn": "我午餐点套餐。",
+      "category": "restaurant",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0317",
+      "english": "à la carte",
+      "phonetic": "/ˌɑː lə ˈkɑːrt/",
+      "chinese": "单点（单品菜单）",
+      "example": "Would you like to order à la carte?",
+      "example_cn": "您想单点还是套餐？",
+      "category": "restaurant",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0318",
+      "english": "daily special",
+      "phonetic": "/ˈdeɪli ˈspeʃl/",
+      "chinese": "每日特供",
+      "example": "What is today's daily special?",
+      "example_cn": "今天的每日特供是什么？",
+      "category": "restaurant",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0319",
+      "english": "house specialty",
+      "phonetic": "/haʊs spəˈʃælɪti/",
+      "chinese": "招牌菜",
+      "example": "What is the house specialty?",
+      "example_cn": "这里有什么招牌菜？",
+      "category": "restaurant",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0320",
+      "english": "appetizer",
+      "phonetic": "/ˈæpɪtaɪzər/",
+      "chinese": "开胃菜",
+      "example": "I'd like the soup as an appetizer.",
+      "example_cn": "我想点汤作为开胃菜。",
+      "category": "restaurant",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0321",
+      "english": "main course",
+      "phonetic": "/ˌmeɪn ˈkɔːrs/",
+      "chinese": "主菜",
+      "example": "What do you recommend for the main course?",
+      "example_cn": "主菜您有什么推荐？",
+      "category": "restaurant",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0322",
+      "english": "side dish",
+      "phonetic": "/ˈsaɪd dɪʃ/",
+      "chinese": "配菜",
+      "example": "Can I substitute the side dish?",
+      "example_cn": "我可以换一个配菜吗？",
+      "category": "restaurant",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0323",
+      "english": "wine list",
+      "phonetic": "/ˈwaɪn lɪst/",
+      "chinese": "酒单",
+      "example": "May I see the wine list, please?",
+      "example_cn": "请问可以看看酒单吗？",
+      "category": "restaurant",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0324",
+      "english": "sparkling water",
+      "phonetic": "/ˌspɑːklɪŋ ˈwɔːtər/",
+      "chinese": "气泡水",
+      "example": "Still or sparkling water?",
+      "example_cn": "要普通水还是气泡水？",
+      "category": "restaurant",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0325",
+      "english": "still water",
+      "phonetic": "/stɪl ˈwɔːtər/",
+      "chinese": "矿泉水（非气泡）",
+      "example": "I'll have still water, thank you.",
+      "example_cn": "我要普通水，谢谢。",
+      "category": "restaurant",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0326",
+      "english": "dietary restriction",
+      "phonetic": "/ˈdaɪɪtri rɪˈstrɪkʃn/",
+      "chinese": "饮食限制",
+      "example": "I have some dietary restrictions.",
+      "example_cn": "我有一些饮食限制。",
+      "category": "restaurant",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0327",
+      "english": "food allergy",
+      "phonetic": "/fuːd ˈælərdʒi/",
+      "chinese": "食物过敏",
+      "example": "I have a nut food allergy.",
+      "example_cn": "我对坚果食物过敏。",
+      "category": "restaurant",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0328",
+      "english": "vegetarian",
+      "phonetic": "/ˌvedʒɪˈteəriən/",
+      "chinese": "素食者",
+      "example": "Do you have any vegetarian options?",
+      "example_cn": "你们有素食选项吗？",
+      "category": "restaurant",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0329",
+      "english": "well done",
+      "phonetic": "/ˌwel ˈdʌn/",
+      "chinese": "全熟（牛排）",
+      "example": "I'd like my steak well done.",
+      "example_cn": "我的牛排要全熟的。",
+      "category": "restaurant",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0330",
+      "english": "medium rare",
+      "phonetic": "/ˌmiːdiəm ˈreər/",
+      "chinese": "五分熟",
+      "example": "I prefer my steak medium rare.",
+      "example_cn": "我喜欢五分熟的牛排。",
+      "category": "restaurant",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0331",
+      "english": "to go",
+      "phonetic": "/tə ˈɡəʊ/",
+      "chinese": "打包带走",
+      "example": "Can I get this to go, please?",
+      "example_cn": "这个可以打包吗？",
+      "category": "restaurant",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0332",
+      "english": "split the bill",
+      "phonetic": "/splɪt ðə bɪl/",
+      "chinese": "AA制",
+      "example": "Can we split the bill?",
+      "example_cn": "我们可以各付各的吗？",
+      "category": "restaurant",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0333",
+      "english": "service charge",
+      "phonetic": "/ˈsɜːrvɪs tʃɑːrdʒ/",
+      "chinese": "服务费",
+      "example": "Is the service charge included?",
+      "example_cn": "包含服务费吗？",
+      "category": "restaurant",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0334",
+      "english": "table for two",
+      "phonetic": "/ˈteɪbl fər tuː/",
+      "chinese": "两人桌",
+      "example": "A table for two, please.",
+      "example_cn": "请给我安排一张两人桌。",
+      "category": "restaurant",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0335",
+      "english": "waiting list",
+      "phonetic": "/ˈweɪtɪŋ lɪst/",
+      "chinese": "等位名单",
+      "example": "How long is the waiting list?",
+      "example_cn": "等位名单还有多久？",
+      "category": "restaurant",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0336",
+      "english": "doggy bag",
+      "phonetic": "/ˈdɒɡi bæɡ/",
+      "chinese": "打包袋",
+      "example": "Can I have a doggy bag for the leftovers?",
+      "example_cn": "剩下的菜可以帮我打包吗？",
+      "category": "restaurant",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0337",
+      "english": "all-you-can-eat",
+      "phonetic": "/ˌɔːl jə kən ˈiːt/",
+      "chinese": "自助餐（无限量）",
+      "example": "This is an all-you-can-eat buffet.",
+      "example_cn": "这是无限量自助餐。",
+      "category": "restaurant",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0338",
+      "english": "tap water",
+      "phonetic": "/tæp ˈwɔːtər/",
+      "chinese": "自来水",
+      "example": "Can I have tap water please?",
+      "example_cn": "请给我一杯自来水好吗？",
+      "category": "restaurant",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0339",
+      "english": "seafood",
+      "phonetic": "/ˈsiːfuːd/",
+      "chinese": "海鲜",
+      "example": "I love fresh seafood by the beach.",
+      "example_cn": "我喜欢海边的新鲜海鲜。",
+      "category": "restaurant",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0340",
+      "english": "gluten-free",
+      "phonetic": "/ˌɡluːtn ˈfriː/",
+      "chinese": "无麸质",
+      "example": "Do you have any gluten-free options?",
+      "example_cn": "你们有无麸质的选项吗？",
+      "category": "restaurant",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0341",
+      "english": "excuse me",
+      "phonetic": "/ɪkˈskjuːz miː/",
+      "chinese": "打扰一下",
+      "example": "Excuse me, how do I get to the station?",
+      "example_cn": "打扰一下，请问怎么去车站？",
+      "category": "direction",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0342",
+      "english": "turn left",
+      "phonetic": "/tɜːrn left/",
+      "chinese": "左转",
+      "example": "Turn left at the traffic lights.",
+      "example_cn": "在红绿灯处左转。",
+      "category": "direction",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0343",
+      "english": "turn right",
+      "phonetic": "/tɜːrn raɪt/",
+      "chinese": "右转",
+      "example": "Turn right at the next corner.",
+      "example_cn": "在下一个路口右转。",
+      "category": "direction",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0344",
+      "english": "go straight",
+      "phonetic": "/ɡəʊ streɪt/",
+      "chinese": "直走",
+      "example": "Go straight for two blocks.",
+      "example_cn": "直走两个街区。",
+      "category": "direction",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0345",
+      "english": "traffic light",
+      "phonetic": "/ˈtræfɪk laɪt/",
+      "chinese": "红绿灯",
+      "example": "Wait until the traffic light turns green.",
+      "example_cn": "等红绿灯变绿再走。",
+      "category": "direction",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0346",
+      "english": "pedestrian crossing",
+      "phonetic": "/pəˈdestriən ˈkrɒsɪŋ/",
+      "chinese": "人行横道",
+      "example": "Use the pedestrian crossing to cross the road.",
+      "example_cn": "走人行横道过马路。",
+      "category": "direction",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0347",
+      "english": "bus stop",
+      "phonetic": "/ˈbʌs stɒp/",
+      "chinese": "公交站",
+      "example": "The bus stop is just around the corner.",
+      "example_cn": "公交站就在拐角处。",
+      "category": "direction",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0348",
+      "english": "subway station",
+      "phonetic": "/ˈsʌbweɪ ˈsteɪʃn/",
+      "chinese": "地铁站",
+      "example": "Is there a subway station nearby?",
+      "example_cn": "附近有地铁站吗？",
+      "category": "direction",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0349",
+      "english": "walking distance",
+      "phonetic": "/ˈwɔːkɪŋ ˈdɪstəns/",
+      "chinese": "步行距离",
+      "example": "The hotel is within walking distance.",
+      "example_cn": "酒店在步行范围内。",
+      "category": "direction",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0350",
+      "english": "GPS navigation",
+      "phonetic": "/ˌdʒiː piː ˈes ˌnævɪˈɡeɪʃn/",
+      "chinese": "GPS导航",
+      "example": "Let me check the GPS navigation.",
+      "example_cn": "让我查一下GPS导航。",
+      "category": "direction",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0351",
+      "english": "roundabout",
+      "phonetic": "/ˈraʊndəbaʊt/",
+      "chinese": "环形交叉路口",
+      "example": "Take the second exit at the roundabout.",
+      "example_cn": "在环形交叉路口走第二个出口。",
+      "category": "direction",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0352",
+      "english": "city center",
+      "phonetic": "/ˈsɪti ˌsentər/",
+      "chinese": "市中心",
+      "example": "How far is it to the city center?",
+      "example_cn": "离市中心有多远？",
+      "category": "direction",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0353",
+      "english": "on foot",
+      "phonetic": "/ɒn fʊt/",
+      "chinese": "步行",
+      "example": "Can we get there on foot?",
+      "example_cn": "我们可以步行到那里吗？",
+      "category": "direction",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0354",
+      "english": "local bus",
+      "phonetic": "/ˈləʊkl bʌs/",
+      "chinese": "本地公交",
+      "example": "Which local bus goes to the old town?",
+      "example_cn": "哪路本地公交去老城区？",
+      "category": "direction",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0355",
+      "english": "how far",
+      "phonetic": "/haʊ fɑːr/",
+      "chinese": "有多远",
+      "example": "How far is it from here?",
+      "example_cn": "离这里有多远？",
+      "category": "direction",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0356",
+      "english": "shopping mall",
+      "phonetic": "/ˈʃɒpɪŋ mɔːl/",
+      "chinese": "购物中心",
+      "example": "The shopping mall is open until 10 PM.",
+      "example_cn": "购物中心营业到晚上10点。",
+      "category": "shopping",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0357",
+      "english": "department store",
+      "phonetic": "/dɪˈpɑːrtmənt stɔːr/",
+      "chinese": "百货公司",
+      "example": "There's a big department store downtown.",
+      "example_cn": "市中心有一家大型百货公司。",
+      "category": "shopping",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0358",
+      "english": "fitting room",
+      "phonetic": "/ˈfɪtɪŋ ruːm/",
+      "chinese": "试衣间",
+      "example": "Where is the fitting room?",
+      "example_cn": "试衣间在哪里？",
+      "category": "shopping",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0359",
+      "english": "on sale",
+      "phonetic": "/ɒn seɪl/",
+      "chinese": "打折中",
+      "example": "Everything in this store is on sale.",
+      "example_cn": "这家店所有商品都在打折。",
+      "category": "shopping",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0360",
+      "english": "price tag",
+      "phonetic": "/ˈpraɪs tæɡ/",
+      "chinese": "价格标签",
+      "example": "The price tag says 50 dollars.",
+      "example_cn": "价格标签上写着50美元。",
+      "category": "shopping",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0361",
+      "english": "tax-free shopping",
+      "phonetic": "/ˌtæks friː ˈʃɒpɪŋ/",
+      "chinese": "免税购物",
+      "example": "Can I get a tax refund here?",
+      "example_cn": "这里可以退税吗？",
+      "category": "shopping",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0362",
+      "english": "VAT refund",
+      "phonetic": "/ˌviː eɪ ˈtiː ˈriːfʌnd/",
+      "chinese": "增值税退税",
+      "example": "How do I claim a VAT refund?",
+      "example_cn": "如何申请增值税退税？",
+      "category": "shopping",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0363",
+      "english": "cash register",
+      "phonetic": "/kæʃ ˈredʒɪstər/",
+      "chinese": "收银台",
+      "example": "Please pay at the cash register.",
+      "example_cn": "请到收银台付款。",
+      "category": "shopping",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0364",
+      "english": "contactless payment",
+      "phonetic": "/ˈkɒntæktləs ˈpeɪmənt/",
+      "chinese": "非接触式支付",
+      "example": "Do you accept contactless payment?",
+      "example_cn": "你们接受非接触式支付吗？",
+      "category": "shopping",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0365",
+      "english": "exchange rate",
+      "phonetic": "/ɪksˈtʃeɪndʒ reɪt/",
+      "chinese": "汇率",
+      "example": "What is the current exchange rate?",
+      "example_cn": "当前汇率是多少？",
+      "category": "shopping",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0366",
+      "english": "currency exchange",
+      "phonetic": "/ˈkʌrənsi ɪksˈtʃeɪndʒ/",
+      "chinese": "货币兑换",
+      "example": "Where is the currency exchange counter?",
+      "example_cn": "货币兑换处在哪里？",
+      "category": "shopping",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0367",
+      "english": "credit card",
+      "phonetic": "/ˈkredɪt kɑːrd/",
+      "chinese": "信用卡",
+      "example": "Do you accept credit cards?",
+      "example_cn": "你们接受信用卡吗？",
+      "category": "shopping",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0368",
+      "english": "out of stock",
+      "phonetic": "/ˌaʊt əv ˈstɒk/",
+      "chinese": "缺货",
+      "example": "I'm sorry, this item is out of stock.",
+      "example_cn": "很抱歉，这件商品缺货了。",
+      "category": "shopping",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0369",
+      "english": "gift shop",
+      "phonetic": "/ˈɡɪft ʃɒp/",
+      "chinese": "礼品店",
+      "example": "I'll buy some souvenirs at the gift shop.",
+      "example_cn": "我在礼品店买些纪念品。",
+      "category": "shopping",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0370",
+      "english": "return policy",
+      "phonetic": "/rɪˈtɜːrn ˈpɒlɪsi/",
+      "chinese": "退货政策",
+      "example": "What is your return policy?",
+      "example_cn": "你们的退货政策是什么？",
+      "category": "shopping",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0371",
+      "english": "call the police",
+      "phonetic": "/kɔːl ðə pəˈliːs/",
+      "chinese": "报警",
+      "example": "I need to call the police.",
+      "example_cn": "我需要报警。",
+      "category": "emergency",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0372",
+      "english": "emergency room",
+      "phonetic": "/ɪˈmɜːrdʒənsi ruːm/",
+      "chinese": "急诊室",
+      "example": "Please take me to the emergency room.",
+      "example_cn": "请带我去急诊室。",
+      "category": "emergency",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0373",
+      "english": "first aid",
+      "phonetic": "/ˌfɜːrst ˈeɪd/",
+      "chinese": "急救",
+      "example": "Is there a first aid kit nearby?",
+      "example_cn": "附近有急救箱吗？",
+      "category": "emergency",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0374",
+      "english": "travel insurance",
+      "phonetic": "/ˈtrævl ɪnˈʃʊərəns/",
+      "chinese": "旅行保险",
+      "example": "I have travel insurance for medical emergencies.",
+      "example_cn": "我有旅行保险可以应对医疗紧急情况。",
+      "category": "emergency",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0375",
+      "english": "lost passport",
+      "phonetic": "/lɒst ˈpɑːspɔːrt/",
+      "chinese": "护照丢失",
+      "example": "I've lost my passport.",
+      "example_cn": "我的护照丢失了。",
+      "category": "emergency",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0376",
+      "english": "stolen wallet",
+      "phonetic": "/ˈstəʊlən ˈwɒlɪt/",
+      "chinese": "钱包被盗",
+      "example": "My wallet has been stolen.",
+      "example_cn": "我的钱包被偷了。",
+      "category": "emergency",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0377",
+      "english": "nearest hospital",
+      "phonetic": "/ˈnɪərɪst ˈhɒspɪtl/",
+      "chinese": "最近的医院",
+      "example": "Where is the nearest hospital?",
+      "example_cn": "最近的医院在哪里？",
+      "category": "emergency",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0378",
+      "english": "allergy medication",
+      "phonetic": "/ˈælərdʒi ˌmedɪˈkeɪʃn/",
+      "chinese": "过敏药物",
+      "example": "I need my allergy medication.",
+      "example_cn": "我需要我的过敏药物。",
+      "category": "emergency",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0379",
+      "english": "embassy",
+      "phonetic": "/ˈembəsi/",
+      "chinese": "大使馆",
+      "example": "I need to contact my country's embassy.",
+      "example_cn": "我需要联系我国大使馆。",
+      "category": "emergency",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0380",
+      "english": "police report",
+      "phonetic": "/pəˈliːs rɪˈpɔːrt/",
+      "chinese": "报案记录",
+      "example": "I need to file a police report.",
+      "example_cn": "我需要填写报案记录。",
+      "category": "emergency",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0381",
+      "english": "medical history",
+      "phonetic": "/ˈmedɪkl ˈhɪstri/",
+      "chinese": "病史",
+      "example": "The doctor asked about my medical history.",
+      "example_cn": "医生询问了我的病史。",
+      "category": "emergency",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0382",
+      "english": "blood type",
+      "phonetic": "/blʌd taɪp/",
+      "chinese": "血型",
+      "example": "My blood type is O positive.",
+      "example_cn": "我的血型是O型阳性。",
+      "category": "emergency",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0383",
+      "english": "pain killer",
+      "phonetic": "/ˈpeɪn ˌkɪlər/",
+      "chinese": "止痛药",
+      "example": "Do you have any pain killers?",
+      "example_cn": "你们有止痛药吗？",
+      "category": "emergency",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0384",
+      "english": "prescription",
+      "phonetic": "/prɪˈskrɪpʃn/",
+      "chinese": "处方",
+      "example": "I need a prescription for this medicine.",
+      "example_cn": "我需要一张处方购买这种药。",
+      "category": "emergency",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0385",
+      "english": "emergency contact",
+      "phonetic": "/ɪˈmɜːrdʒənsi ˈkɒntækt/",
+      "chinese": "紧急联系人",
+      "example": "Please call my emergency contact.",
+      "example_cn": "请联系我的紧急联系人。",
+      "category": "emergency",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0386",
+      "english": "one-way ticket",
+      "phonetic": "/ˌwʌn weɪ ˈtɪkɪt/",
+      "chinese": "单程票",
+      "example": "One one-way ticket to the city center, please.",
+      "example_cn": "请给我一张去市中心的单程票。",
+      "category": "transportation",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0387",
+      "english": "return ticket",
+      "phonetic": "/rɪˈtɜːrn ˈtɪkɪt/",
+      "chinese": "往返票",
+      "example": "I'd like a return ticket to the airport.",
+      "example_cn": "我想要一张去机场的往返票。",
+      "category": "transportation",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0388",
+      "english": "transit card",
+      "phonetic": "/ˈtrænsɪt kɑːrd/",
+      "chinese": "交通卡",
+      "example": "You can use a transit card on all buses.",
+      "example_cn": "所有公交都可以使用交通卡。",
+      "category": "transportation",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0389",
+      "english": "rush hour",
+      "phonetic": "/ˈrʌʃ aʊər/",
+      "chinese": "高峰时段",
+      "example": "Avoid traveling during rush hour.",
+      "example_cn": "避免在高峰时段出行。",
+      "category": "transportation",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0390",
+      "english": "car rental",
+      "phonetic": "/kɑːr ˈrentl/",
+      "chinese": "租车",
+      "example": "Where is the car rental counter?",
+      "example_cn": "租车柜台在哪里？",
+      "category": "transportation",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0391",
+      "english": "GPS device",
+      "phonetic": "/ˌdʒiː piː ˈes dɪˌvaɪs/",
+      "chinese": "GPS设备",
+      "example": "The rental car includes a GPS device.",
+      "example_cn": "租来的车包含GPS设备。",
+      "category": "transportation",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0392",
+      "english": "toll road",
+      "phonetic": "/ˈtəʊl rəʊd/",
+      "chinese": "收费公路",
+      "example": "There is a toll on this road.",
+      "example_cn": "这条路需要交过路费。",
+      "category": "transportation",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0393",
+      "english": "parking lot",
+      "phonetic": "/ˈpɑːrkɪŋ lɒt/",
+      "chinese": "停车场",
+      "example": "Is there a parking lot nearby?",
+      "example_cn": "附近有停车场吗？",
+      "category": "transportation",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0394",
+      "english": "high-speed rail",
+      "phonetic": "/ˌhaɪ spiːd ˈreɪl/",
+      "chinese": "高铁",
+      "example": "The high-speed rail is the fastest option.",
+      "example_cn": "高铁是最快的选择。",
+      "category": "transportation",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0395",
+      "english": "left luggage",
+      "phonetic": "/left ˈlʌɡɪdʒ/",
+      "chinese": "行李寄存",
+      "example": "Is there a left luggage office at the station?",
+      "example_cn": "车站有行李寄存处吗？",
+      "category": "transportation",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0396",
+      "english": "timetable",
+      "phonetic": "/ˈtaɪmteɪbl/",
+      "chinese": "时刻表",
+      "example": "Let me check the timetable.",
+      "example_cn": "让我查一下时刻表。",
+      "category": "transportation",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0397",
+      "english": "platform number",
+      "phonetic": "/ˈplætfɔːrm ˈnʌmbər/",
+      "chinese": "站台号",
+      "example": "Which platform number is this train?",
+      "example_cn": "这列火车是几号站台？",
+      "category": "transportation",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0398",
+      "english": "harbor",
+      "phonetic": "/ˈhɑːrbər/",
+      "chinese": "港口",
+      "example": "The ferry departs from the harbor.",
+      "example_cn": "渡轮从港口出发。",
+      "category": "transportation",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0399",
+      "english": "rideshare",
+      "phonetic": "/ˈraɪdʃeər/",
+      "chinese": "拼车/网约车",
+      "example": "Let's use a rideshare app to get there.",
+      "example_cn": "我们用网约车APP去那里吧。",
+      "category": "transportation",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0400",
+      "english": "bike rental",
+      "phonetic": "/baɪk ˈrentl/",
+      "chinese": "自行车租赁",
+      "example": "Is there a bike rental service nearby?",
+      "example_cn": "附近有自行车租赁服务吗？",
+      "category": "transportation",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0401",
+      "english": "tourist attraction",
+      "phonetic": "/ˈtʊərɪst əˈtrækʃn/",
+      "chinese": "旅游景点",
+      "example": "The Eiffel Tower is a famous tourist attraction.",
+      "example_cn": "埃菲尔铁塔是著名的旅游景点。",
+      "category": "entertainment",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0402",
+      "english": "guided tour",
+      "phonetic": "/ˌɡaɪdɪd ˈtʊər/",
+      "chinese": "导游带队游览",
+      "example": "I'd like to join a guided tour.",
+      "example_cn": "我想参加导游带队的游览。",
+      "category": "entertainment",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0403",
+      "english": "audio guide",
+      "phonetic": "/ˈɔːdiəʊ ɡaɪd/",
+      "chinese": "语音导览",
+      "example": "An audio guide is available at the entrance.",
+      "example_cn": "入口处有语音导览可用。",
+      "category": "entertainment",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0404",
+      "english": "opening hours",
+      "phonetic": "/ˈəʊpənɪŋ ˈaʊərz/",
+      "chinese": "营业/开放时间",
+      "example": "What are the opening hours of the museum?",
+      "example_cn": "博物馆的开放时间是什么？",
+      "category": "entertainment",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0405",
+      "english": "entrance fee",
+      "phonetic": "/ˈentrəns fiː/",
+      "chinese": "门票费",
+      "example": "What is the entrance fee?",
+      "example_cn": "门票费是多少？",
+      "category": "entertainment",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0406",
+      "english": "photo opportunity",
+      "phonetic": "/ˈfəʊtəʊ ˌɒpəˈtjuːnɪti/",
+      "chinese": "拍照机会",
+      "example": "This spot offers a great photo opportunity.",
+      "example_cn": "这个地方是很好的拍照机会。",
+      "category": "entertainment",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0407",
+      "english": "local cuisine",
+      "phonetic": "/ˈləʊkl kwɪˈziːn/",
+      "chinese": "当地美食",
+      "example": "I want to try the local cuisine.",
+      "example_cn": "我想尝试当地美食。",
+      "category": "entertainment",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0408",
+      "english": "cultural experience",
+      "phonetic": "/ˈkʌltʃərəl ɪkˈspɪəriəns/",
+      "chinese": "文化体验",
+      "example": "This is a unique cultural experience.",
+      "example_cn": "这是一次独特的文化体验。",
+      "category": "entertainment",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0409",
+      "english": "historical site",
+      "phonetic": "/hɪˈstɒrɪkl saɪt/",
+      "chinese": "历史遗址",
+      "example": "We visited several historical sites today.",
+      "example_cn": "今天我们参观了几处历史遗址。",
+      "category": "entertainment",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0410",
+      "english": "scenic spot",
+      "phonetic": "/ˈsiːnɪk spɒt/",
+      "chinese": "风景区",
+      "example": "This is one of the most popular scenic spots.",
+      "example_cn": "这是最受欢迎的风景区之一。",
+      "category": "entertainment",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0411",
+      "english": "national park",
+      "phonetic": "/ˌnæʃnəl ˈpɑːrk/",
+      "chinese": "国家公园",
+      "example": "Yellowstone is a famous national park.",
+      "example_cn": "黄石是著名的国家公园。",
+      "category": "entertainment",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0412",
+      "english": "street food",
+      "phonetic": "/ˈstriːt fuːd/",
+      "chinese": "街头小吃",
+      "example": "I love trying street food when I travel.",
+      "example_cn": "旅行时我喜欢尝试街头小吃。",
+      "category": "entertainment",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0413",
+      "english": "night market",
+      "phonetic": "/ˈnaɪt ˌmɑːrkɪt/",
+      "chinese": "夜市",
+      "example": "The night market opens after 6 PM.",
+      "example_cn": "夜市在下午6点后开放。",
+      "category": "entertainment",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0414",
+      "english": "sunset view",
+      "phonetic": "/ˈsʌnset vjuː/",
+      "chinese": "日落景色",
+      "example": "The sunset view here is spectacular.",
+      "example_cn": "这里的日落景色非常壮观。",
+      "category": "entertainment",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0415",
+      "english": "hiking trail",
+      "phonetic": "/ˈhaɪkɪŋ treɪl/",
+      "chinese": "徒步小径",
+      "example": "The hiking trail starts near the park entrance.",
+      "example_cn": "徒步小径从公园入口附近开始。",
+      "category": "entertainment",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0416",
+      "english": "immigration officer",
+      "phonetic": "/ˌɪmɪˈɡreɪʃn ˈɒfɪsər/",
+      "chinese": "移民官员",
+      "example": "The immigration officer checked my passport.",
+      "example_cn": "移民官检查了我的护照。",
+      "category": "airport",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0417",
+      "english": "boarding gate",
+      "phonetic": "/ˈbɔːrdɪŋ ɡeɪt/",
+      "chinese": "登机门",
+      "example": "Your boarding gate is B12.",
+      "example_cn": "您的登机门是B12。",
+      "category": "airport",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0418",
+      "english": "overweight baggage",
+      "phonetic": "/ˌəʊvəˈweɪt ˈbægɪdʒ/",
+      "chinese": "超重行李",
+      "example": "My baggage is overweight by 3 kilograms.",
+      "example_cn": "我的行李超重了3公斤。",
+      "category": "airport",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0419",
+      "english": "departure time",
+      "phonetic": "/dɪˈpɑːtʃər taɪm/",
+      "chinese": "出发时间",
+      "example": "What is the departure time for this flight?",
+      "example_cn": "这次航班的出发时间是什么？",
+      "category": "airport",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0420",
+      "english": "arrival time",
+      "phonetic": "/əˈraɪvl taɪm/",
+      "chinese": "到达时间",
+      "example": "The estimated arrival time is 3 PM.",
+      "example_cn": "预计到达时间是下午3点。",
+      "category": "airport",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0421",
+      "english": "domestic flight",
+      "phonetic": "/dəˈmestɪk flaɪt/",
+      "chinese": "国内航班",
+      "example": "I need to check in for a domestic flight.",
+      "example_cn": "我需要为国内航班办理登机手续。",
+      "category": "airport",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0422",
+      "english": "international flight",
+      "phonetic": "/ˌɪntəˈnæʃnəl flaɪt/",
+      "chinese": "国际航班",
+      "example": "Gate 5 is for international flights.",
+      "example_cn": "5号门用于国际航班。",
+      "category": "airport",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0423",
+      "english": "seat belt",
+      "phonetic": "/ˈsiːt belt/",
+      "chinese": "安全带",
+      "example": "Please fasten your seat belt.",
+      "example_cn": "请系好安全带。",
+      "category": "airport",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0424",
+      "english": "overhead compartment",
+      "phonetic": "/ˌəʊvəˈhed kəmˈpɑːrtmənt/",
+      "chinese": "头顶行李舱",
+      "example": "Please close the overhead compartment.",
+      "example_cn": "请关好头顶行李舱。",
+      "category": "airport",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0425",
+      "english": "baggage tag",
+      "phonetic": "/ˈbægɪdʒ tæɡ/",
+      "chinese": "行李标签",
+      "example": "Please attach the baggage tag to your suitcase.",
+      "example_cn": "请将行李标签贴到您的箱子上。",
+      "category": "airport",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0426",
+      "english": "flight attendant",
+      "phonetic": "/flaɪt əˈtendənt/",
+      "chinese": "空乘人员",
+      "example": "Please call the flight attendant if you need help.",
+      "example_cn": "如果需要帮助，请呼叫空乘人员。",
+      "category": "airport",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0427",
+      "english": "economy class",
+      "phonetic": "/ɪˈkɒnəmi klɑːs/",
+      "chinese": "经济舱",
+      "example": "I booked a seat in economy class.",
+      "example_cn": "我预订了经济舱的座位。",
+      "category": "airport",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0428",
+      "english": "business class",
+      "phonetic": "/ˈbɪznɪs klɑːs/",
+      "chinese": "商务舱",
+      "example": "The business class seats are very comfortable.",
+      "example_cn": "商务舱的座位非常舒适。",
+      "category": "airport",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0429",
+      "english": "in-flight meal",
+      "phonetic": "/ɪn flaɪt miːl/",
+      "chinese": "飞机餐",
+      "example": "Would you like the chicken or beef in-flight meal?",
+      "example_cn": "您想要鸡肉还是牛肉飞机餐？",
+      "category": "airport",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0430",
+      "english": "departure board",
+      "phonetic": "/dɪˈpɑːtʃər bɔːrd/",
+      "chinese": "出发信息显示屏",
+      "example": "Check the departure board for gate information.",
+      "example_cn": "查看出发信息显示屏了解登机门信息。",
+      "category": "airport",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0431",
+      "english": "arrivals hall",
+      "phonetic": "/əˈraɪvlz hɔːl/",
+      "chinese": "到达大厅",
+      "example": "Please meet me at the arrivals hall.",
+      "example_cn": "请在到达大厅等我。",
+      "category": "airport",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0432",
+      "english": "travel adapter",
+      "phonetic": "/ˈtrævl əˈdæptər/",
+      "chinese": "旅行转接头",
+      "example": "I forgot to pack my travel adapter.",
+      "example_cn": "我忘记带旅行转接头了。",
+      "category": "airport",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0433",
+      "english": "time zone",
+      "phonetic": "/ˈtaɪm zəʊn/",
+      "chinese": "时区",
+      "example": "We crossed three time zones on this flight.",
+      "example_cn": "我们这次飞行跨越了三个时区。",
+      "category": "airport",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0434",
+      "english": "stopover",
+      "phonetic": "/ˈstɒpəʊvər/",
+      "chinese": "中途停留",
+      "example": "We have a stopover in Singapore.",
+      "example_cn": "我们在新加坡有一次中途停留。",
+      "category": "airport",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0435",
+      "english": "e-ticket",
+      "phonetic": "/ˈiː ˌtɪkɪt/",
+      "chinese": "电子机票",
+      "example": "Please print your e-ticket or show it on your phone.",
+      "example_cn": "请打印您的电子机票或在手机上出示。",
+      "category": "airport",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0436",
+      "english": "hotel lobby",
+      "phonetic": "/ˈhəʊtl ˈlɒbi/",
+      "chinese": "酒店大堂",
+      "example": "Please wait for me in the hotel lobby.",
+      "example_cn": "请在酒店大堂等我。",
+      "category": "hotel",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0437",
+      "english": "room number",
+      "phonetic": "/ruːm ˈnʌmbər/",
+      "chinese": "房间号",
+      "example": "What is your room number?",
+      "example_cn": "您的房间号是多少？",
+      "category": "hotel",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0438",
+      "english": "ocean view room",
+      "phonetic": "/ˈəʊʃn vjuː ruːm/",
+      "chinese": "海景房",
+      "example": "I'd like an ocean view room if possible.",
+      "example_cn": "如果可以，我想要一间海景房。",
+      "category": "hotel",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0439",
+      "english": "swimming pool",
+      "phonetic": "/ˈswɪmɪŋ puːl/",
+      "chinese": "游泳池",
+      "example": "The swimming pool is open until 10 PM.",
+      "example_cn": "游泳池营业到晚上10点。",
+      "category": "hotel",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0440",
+      "english": "breakfast buffet",
+      "phonetic": "/ˈbrekfəst ˈbʊfeɪ/",
+      "chinese": "早餐自助餐",
+      "example": "The breakfast buffet starts at 7 AM.",
+      "example_cn": "早餐自助餐从早上7点开始。",
+      "category": "hotel",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0441",
+      "english": "hotel amenities",
+      "phonetic": "/həʊtel əˈmiːnɪtɪz/",
+      "chinese": "酒店设施",
+      "example": "The hotel amenities include a gym and spa.",
+      "example_cn": "酒店设施包括健身房和水疗中心。",
+      "category": "hotel",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0442",
+      "english": "room rate",
+      "phonetic": "/ruːm reɪt/",
+      "chinese": "房价",
+      "example": "What is the room rate per night?",
+      "example_cn": "每晚的房价是多少？",
+      "category": "hotel",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0443",
+      "english": "booking confirmation",
+      "phonetic": "/ˈbʊkɪŋ ˌkɒnfəˈmeɪʃn/",
+      "chinese": "预订确认",
+      "example": "Please show your booking confirmation at check-in.",
+      "example_cn": "请在入住时出示您的预订确认。",
+      "category": "hotel",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0444",
+      "english": "extra bed",
+      "phonetic": "/ˈekstrə bed/",
+      "chinese": "加床",
+      "example": "Can I request an extra bed?",
+      "example_cn": "我可以申请加床吗？",
+      "category": "hotel",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0445",
+      "english": "pillow",
+      "phonetic": "/ˈpɪləʊ/",
+      "chinese": "枕头",
+      "example": "Could I have an extra pillow, please?",
+      "example_cn": "请问可以多给我一个枕头吗？",
+      "category": "hotel",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0446",
+      "english": "blanket",
+      "phonetic": "/ˈblæŋkɪt/",
+      "chinese": "毯子",
+      "example": "I need an extra blanket.",
+      "example_cn": "我需要一条额外的毯子。",
+      "category": "hotel",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0447",
+      "english": "room cleaning",
+      "phonetic": "/ruːm ˈkliːnɪŋ/",
+      "chinese": "客房清洁",
+      "example": "Can you skip room cleaning today?",
+      "example_cn": "今天可以不打扫房间吗？",
+      "category": "hotel",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0448",
+      "english": "spa",
+      "phonetic": "/spɑː/",
+      "chinese": "水疗中心",
+      "example": "I'd like to book a treatment at the spa.",
+      "example_cn": "我想预约水疗中心的护理项目。",
+      "category": "hotel",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0449",
+      "english": "24-hour front desk",
+      "phonetic": "/ˌtwenti fɔːr ˈaʊər frʌnt desk/",
+      "chinese": "24小时前台",
+      "example": "The front desk is available 24 hours.",
+      "example_cn": "前台24小时提供服务。",
+      "category": "hotel",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0450",
+      "english": "noise complaint",
+      "phonetic": "/nɔɪz kəmˈpleɪnt/",
+      "chinese": "噪音投诉",
+      "example": "I'd like to make a noise complaint.",
+      "example_cn": "我想投诉噪音问题。",
+      "category": "hotel",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0451",
+      "english": "lost and found",
+      "phonetic": "/ˌlɒst ənd ˈfaʊnd/",
+      "chinese": "失物招领处",
+      "example": "I left my charger in the room. Is there a lost and found?",
+      "example_cn": "我把充电器落在房间里了，有失物招领处吗？",
+      "category": "hotel",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0452",
+      "english": "hotel shuttle",
+      "phonetic": "/ˈhəʊtl ˈʃʌtl/",
+      "chinese": "酒店班车",
+      "example": "Does the hotel have a shuttle to the airport?",
+      "example_cn": "酒店有去机场的班车吗？",
+      "category": "hotel",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0453",
+      "english": "buffet restaurant",
+      "phonetic": "/ˈbʊfeɪ ˈrestrɒnt/",
+      "chinese": "自助餐厅",
+      "example": "This is an all-you-can-eat buffet restaurant.",
+      "example_cn": "这是一家可以无限吃的自助餐厅。",
+      "category": "restaurant",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0454",
+      "english": "fine dining",
+      "phonetic": "/faɪn ˈdaɪnɪŋ/",
+      "chinese": "高档餐饮",
+      "example": "We'd like a fine dining experience tonight.",
+      "example_cn": "今晚我们想体验一下高档餐饮。",
+      "category": "restaurant",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0455",
+      "english": "outdoor seating",
+      "phonetic": "/ˈaʊtdɔːr ˈsiːtɪŋ/",
+      "chinese": "户外座位",
+      "example": "Do you have outdoor seating?",
+      "example_cn": "你们有户外座位吗？",
+      "category": "restaurant",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0456",
+      "english": "half portion",
+      "phonetic": "/hɑːf ˈpɔːrʃn/",
+      "chinese": "半份",
+      "example": "Can I have a half portion of pasta?",
+      "example_cn": "我可以要半份意大利面吗？",
+      "category": "restaurant",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0457",
+      "english": "refill",
+      "phonetic": "/ˌriːˈfɪl/",
+      "chinese": "续杯",
+      "example": "Free refills are included.",
+      "example_cn": "包含免费续杯。",
+      "category": "restaurant",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0458",
+      "english": "local specialty",
+      "phonetic": "/ˈləʊkl spəˈʃælɪti/",
+      "chinese": "当地特色菜",
+      "example": "I'd like to try a local specialty.",
+      "example_cn": "我想尝试一下当地特色菜。",
+      "category": "restaurant",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0459",
+      "english": "three-course meal",
+      "phonetic": "/ˌθriː kɔːrs ˈmiːl/",
+      "chinese": "三道式套餐",
+      "example": "A three-course meal includes starter, main, and dessert.",
+      "example_cn": "三道式套餐包括前菜、主菜和甜点。",
+      "category": "restaurant",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0460",
+      "english": "sharing platter",
+      "phonetic": "/ˈʃeərɪŋ ˈplætər/",
+      "chinese": "拼盘",
+      "example": "Let's order a sharing platter.",
+      "example_cn": "我们点一个拼盘吧。",
+      "category": "restaurant",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0461",
+      "english": "sparkling wine",
+      "phonetic": "/ˌspɑːklɪŋ ˈwaɪn/",
+      "chinese": "气泡葡萄酒",
+      "example": "Would you like some sparkling wine?",
+      "example_cn": "您想来点气泡葡萄酒吗？",
+      "category": "restaurant",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0462",
+      "english": "draft beer",
+      "phonetic": "/drɑːft bɪər/",
+      "chinese": "生啤",
+      "example": "I'll have a pint of draft beer.",
+      "example_cn": "我要一品脱生啤。",
+      "category": "restaurant",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0463",
+      "english": "non-alcoholic drink",
+      "phonetic": "/ˌnɒn ˌælkəˈhɒlɪk drɪŋk/",
+      "chinese": "无酒精饮料",
+      "example": "Do you have any non-alcoholic drinks?",
+      "example_cn": "你们有无酒精饮料吗？",
+      "category": "restaurant",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0464",
+      "english": "kids menu",
+      "phonetic": "/kɪdz ˈmenjuː/",
+      "chinese": "儿童菜单",
+      "example": "Do you have a kids menu?",
+      "example_cn": "你们有儿童菜单吗？",
+      "category": "restaurant",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0465",
+      "english": "reservation required",
+      "phonetic": "/ˌrezəˈveɪʃn rɪˈkwaɪərd/",
+      "chinese": "需要预约",
+      "example": "Reservation is required for dinner.",
+      "example_cn": "晚餐需要提前预约。",
+      "category": "restaurant",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0466",
+      "english": "happy hour",
+      "phonetic": "/ˈhæpi ˌaʊər/",
+      "chinese": "欢乐时光（折扣时段）",
+      "example": "Drinks are half price during happy hour.",
+      "example_cn": "欢乐时光期间饮品半价。",
+      "category": "restaurant",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0467",
+      "english": "food court",
+      "phonetic": "/fuːd kɔːrt/",
+      "chinese": "美食广场",
+      "example": "There is a food court on the third floor.",
+      "example_cn": "三楼有一个美食广场。",
+      "category": "restaurant",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0468",
+      "english": "outdoor cafe",
+      "phonetic": "/ˈaʊtdɔːr ˈkæfeɪ/",
+      "chinese": "户外咖啡馆",
+      "example": "Let's sit at the outdoor cafe.",
+      "example_cn": "我们坐在户外咖啡馆吧。",
+      "category": "restaurant",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0469",
+      "english": "vending machine",
+      "phonetic": "/ˈvendɪŋ məˌʃiːn/",
+      "chinese": "自动售货机",
+      "example": "There is a vending machine in the hallway.",
+      "example_cn": "走廊里有一台自动售货机。",
+      "category": "restaurant",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0470",
+      "english": "chopsticks",
+      "phonetic": "/ˈtʃɒpstɪks/",
+      "chinese": "筷子",
+      "example": "Can I have some chopsticks?",
+      "example_cn": "我可以要一双筷子吗？",
+      "category": "restaurant",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0471",
+      "english": "straw",
+      "phonetic": "/strɔː/",
+      "chinese": "吸管",
+      "example": "Can I have a straw for this drink?",
+      "example_cn": "这杯饮料可以给我吸管吗？",
+      "category": "restaurant",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0472",
+      "english": "ice",
+      "phonetic": "/aɪs/",
+      "chinese": "冰块",
+      "example": "I'd like my drink with ice, please.",
+      "example_cn": "我的饮料请加冰。",
+      "category": "restaurant",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0473",
+      "english": "takeaway box",
+      "phonetic": "/ˈteɪkəweɪ bɒks/",
+      "chinese": "外卖盒",
+      "example": "Can I have a takeaway box for this?",
+      "example_cn": "这个可以给我打包盒吗？",
+      "category": "restaurant",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0474",
+      "english": "tourist information center",
+      "phonetic": "/ˈtʊərɪst ˌɪnfəˈmeɪʃn ˈsentər/",
+      "chinese": "旅游信息中心",
+      "example": "The tourist information center is near the entrance.",
+      "example_cn": "旅游信息中心在入口附近。",
+      "category": "direction",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0475",
+      "english": "on the left",
+      "phonetic": "/ɒn ðə left/",
+      "chinese": "在左边",
+      "example": "The bank is on the left.",
+      "example_cn": "银行在左边。",
+      "category": "direction",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0476",
+      "english": "on the right",
+      "phonetic": "/ɒn ðə raɪt/",
+      "chinese": "在右边",
+      "example": "Turn right and the hotel is on the right.",
+      "example_cn": "右转后酒店就在右边。",
+      "category": "direction",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0477",
+      "english": "at the end of",
+      "phonetic": "/æt ðə end əv/",
+      "chinese": "在…的尽头",
+      "example": "The museum is at the end of this street.",
+      "example_cn": "博物馆在这条街的尽头。",
+      "category": "direction",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0478",
+      "english": "next to",
+      "phonetic": "/ˈnekst tuː/",
+      "chinese": "紧邻",
+      "example": "The pharmacy is next to the supermarket.",
+      "example_cn": "药店紧邻超市。",
+      "category": "direction",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0479",
+      "english": "opposite",
+      "phonetic": "/ˈɒpəzɪt/",
+      "chinese": "对面",
+      "example": "The restaurant is opposite the hotel.",
+      "example_cn": "餐厅在酒店对面。",
+      "category": "direction",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0480",
+      "english": "public transport",
+      "phonetic": "/ˈpʌblɪk ˈtrænspɔːrt/",
+      "chinese": "公共交通",
+      "example": "How do I get there by public transport?",
+      "example_cn": "乘公共交通怎么去那里？",
+      "category": "direction",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0481",
+      "english": "local map",
+      "phonetic": "/ˈləʊkl mæp/",
+      "chinese": "当地地图",
+      "example": "Can I get a local map from here?",
+      "example_cn": "我可以在这里拿到当地地图吗？",
+      "category": "direction",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0482",
+      "english": "get lost",
+      "phonetic": "/ɡet lɒst/",
+      "chinese": "迷路",
+      "example": "I think we got lost.",
+      "example_cn": "我觉得我们迷路了。",
+      "category": "direction",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0483",
+      "english": "road sign",
+      "phonetic": "/ˈrəʊd saɪn/",
+      "chinese": "路标",
+      "example": "Follow the road signs to the city center.",
+      "example_cn": "跟着路标走到市中心。",
+      "category": "direction",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0484",
+      "english": "pedestrian zone",
+      "phonetic": "/pəˈdestriən zəʊn/",
+      "chinese": "步行区",
+      "example": "This area is a pedestrian zone.",
+      "example_cn": "这个区域是步行区。",
+      "category": "direction",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0485",
+      "english": "dead end",
+      "phonetic": "/ˌded ˈend/",
+      "chinese": "死胡同",
+      "example": "This road is a dead end.",
+      "example_cn": "这条路是死胡同。",
+      "category": "direction",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0486",
+      "english": "shortcut",
+      "phonetic": "/ˈʃɔːtkʌt/",
+      "chinese": "捷径",
+      "example": "Is there a shortcut to the station?",
+      "example_cn": "去车站有捷径吗？",
+      "category": "direction",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0487",
+      "english": "ten minutes away",
+      "phonetic": "/ten ˈmɪnɪts əˈweɪ/",
+      "chinese": "十分钟路程",
+      "example": "The station is about ten minutes away.",
+      "example_cn": "车站大约十分钟路程。",
+      "category": "direction",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0488",
+      "english": "take the first turning",
+      "phonetic": "/teɪk ðə fɜːst ˈtɜːrnɪŋ/",
+      "chinese": "在第一个路口转",
+      "example": "Take the first turning on the left.",
+      "example_cn": "在左边第一个路口转。",
+      "category": "direction",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0489",
+      "english": "local market",
+      "phonetic": "/ˈləʊkl ˈmɑːrkɪt/",
+      "chinese": "当地市集",
+      "example": "Let's browse the local market for souvenirs.",
+      "example_cn": "我们去当地市集找纪念品吧。",
+      "category": "shopping",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0490",
+      "english": "window shopping",
+      "phonetic": "/ˈwɪndəʊ ˌʃɒpɪŋ/",
+      "chinese": "逛街不购物",
+      "example": "I'm just window shopping today.",
+      "example_cn": "我今天只是逛逛不买东西。",
+      "category": "shopping",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0491",
+      "english": "limited edition",
+      "phonetic": "/ˌlɪmɪtɪd ɪˈdɪʃn/",
+      "chinese": "限量版",
+      "example": "This is a limited edition souvenir.",
+      "example_cn": "这是一款限量版纪念品。",
+      "category": "shopping",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0492",
+      "english": "pay in cash",
+      "phonetic": "/peɪ ɪn kæʃ/",
+      "chinese": "用现金付款",
+      "example": "Can I pay in cash?",
+      "example_cn": "我可以用现金付款吗？",
+      "category": "shopping",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0493",
+      "english": "debit card",
+      "phonetic": "/ˈdebɪt kɑːrd/",
+      "chinese": "借记卡",
+      "example": "I'd like to pay with my debit card.",
+      "example_cn": "我想用借记卡付款。",
+      "category": "shopping",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0494",
+      "english": "mobile payment",
+      "phonetic": "/ˈməʊbaɪl ˈpeɪmənt/",
+      "chinese": "手机支付",
+      "example": "Do you accept mobile payment?",
+      "example_cn": "你们接受手机支付吗？",
+      "category": "shopping",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0495",
+      "english": "bargain price",
+      "phonetic": "/ˈbɑːɡɪn praɪs/",
+      "chinese": "特价",
+      "example": "This jacket is at a bargain price today.",
+      "example_cn": "这件夹克今天是特价。",
+      "category": "shopping",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0496",
+      "english": "clearance sale",
+      "phonetic": "/ˈklɪərəns seɪl/",
+      "chinese": "清仓甩卖",
+      "example": "Everything is 50% off in the clearance sale.",
+      "example_cn": "清仓甩卖所有商品半价。",
+      "category": "shopping",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0497",
+      "english": "try on",
+      "phonetic": "/traɪ ɒn/",
+      "chinese": "试穿",
+      "example": "Can I try this on?",
+      "example_cn": "我可以试穿这件吗？",
+      "category": "shopping",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0498",
+      "english": "size chart",
+      "phonetic": "/saɪz tʃɑːrt/",
+      "chinese": "尺码表",
+      "example": "Can I see the size chart?",
+      "example_cn": "我可以看看尺码表吗？",
+      "category": "shopping",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0499",
+      "english": "gift wrapping",
+      "phonetic": "/ˈɡɪft ˌræpɪŋ/",
+      "chinese": "礼品包装",
+      "example": "Can you do gift wrapping for this?",
+      "example_cn": "这个可以做礼品包装吗？",
+      "category": "shopping",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0500",
+      "english": "membership card",
+      "phonetic": "/ˈmembəʃɪp kɑːrd/",
+      "chinese": "会员卡",
+      "example": "Do you have a membership card?",
+      "example_cn": "您有会员卡吗？",
+      "category": "shopping",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0501",
+      "english": "points card",
+      "phonetic": "/pɔɪnts kɑːrd/",
+      "chinese": "积分卡",
+      "example": "Can I use my points card here?",
+      "example_cn": "我可以在这里使用积分卡吗？",
+      "category": "shopping",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0502",
+      "english": "open 24 hours",
+      "phonetic": "/ˈəʊpən ˌtwenti fɔːr ˈaʊərz/",
+      "chinese": "24小时营业",
+      "example": "The convenience store is open 24 hours.",
+      "example_cn": "便利店24小时营业。",
+      "category": "shopping",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0503",
+      "english": "flea market",
+      "phonetic": "/ˈfliː ˌmɑːrkɪt/",
+      "chinese": "跳蚤市场",
+      "example": "You can find antiques at the flea market.",
+      "example_cn": "你可以在跳蚤市场找到古董。",
+      "category": "shopping",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0504",
+      "english": "supermarket",
+      "phonetic": "/ˈsuːpəmɑːrkɪt/",
+      "chinese": "超级市场",
+      "example": "There is a supermarket near the hotel.",
+      "example_cn": "酒店附近有一家超市。",
+      "category": "shopping",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0505",
+      "english": "convenience store",
+      "phonetic": "/kənˈviːniəns stɔːr/",
+      "chinese": "便利店",
+      "example": "I'll stop at the convenience store.",
+      "example_cn": "我要去便利店一趟。",
+      "category": "shopping",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0506",
+      "english": "call an ambulance",
+      "phonetic": "/kɔːl ən ˈæmbjələns/",
+      "chinese": "叫救护车",
+      "example": "Please call an ambulance immediately.",
+      "example_cn": "请立即叫救护车。",
+      "category": "emergency",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0507",
+      "english": "first aid kit",
+      "phonetic": "/ˌfɜːrst ˈeɪd kɪt/",
+      "chinese": "急救箱",
+      "example": "Do you have a first aid kit?",
+      "example_cn": "你们有急救箱吗？",
+      "category": "emergency",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0508",
+      "english": "sunburn",
+      "phonetic": "/ˈsʌnbɜːrn/",
+      "chinese": "晒伤",
+      "example": "I have a bad sunburn.",
+      "example_cn": "我被晒伤了。",
+      "category": "emergency",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0509",
+      "english": "food poisoning",
+      "phonetic": "/fuːd ˈpɔɪzənɪŋ/",
+      "chinese": "食物中毒",
+      "example": "I think I have food poisoning.",
+      "example_cn": "我觉得我食物中毒了。",
+      "category": "emergency",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0510",
+      "english": "sprained ankle",
+      "phonetic": "/spreɪnd ˈæŋkl/",
+      "chinese": "脚踝扭伤",
+      "example": "I've sprained my ankle.",
+      "example_cn": "我的脚踝扭伤了。",
+      "category": "emergency",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0511",
+      "english": "dehydration",
+      "phonetic": "/ˌdiːhaɪˈdreɪʃn/",
+      "chinese": "脱水",
+      "example": "I feel dizzy due to dehydration.",
+      "example_cn": "我因脱水感到头晕。",
+      "category": "emergency",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0512",
+      "english": "motion sickness",
+      "phonetic": "/ˈməʊʃn ˌsɪknɪs/",
+      "chinese": "晕动症",
+      "example": "I have motion sickness on long bus rides.",
+      "example_cn": "坐长途汽车我会晕车。",
+      "category": "emergency",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0513",
+      "english": "antihistamine",
+      "phonetic": "/ˌæntiˈhɪstəmiːn/",
+      "chinese": "抗组胺药",
+      "example": "Do you have any antihistamine tablets?",
+      "example_cn": "你们有抗组胺药片吗？",
+      "category": "emergency",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0514",
+      "english": "sanitary napkin",
+      "phonetic": "/ˈsænɪtri ˈnæpkɪn/",
+      "chinese": "卫生巾",
+      "example": "Where can I buy sanitary napkins?",
+      "example_cn": "我在哪里可以买到卫生巾？",
+      "category": "emergency",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0515",
+      "english": "fever reducer",
+      "phonetic": "/ˈfiːvər rɪˌdjuːsər/",
+      "chinese": "退烧药",
+      "example": "I need a fever reducer.",
+      "example_cn": "我需要退烧药。",
+      "category": "emergency",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0516",
+      "english": "bandage",
+      "phonetic": "/ˈbændɪdʒ/",
+      "chinese": "绷带",
+      "example": "Can I have a bandage for this wound?",
+      "example_cn": "这个伤口可以给我绷带吗？",
+      "category": "emergency",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0517",
+      "english": "insect repellent",
+      "phonetic": "/ˈɪnsekt rɪˈpelənt/",
+      "chinese": "驱虫剂",
+      "example": "I need some insect repellent.",
+      "example_cn": "我需要驱虫剂。",
+      "category": "emergency",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0518",
+      "english": "sunscreen",
+      "phonetic": "/ˈsʌnskriːn/",
+      "chinese": "防晒霜",
+      "example": "Don't forget to apply sunscreen.",
+      "example_cn": "别忘了涂防晒霜。",
+      "category": "emergency",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0519",
+      "english": "consulate",
+      "phonetic": "/ˈkɒnsjələt/",
+      "chinese": "领事馆",
+      "example": "I need to contact the consulate.",
+      "example_cn": "我需要联系领事馆。",
+      "category": "emergency",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0520",
+      "english": "emergency hotline",
+      "phonetic": "/ɪˈmɜːrdʒənsi ˈhɒtlaɪn/",
+      "chinese": "紧急热线",
+      "example": "Call the emergency hotline for help.",
+      "example_cn": "拨打紧急热线寻求帮助。",
+      "category": "emergency",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0521",
+      "english": "bus route",
+      "phonetic": "/bʌs ruːt/",
+      "chinese": "公交路线",
+      "example": "Which bus route goes to the old town?",
+      "example_cn": "哪路公交车去老城区？",
+      "category": "transportation",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0522",
+      "english": "subway map",
+      "phonetic": "/ˈsʌbweɪ mæp/",
+      "chinese": "地铁图",
+      "example": "Can I have a subway map?",
+      "example_cn": "我可以要一张地铁图吗？",
+      "category": "transportation",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0523",
+      "english": "next stop",
+      "phonetic": "/nekst stɒp/",
+      "chinese": "下一站",
+      "example": "What is the next stop?",
+      "example_cn": "下一站是哪里？",
+      "category": "transportation",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0524",
+      "english": "last train",
+      "phonetic": "/lɑːst treɪn/",
+      "chinese": "末班车",
+      "example": "What time is the last train?",
+      "example_cn": "末班车是几点？",
+      "category": "transportation",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0525",
+      "english": "first train",
+      "phonetic": "/fɜːrst treɪn/",
+      "chinese": "首班车",
+      "example": "What time is the first train?",
+      "example_cn": "首班车是几点？",
+      "category": "transportation",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0526",
+      "english": "train station",
+      "phonetic": "/treɪn ˈsteɪʃn/",
+      "chinese": "火车站",
+      "example": "How do I get to the train station?",
+      "example_cn": "去火车站怎么走？",
+      "category": "transportation",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0527",
+      "english": "bus terminal",
+      "phonetic": "/bʌs ˈtɜːrmɪnl/",
+      "chinese": "汽车总站",
+      "example": "The bus terminal is 10 minutes away.",
+      "example_cn": "汽车总站10分钟路程。",
+      "category": "transportation",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0528",
+      "english": "rental car",
+      "phonetic": "/ˈrentl kɑːr/",
+      "chinese": "租赁汽车",
+      "example": "I'd like to pick up my rental car.",
+      "example_cn": "我想取我的租赁汽车。",
+      "category": "transportation",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0529",
+      "english": "driving license",
+      "phonetic": "/ˈdraɪvɪŋ ˈlaɪsəns/",
+      "chinese": "驾照",
+      "example": "I need to show my driving license.",
+      "example_cn": "我需要出示我的驾照。",
+      "category": "transportation",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0530",
+      "english": "fuel up",
+      "phonetic": "/ˈfjuːəl ʌp/",
+      "chinese": "加油",
+      "example": "I need to fuel up before the long drive.",
+      "example_cn": "长途驾驶前我需要加油。",
+      "category": "transportation",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0531",
+      "english": "speed limit",
+      "phonetic": "/ˈspiːd ˌlɪmɪt/",
+      "chinese": "限速",
+      "example": "The speed limit on this road is 60 km/h.",
+      "example_cn": "这条路的限速是每小时60公里。",
+      "category": "transportation",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0532",
+      "english": "traffic jam",
+      "phonetic": "/ˈtræfɪk dʒæm/",
+      "chinese": "交通堵塞",
+      "example": "There is a traffic jam on the main road.",
+      "example_cn": "主干道上发生了交通堵塞。",
+      "category": "transportation",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0533",
+      "english": "taxi meter",
+      "phonetic": "/ˈtæksi ˌmiːtər/",
+      "chinese": "出租车计价表",
+      "example": "Make sure the taxi meter is running.",
+      "example_cn": "确保出租车计价表在运行。",
+      "category": "transportation",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0534",
+      "english": "taxi stand",
+      "phonetic": "/ˈtæksi stænd/",
+      "chinese": "出租车站",
+      "example": "There is a taxi stand outside the hotel.",
+      "example_cn": "酒店外面有出租车站。",
+      "category": "transportation",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0535",
+      "english": "boat tour",
+      "phonetic": "/bəʊt tʊər/",
+      "chinese": "游船观光",
+      "example": "Let's book a boat tour of the harbor.",
+      "example_cn": "我们预订一个港口游船观光吧。",
+      "category": "transportation",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0536",
+      "english": "cable car",
+      "phonetic": "/ˈkeɪbl kɑːr/",
+      "chinese": "缆车",
+      "example": "The cable car takes you to the top of the mountain.",
+      "example_cn": "缆车带你到山顶。",
+      "category": "transportation",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0537",
+      "english": "airport express",
+      "phonetic": "/ˈeəpɔːrt ɪkˈspres/",
+      "chinese": "机场快线",
+      "example": "Take the airport express to save time.",
+      "example_cn": "乘机场快线节省时间。",
+      "category": "transportation",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0538",
+      "english": "travel pass",
+      "phonetic": "/ˈtrævl pɑːs/",
+      "chinese": "旅游通票",
+      "example": "A travel pass gives you unlimited rides.",
+      "example_cn": "旅游通票让你无限次乘车。",
+      "category": "transportation",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0539",
+      "english": "boat trip",
+      "phonetic": "/bəʊt trɪp/",
+      "chinese": "乘船游览",
+      "example": "A boat trip along the coast is wonderful.",
+      "example_cn": "沿海岸乘船游览非常美妙。",
+      "category": "entertainment",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0540",
+      "english": "city tour",
+      "phonetic": "/ˈsɪti tʊər/",
+      "chinese": "城市游览",
+      "example": "Book a half-day city tour.",
+      "example_cn": "预订半天城市游览。",
+      "category": "entertainment",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0541",
+      "english": "day trip",
+      "phonetic": "/deɪ trɪp/",
+      "chinese": "一日游",
+      "example": "We went on a day trip to the countryside.",
+      "example_cn": "我们去乡村进行了一日游。",
+      "category": "entertainment",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0542",
+      "english": "souvenir shop",
+      "phonetic": "/suːˈvɪənɪr ʃɒp/",
+      "chinese": "纪念品店",
+      "example": "Don't forget to stop at the souvenir shop.",
+      "example_cn": "别忘了去纪念品店看看。",
+      "category": "entertainment",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0543",
+      "english": "theme park",
+      "phonetic": "/ˈθiːm pɑːrk/",
+      "chinese": "主题公园",
+      "example": "The theme park is great for families.",
+      "example_cn": "主题公园非常适合家庭游玩。",
+      "category": "entertainment",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0544",
+      "english": "botanical garden",
+      "phonetic": "/bəˈtænɪkl ˈɡɑːrdn/",
+      "chinese": "植物园",
+      "example": "The botanical garden has rare tropical plants.",
+      "example_cn": "植物园里有珍稀热带植物。",
+      "category": "entertainment",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0545",
+      "english": "aquarium",
+      "phonetic": "/əˈkweəriəm/",
+      "chinese": "水族馆",
+      "example": "The aquarium has thousands of fish species.",
+      "example_cn": "水族馆里有数千种鱼类。",
+      "category": "entertainment",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0546",
+      "english": "zip line",
+      "phonetic": "/ˈzɪp laɪn/",
+      "chinese": "高空滑索",
+      "example": "Let's try the zip line over the canyon.",
+      "example_cn": "我们试试横跨峡谷的高空滑索吧。",
+      "category": "entertainment",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0547",
+      "english": "snorkeling",
+      "phonetic": "/ˈsnɔːrkəlɪŋ/",
+      "chinese": "浮潜",
+      "example": "The coral reef is perfect for snorkeling.",
+      "example_cn": "珊瑚礁非常适合浮潜。",
+      "category": "entertainment",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0548",
+      "english": "bungee jumping",
+      "phonetic": "/ˈbʌndʒi ˌdʒʌmpɪŋ/",
+      "chinese": "蹦极",
+      "example": "Are you brave enough to try bungee jumping?",
+      "example_cn": "你够勇敢去尝试蹦极吗？",
+      "category": "entertainment",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0549",
+      "english": "whale watching",
+      "phonetic": "/weɪl ˈwɒtʃɪŋ/",
+      "chinese": "观鲸",
+      "example": "Join a whale watching tour this morning.",
+      "example_cn": "今天早上参加一个观鲸之旅吧。",
+      "category": "entertainment",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0550",
+      "english": "cultural show",
+      "phonetic": "/ˈkʌltʃərəl ʃəʊ/",
+      "chinese": "文化表演",
+      "example": "The cultural show starts at 8 PM.",
+      "example_cn": "文化表演晚上8点开始。",
+      "category": "entertainment",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0551",
+      "english": "folk dance",
+      "phonetic": "/fəʊk dɑːns/",
+      "chinese": "民间舞蹈",
+      "example": "The folk dance performance was amazing.",
+      "example_cn": "民间舞蹈表演非常精彩。",
+      "category": "entertainment",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0552",
+      "english": "cooking class",
+      "phonetic": "/ˈkʊkɪŋ klɑːs/",
+      "chinese": "烹饪课",
+      "example": "I signed up for a local cooking class.",
+      "example_cn": "我报名参加了当地的烹饪课。",
+      "category": "entertainment",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0553",
+      "english": "wine tasting",
+      "phonetic": "/waɪn ˈteɪstɪŋ/",
+      "chinese": "葡萄酒品鉴",
+      "example": "The vineyard offers free wine tasting.",
+      "example_cn": "这家葡萄酒庄提供免费品酒。",
+      "category": "entertainment",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0554",
+      "english": "photography tour",
+      "phonetic": "/fəˈtɒɡrəfi tʊər/",
+      "chinese": "摄影之旅",
+      "example": "Join a photography tour at sunrise.",
+      "example_cn": "在日出时参加摄影之旅。",
+      "category": "entertainment",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0555",
+      "english": "spa treatment",
+      "phonetic": "/spɑː ˈtriːtmənt/",
+      "chinese": "水疗护理",
+      "example": "I booked a relaxing spa treatment.",
+      "example_cn": "我预约了一个放松的水疗护理。",
+      "category": "entertainment",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0556",
+      "english": "language exchange",
+      "phonetic": "/ˈlæŋɡwɪdʒ ɪksˈtʃeɪndʒ/",
+      "chinese": "语言交流",
+      "example": "Language exchange helps you practice English.",
+      "example_cn": "语言交流帮助你练习英语。",
+      "category": "entertainment",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0557",
+      "english": "local festival",
+      "phonetic": "/ˈləʊkl ˈfestɪvl/",
+      "chinese": "当地节日",
+      "example": "We were lucky to see a local festival.",
+      "example_cn": "我们很幸运地见到了当地节日。",
+      "category": "entertainment",
+      "source": "travel_phrase"
+    },
+    {
+      "id": "travel_0558",
+      "english": "street performance",
+      "phonetic": "/striːt pəˈfɔːrməns/",
+      "chinese": "街头表演",
+      "example": "The street performance drew a big crowd.",
+      "example_cn": "街头表演吸引了大批观众。",
+      "category": "entertainment",
+      "source": "travel_phrase"
+    }
+  ]
+}
