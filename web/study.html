@@ -100,6 +100,16 @@
     .speak-btn:hover { opacity: 1; transform: scale(1.15); }
     .speak-btn.speaking { opacity: 1; animation: pulse .6s infinite alternate; }
     @keyframes pulse { from { opacity: 0.6; } to { opacity: 1; } }
+
+    /* 测试题号导航 */
+    .quiz-layout { display: flex; gap: 12px; align-items: flex-start; }
+    .quiz-main { flex: 1; min-width: 0; }
+    .quiz-nav-panel { display: flex; flex-wrap: wrap; gap: 5px; width: 150px; flex-shrink: 0; padding-top: 38px; }
+    .q-circle { width: 26px; height: 26px; border-radius: 50%; border: 2px solid #cbd5e1; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: 700; cursor: pointer; background: #fff; color: #64748b; transition: all .15s; user-select: none; }
+    .q-circle:hover { border-color: #93c5fd; }
+    .q-circle.q-current { border-color: #3b82f6; box-shadow: 0 0 0 2px #bfdbfe; color: #1e40af; }
+    .q-circle.q-correct { background: #d1fae5; border-color: #059669; color: #065f46; }
+    .q-circle.q-wrong { background: #fee2e2; border-color: #dc2626; color: #991b1b; }
   </style>
 </head>
 <body>
@@ -192,6 +202,7 @@ let quizQuestions = [];
 let quizIdx = 0;
 let quizCorrect = 0;
 let quizAnswered = false;
+let quizResults = []; // 每题结果：null=未答，{correct,correctAnswer,userAnswer,example}
 
 // 默写模式状态
 let dictCurrent = null;
@@ -354,7 +365,20 @@ async function renderQuiz() {
     document.getElementById('content').innerHTML = '<div class="empty">今日没有学习内容，请先浏览单词</div>';
     return;
   }
+  // 初始化每题结果为 null（未作答）
+  quizResults = new Array(quizQuestions.length).fill(null);
   renderQuizQuestion();
+}
+
+// 构建题号圆圈导航 HTML
+function buildQuizNav() {
+  return quizQuestions.map((_, i) => {
+    const r = quizResults[i];
+    let cls = 'q-circle';
+    if (i === quizIdx) cls += ' q-current';
+    else if (r !== null) cls += r.correct ? ' q-correct' : ' q-wrong';
+    return `<div class="${cls}" onclick="jumpToQuiz(${i})">${i + 1}</div>`;
+  }).join('');
 }
 
 function renderQuizQuestion() {
@@ -363,21 +387,44 @@ function renderQuizQuestion() {
     return;
   }
   const q = quizQuestions[quizIdx];
-  quizAnswered = false;
-  const opts = q.options.map(o => `<button class="opt-btn" onclick="answerQuiz('${escAttr(o)}', '${q.word_id}')">${escHtml(o)}</button>`).join('');
+  const answered = quizResults[quizIdx]; // null 或已作答结果
+  quizAnswered = !!answered;
 
-  const qDone = todayProgress.quiz_count || 0;
-  const qDoneHint = qDone > 0 ? `<span style="float:right;color:#059669">今日已完成 ${todayProgress.quiz_correct}/${qDone} 题</span>` : '';
+  // 选项：已作答则展示对错样式并禁用
+  const opts = q.options.map(o => {
+    let cls = 'opt-btn';
+    if (answered) {
+      if (o === answered.correctAnswer) cls += ' correct';
+      else if (o === answered.userAnswer && !answered.correct) cls += ' wrong';
+    }
+    return `<button class="${cls}" ${answered ? 'disabled' : ''} onclick="answerQuiz('${escAttr(o)}','${q.word_id}')">${escHtml(o)}</button>`;
+  }).join('');
+
+  // 已作答时显示反馈和下一题按钮
+  const feedback = answered ? `
+    <div class="feedback ${answered.correct ? 'ok' : 'err'}">
+      ${answered.correct ? '✅ 正确！' : `❌ 答案是：${escHtml(answered.correctAnswer)}`}
+      ${answered.example ? `<div style="margin-top:6px;font-size:12px;font-style:italic">${escHtml(answered.example)}</div>` : ''}
+    </div>
+    <button class="btn btn-primary btn-block" style="margin-top:12px" onclick="nextQuiz()">
+      ${quizIdx + 1 < quizQuestions.length ? '下一题 →' : '查看结果'}
+    </button>` : '';
+
   document.getElementById('content').innerHTML = `
-    <div class="quiz-progress">第 ${quizIdx+1} / ${quizQuestions.length} 题${qDoneHint}</div>
-    <div class="card quiz-card">
-      <div style="display:flex;align-items:center;justify-content:center;gap:8px">
-        <div class="quiz-word">${escHtml(q.english)}</div>
-        <button class="speak-btn" onclick="speak('${escAttr(q.english)}',this)" title="朗读" style="font-size:22px">🔊</button>
+    <div class="quiz-layout">
+      <div class="quiz-main">
+        <div class="quiz-progress">第 ${quizIdx + 1} / ${quizQuestions.length} 题</div>
+        <div class="card quiz-card">
+          <div style="display:flex;align-items:center;justify-content:center;gap:8px">
+            <div class="quiz-word">${escHtml(q.english)}</div>
+            <button class="speak-btn" onclick="speak('${escAttr(q.english)}',this)" title="朗读" style="font-size:22px">🔊</button>
+          </div>
+          ${q.phonetic ? `<div class="quiz-ph">${escHtml(q.phonetic)}</div>` : ''}
+          <div class="quiz-options">${opts}</div>
+          <div id="quiz-feedback">${feedback}</div>
+        </div>
       </div>
-      ${q.phonetic ? `<div class="quiz-ph">${escHtml(q.phonetic)}</div>` : ''}
-      <div class="quiz-options">${opts}</div>
-      <div id="quiz-feedback"></div>
+      <div class="quiz-nav-panel">${buildQuizNav()}</div>
     </div>
   `;
 }
@@ -387,26 +434,26 @@ async function answerQuiz(answer, wordID) {
   quizAnswered = true;
   try {
     const result = await api('POST', '/study/quiz/answer', { word_id: wordID, answer });
-    const buttons = document.querySelectorAll('.opt-btn');
-    buttons.forEach(b => {
-      b.disabled = true;
-      if (b.textContent === result.correct_answer) b.classList.add('correct');
-      if (b.textContent === answer && !result.correct) b.classList.add('wrong');
-    });
     if (result.correct) quizCorrect++;
-    const fb = document.getElementById('quiz-feedback');
-    if (fb) {
-      fb.innerHTML = `<div class="feedback ${result.correct ? 'ok' : 'err'}">
-        ${result.correct ? '✅ 正确！' : `❌ 答案是：${escHtml(result.correct_answer)}`}
-        ${result.example ? `<div style="margin-top:6px;font-size:12px;font-style:italic">${escHtml(result.example)}</div>` : ''}
-      </div>
-      <button class="btn btn-primary btn-block" style="margin-top:12px" onclick="nextQuiz()">
-        ${quizIdx+1 < quizQuestions.length ? '下一题 →' : '查看结果'}
-      </button>`;
-    }
+    // 记录本题结果
+    quizResults[quizIdx] = {
+      correct: result.correct,
+      correctAnswer: result.correct_answer,
+      userAnswer: answer,
+      example: result.example,
+    };
+    // 重新渲染：更新圆圈颜色 + 显示反馈
+    renderQuizQuestion();
   } catch(e) {
     showToast('提交失败：' + e.message);
+    quizAnswered = false;
   }
+}
+
+// 点击题号圆圈跳转
+function jumpToQuiz(idx) {
+  quizIdx = idx;
+  renderQuizQuestion();
 }
 
 function nextQuiz() {
@@ -415,12 +462,14 @@ function nextQuiz() {
 }
 
 function renderQuizResult() {
-  const pct = quizQuestions.length > 0 ? Math.round(quizCorrect / quizQuestions.length * 100) : 0;
+  const correct = quizResults.filter(r => r && r.correct).length;
+  const total = quizQuestions.length;
+  const pct = total > 0 ? Math.round(correct / total * 100) : 0;
   document.getElementById('content').innerHTML = `
     <div class="card quiz-result">
       <div style="font-size:48px;margin-bottom:8px">🎉</div>
       <div class="result-score">${pct}分</div>
-      <div class="result-label">${quizCorrect} / ${quizQuestions.length} 答对</div>
+      <div class="result-label">${correct} / ${total} 答对</div>
       <div style="margin-top:20px;display:flex;gap:10px">
         <button class="btn btn-primary" style="flex:1" onclick="renderMode('quiz')">再测一次</button>
         <button class="btn btn-ghost" style="flex:1" onclick="switchMode('dictation')">去默写</button>
