@@ -560,10 +560,50 @@ async function loadDictationWord() {
 // 构建默写题号圆圈导航（历史 + 当前）
 function buildDictNav() {
   const circles = dictHistory.map((h, i) =>
-    `<div class="q-circle ${h.correct ? 'q-correct' : 'q-wrong'}" title="${escAttr(h.chinese)}">${i + 1}</div>`
+    `<div class="q-circle ${h.correct ? 'q-correct' : 'q-wrong'}" onclick="reviewDictWord(${i})" title="${escAttr(h.chinese)}">${i + 1}</div>`
   ).join('');
   const current = `<div class="q-circle q-current">${dictHistory.length + 1}</div>`;
   return circles + current;
+}
+
+// 点击历史圆圈：展示复习卡片
+function reviewDictWord(idx) {
+  const h = dictHistory[idx];
+  if (!h) return;
+  document.getElementById('content').innerHTML = `
+    <div class="quiz-layout">
+      <div class="quiz-main">
+        <div class="dict-counter" style="display:flex;align-items:center;gap:10px">
+          <span>第 ${idx + 1} 题复习</span>
+          <button class="btn btn-ghost" style="font-size:13px;padding:4px 12px" onclick="renderDictCard()">← 返回当前</button>
+        </div>
+        <div class="card dict-card">
+          <div class="dict-cn">${escHtml(h.chinese)}</div>
+          <div class="dict-result ${h.correct ? 'ok' : 'err'}" style="margin-top:12px">
+            ${h.correct ? '✅ 当时拼写正确' : '❌ 当时拼写错误'}
+          </div>
+          <div style="display:flex;align-items:center;justify-content:center;gap:8px;margin-top:6px">
+            <div class="dict-spelling">${escHtml(h.spelling || '')}</div>
+            ${h.spelling ? `<button class="speak-btn" onclick="speak('${escAttr(h.spelling)}',this)" title="朗读" style="font-size:20px">🔊</button>` : ''}
+          </div>
+          ${h.phonetic ? `<div class="dict-ph">${escHtml(h.phonetic)}</div>` : ''}
+        </div>
+      </div>
+      <div class="quiz-nav-panel">${buildDictNavWithCurrent(idx)}</div>
+    </div>
+  `;
+}
+
+// 构建带指定高亮位置的导航（复习时使用）
+function buildDictNavWithCurrent(activeIdx) {
+  const circles = dictHistory.map((h, i) => {
+    let cls = 'q-circle ' + (h.correct ? 'q-correct' : 'q-wrong');
+    if (i === activeIdx) cls += ' q-current';
+    return `<div class="${cls}" onclick="reviewDictWord(${i})" title="${escAttr(h.chinese)}">${i + 1}</div>`;
+  }).join('');
+  const pendingCls = activeIdx === -1 ? 'q-circle q-current' : 'q-circle';
+  const pending = `<div class="${pendingCls}" onclick="renderDictCard()" title="当前题目">${dictHistory.length + 1}</div>`;
+  return circles + pending;
 }
 
 function renderDictCard() {
@@ -592,7 +632,7 @@ function renderDictCard() {
           <button class="btn btn-primary btn-block" style="margin-top:14px" onclick="submitDict()" id="dictSubmitBtn">提交</button>
         </div>
       </div>
-      <div class="quiz-nav-panel">${buildDictNav()}</div>
+      <div class="quiz-nav-panel">${buildDictNavWithCurrent(-1)}</div>
     </div>
   `;
   document.getElementById('dictInput').focus();
@@ -617,8 +657,14 @@ async function submitDict() {
     const result = await api('POST', '/study/dictation/answer', { word_id: dictCurrent.word_id, input: val });
     dictCount++;
     if (result.correct) dictCorrectCount++;
-    // 记录到历史并保存
-    dictHistory.push({ id: dictCurrent.word_id, chinese: dictCurrent.chinese, correct: result.correct });
+    // 记录到历史并保存（含正确拼写和音标，供复习时展示）
+    dictHistory.push({
+      id: dictCurrent.word_id,
+      chinese: dictCurrent.chinese,
+      correct: result.correct,
+      spelling: result.correct_spelling,
+      phonetic: result.phonetic || '',
+    });
     saveDictSession();
     input.classList.add(result.correct ? 'correct' : 'wrong');
     const fb = document.getElementById('dictFeedback');
