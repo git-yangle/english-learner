@@ -290,7 +290,9 @@ func (s *studyService) SubmitQuizAnswer(wordID, answer string) (*QuizResult, err
 	}, nil
 }
 
-// GetDictationWord 获取下一个默写词（优先返回错误率高的词）
+// GetDictationWord 获取下一个默写词
+// 策略：优先选今天还没练过的词（保证每个词至少练一遍），
+// 全部练完后重置，再按历史错误率排序选取。
 func (s *studyService) GetDictationWord() (*DictationQuestion, error) {
 	// 1. 获取今日全部单词（新词+复习词合并）
 	plan, err := s.planSvc.GetTodayPlan()
@@ -317,13 +319,33 @@ func (s *studyService) GetDictationWord() (*DictationQuestion, error) {
 		return nil, fmt.Errorf("今日没有需要学习的单词")
 	}
 
-	// 2. 按错误率降序排序，取第一个
+	// 2. 查询今天已做过默写的词，优先从未练过的词中选取
+	todayRecords, _ := s.recordRepo.GetByDate(today())
+	practicedToday := make(map[string]bool)
+	for _, r := range todayRecords {
+		if r.Mode == domain.StudyModeDictation {
+			practicedToday[r.WordID] = true
+		}
+	}
+
+	// 候选池：今天还没练过的词；若全部练完则重置为所有词（开始第二轮）
+	candidates := make([]*domain.Word, 0, len(allWords))
+	for _, w := range allWords {
+		if !practicedToday[w.ID] {
+			candidates = append(candidates, w)
+		}
+	}
+	if len(candidates) == 0 {
+		candidates = allWords
+	}
+
+	// 3. 对候选池按历史错误率降序排序
 	type wordWithStat struct {
 		word      *domain.Word
 		errorRate float64
 	}
-	wordsWithStats := make([]wordWithStat, 0, len(allWords))
-	for _, w := range allWords {
+	wordsWithStats := make([]wordWithStat, 0, len(candidates))
+	for _, w := range candidates {
 		stats, err := s.reviewSvc.CalcWordStats(w.ID)
 		if err != nil {
 			wordsWithStats = append(wordsWithStats, wordWithStat{word: w, errorRate: 0})
@@ -335,12 +357,11 @@ func (s *studyService) GetDictationWord() (*DictationQuestion, error) {
 		return wordsWithStats[i].errorRate > wordsWithStats[j].errorRate
 	})
 
-	// 3. 若所有词错误率为 0（全新词），随机返回一个
+	// 4. 有历史错误则取错误率最高的，否则随机选取
 	var selected *domain.Word
 	if wordsWithStats[0].errorRate > 0 {
 		selected = wordsWithStats[0].word
 	} else {
-		// 全部错误率为 0，随机选取
 		idx := rand.Intn(len(wordsWithStats))
 		selected = wordsWithStats[idx].word
 	}
