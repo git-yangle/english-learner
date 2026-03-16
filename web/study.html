@@ -435,14 +435,14 @@ function renderQuizQuestion() {
   const answered = quizResults[quizIdx]; // null 或已作答结果
   quizAnswered = !!answered;
 
-  // 选项：已作答则展示对错样式并禁用
-  const opts = q.options.map(o => {
+  // 选项：传 optIdx 而非原始字符串，避免特殊字符在 onclick 中注入问题
+  const opts = q.options.map((o, optIdx) => {
     let cls = 'opt-btn';
     if (answered) {
       if (o === answered.correctAnswer) cls += ' correct';
       else if (o === answered.userAnswer && !answered.correct) cls += ' wrong';
     }
-    return `<button class="${cls}" ${answered ? 'disabled' : ''} onclick="answerQuiz('${escAttr(o)}','${q.word_id}')">${escHtml(o)}</button>`;
+    return `<button class="${cls}" ${answered ? 'disabled' : ''} onclick="answerQuiz(${optIdx},'${q.word_id}')">${escHtml(o)}</button>`;
   }).join('');
 
   // 已作答时显示反馈和下一题按钮
@@ -474,9 +474,11 @@ function renderQuizQuestion() {
   `;
 }
 
-async function answerQuiz(answer, wordID) {
+async function answerQuiz(optIdx, wordID) {
   if (quizAnswered) return;
   quizAnswered = true;
+  // 通过下标取原始选项值，避免特殊字符在 onclick 中被截断
+  const answer = quizQuestions[quizIdx].options[optIdx];
   try {
     const result = await api('POST', '/study/quiz/answer', { word_id: wordID, answer });
     if (result.correct) quizCorrect++;

@@ -5,1696 +5,6 @@
   "words": [
     {
       "id": "travel_0001",
-      "english": "fruit",
-      "phonetic": "fru:t",
-      "chinese": "水果",
-      "example": "",
-      "example_cn": "",
-      "category": "restaurant",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0002",
-      "english": "person",
-      "phonetic": "'pә:sn",
-      "chinese": "人, 人身, 人称\\",
-      "example": "",
-      "example_cn": "",
-      "category": "general",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0003",
-      "english": "swim",
-      "phonetic": "swim",
-      "chinese": "游泳",
-      "example": "",
-      "example_cn": "",
-      "category": "entertainment",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0004",
-      "english": "talk",
-      "phonetic": "tɒ:k",
-      "chinese": "谈话",
-      "example": "",
-      "example_cn": "",
-      "category": "general",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0005",
-      "english": "tomorrow",
-      "phonetic": "tә'mɒ:rәu",
-      "chinese": "明天",
-      "example": "",
-      "example_cn": "",
-      "category": "general",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0006",
-      "english": "cross",
-      "phonetic": "krɒs",
-      "chinese": "十字架",
-      "example": "",
-      "example_cn": "",
-      "category": "direction",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0007",
-      "english": "medicine",
-      "phonetic": "'medisin",
-      "chinese": "药, 医学, 内科\\",
-      "example": "",
-      "example_cn": "",
-      "category": "emergency",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0008",
-      "english": "shop",
-      "phonetic": "ʃɒp",
-      "chinese": "商店",
-      "example": "",
-      "example_cn": "",
-      "category": "shopping",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0009",
-      "english": "tip",
-      "phonetic": "tip",
-      "chinese": "顶, 尖端, 梢,",
-      "example": "",
-      "example_cn": "",
-      "category": "restaurant",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0010",
-      "english": "transport",
-      "phonetic": "træns'pɒ:t",
-      "chinese": "运输",
-      "example": "",
-      "example_cn": "",
-      "category": "transportation",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0011",
-      "english": "afford",
-      "phonetic": "ә'fɒ:d",
-      "chinese": "买得起",
-      "example": "",
-      "example_cn": "",
-      "category": "shopping",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0012",
-      "english": "connect",
-      "phonetic": "kә'nekt",
-      "chinese": "连接",
-      "example": "",
-      "example_cn": "",
-      "category": "airport",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0013",
-      "english": "express",
-      "phonetic": "ik'spres",
-      "chinese": "快车",
-      "example": "",
-      "example_cn": "",
-      "category": "transportation",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0014",
-      "english": "floor",
-      "phonetic": "flɒ:",
-      "chinese": "地板",
-      "example": "",
-      "example_cn": "",
-      "category": "hotel",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0015",
-      "english": "injury",
-      "phonetic": "'indʒәri",
-      "chinese": "伤害",
-      "example": "",
-      "example_cn": "",
-      "category": "emergency",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0016",
-      "english": "know",
-      "phonetic": "nәu",
-      "chinese": "知道",
-      "example": "",
-      "example_cn": "",
-      "category": "general",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0017",
-      "english": "left",
-      "phonetic": "left",
-      "chinese": "左边的",
-      "example": "",
-      "example_cn": "",
-      "category": "direction",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0018",
-      "english": "sea",
-      "phonetic": "si:",
-      "chinese": "海, 海洋, 海浪,",
-      "example": "",
-      "example_cn": "",
-      "category": "entertainment",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0019",
-      "english": "abroad",
-      "phonetic": "ә'brɒ:d",
-      "chinese": "往国外",
-      "example": "",
-      "example_cn": "",
-      "category": "airport",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0020",
-      "english": "bowl",
-      "phonetic": "bәul",
-      "chinese": "碗, 木球, 大酒杯",
-      "example": "",
-      "example_cn": "",
-      "category": "restaurant",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0021",
-      "english": "coffee",
-      "phonetic": "'kɒfi",
-      "chinese": "咖啡",
-      "example": "",
-      "example_cn": "",
-      "category": "restaurant",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0022",
-      "english": "pain",
-      "phonetic": "pein",
-      "chinese": "痛苦",
-      "example": "",
-      "example_cn": "",
-      "category": "emergency",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0023",
-      "english": "please",
-      "phonetic": "pli:z",
-      "chinese": "请\\nvt. 使高兴",
-      "example": "",
-      "example_cn": "",
-      "category": "general",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0024",
-      "english": "show",
-      "phonetic": "ʃәu",
-      "chinese": "显示",
-      "example": "",
-      "example_cn": "",
-      "category": "general",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0025",
-      "english": "boat",
-      "phonetic": "bәut",
-      "chinese": "船\\nvi. 乘船\\",
-      "example": "",
-      "example_cn": "",
-      "category": "transportation",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0026",
-      "english": "bring",
-      "phonetic": "briŋ",
-      "chinese": "带来",
-      "example": "",
-      "example_cn": "",
-      "category": "general",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0027",
-      "english": "go",
-      "phonetic": "gou",
-      "chinese": "去, 走, 达到,",
-      "example": "",
-      "example_cn": "",
-      "category": "direction",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0028",
-      "english": "north",
-      "phonetic": "nɒ:θ",
-      "chinese": "北方",
-      "example": "",
-      "example_cn": "",
-      "category": "direction",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0029",
-      "english": "road",
-      "phonetic": "rәud",
-      "chinese": "路, 道路, 公路,",
-      "example": "",
-      "example_cn": "",
-      "category": "direction",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0030",
-      "english": "spend",
-      "phonetic": "spend",
-      "chinese": "花费",
-      "example": "",
-      "example_cn": "",
-      "category": "shopping",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0031",
-      "english": "take",
-      "phonetic": "teik",
-      "chinese": "拿, 取, 抓, 带",
-      "example": "",
-      "example_cn": "",
-      "category": "general",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0032",
-      "english": "woman",
-      "phonetic": "'wumәn",
-      "chinese": "女人",
-      "example": "",
-      "example_cn": "",
-      "category": "general",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0033",
-      "english": "area",
-      "phonetic": "'єәriә",
-      "chinese": "区域",
-      "example": "",
-      "example_cn": "",
-      "category": "general",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0034",
-      "english": "bar",
-      "phonetic": "bɑ:",
-      "chinese": "条, 棒, 酒吧,",
-      "example": "",
-      "example_cn": "",
-      "category": "restaurant",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0035",
-      "english": "forest",
-      "phonetic": "'fɒrist",
-      "chinese": "森林",
-      "example": "",
-      "example_cn": "",
-      "category": "entertainment",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0036",
-      "english": "thirsty",
-      "phonetic": "'θә:sti",
-      "chinese": "口渴的",
-      "example": "",
-      "example_cn": "",
-      "category": "restaurant",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0037",
-      "english": "along",
-      "phonetic": "ә'lɒŋ",
-      "chinese": "平行地",
-      "example": "",
-      "example_cn": "",
-      "category": "direction",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0038",
-      "english": "cold",
-      "phonetic": "kәuld",
-      "chinese": "感冒",
-      "example": "",
-      "example_cn": "",
-      "category": "restaurant",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0039",
-      "english": "insurance",
-      "phonetic": "in'ʃurәns",
-      "chinese": "保险",
-      "example": "",
-      "example_cn": "",
-      "category": "emergency",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0040",
-      "english": "oil",
-      "phonetic": "ɒil",
-      "chinese": "油, 石油, 油画颜",
-      "example": "",
-      "example_cn": "",
-      "category": "restaurant",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0041",
-      "english": "potato",
-      "phonetic": "pә'teitәu",
-      "chinese": "马铃薯",
-      "example": "",
-      "example_cn": "",
-      "category": "restaurant",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0042",
-      "english": "spoon",
-      "phonetic": "spu:n",
-      "chinese": "匙, 调羹, 匙形工",
-      "example": "",
-      "example_cn": "",
-      "category": "restaurant",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0043",
-      "english": "think",
-      "phonetic": "θiŋk",
-      "chinese": "想, 考虑, 想起,",
-      "example": "",
-      "example_cn": "",
-      "category": "general",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0044",
-      "english": "throat",
-      "phonetic": "θrәut",
-      "chinese": "咽喉",
-      "example": "",
-      "example_cn": "",
-      "category": "emergency",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0045",
-      "english": "aid",
-      "phonetic": "eid",
-      "chinese": "帮助",
-      "example": "",
-      "example_cn": "",
-      "category": "emergency",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0046",
-      "english": "answer",
-      "phonetic": "'ɑ:nsә",
-      "chinese": "答案",
-      "example": "",
-      "example_cn": "",
-      "category": "general",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0047",
-      "english": "dinner",
-      "phonetic": "'dinә",
-      "chinese": "晚餐",
-      "example": "",
-      "example_cn": "",
-      "category": "restaurant",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0048",
-      "english": "fish",
-      "phonetic": "fiʃ",
-      "chinese": "鱼, 鱼肉, 鱼类,",
-      "example": "",
-      "example_cn": "",
-      "category": "restaurant",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0049",
-      "english": "name",
-      "phonetic": "neim",
-      "chinese": "名字",
-      "example": "",
-      "example_cn": "",
-      "category": "general",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0050",
-      "english": "pay",
-      "phonetic": "pei",
-      "chinese": "薪资",
-      "example": "",
-      "example_cn": "",
-      "category": "shopping",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0051",
-      "english": "size",
-      "phonetic": "saiz",
-      "chinese": "大小",
-      "example": "",
-      "example_cn": "",
-      "category": "shopping",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0052",
-      "english": "bag",
-      "phonetic": "bæg",
-      "chinese": "袋子",
-      "example": "",
-      "example_cn": "",
-      "category": "airport",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0053",
-      "english": "exhibition",
-      "phonetic": ".eksi'biʃәn",
-      "chinese": "表现",
-      "example": "",
-      "example_cn": "",
-      "category": "entertainment",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0054",
-      "english": "help",
-      "phonetic": "help",
-      "chinese": "帮忙, 帮助者, 补救办法, 有益的东西\\nvt. 帮助, 帮忙, 接济, 治疗, 款待\\nvi. 有用, 救命, 招待\\n[计] 帮助, 帮助程序",
-      "example": "",
-      "example_cn": "",
-      "category": "emergency",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0055",
-      "english": "plate",
-      "phonetic": "pleit",
-      "chinese": "碟, 盘子, 盆中物",
-      "example": "",
-      "example_cn": "",
-      "category": "restaurant",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0056",
-      "english": "single",
-      "phonetic": "'siŋgl",
-      "chinese": "单身的",
-      "example": "",
-      "example_cn": "",
-      "category": "hotel",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0057",
-      "english": "try",
-      "phonetic": "trai",
-      "chinese": "尝试",
-      "example": "",
-      "example_cn": "",
-      "category": "general",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0058",
-      "english": "weather",
-      "phonetic": "'weðә",
-      "chinese": "天气",
-      "example": "",
-      "example_cn": "",
-      "category": "entertainment",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0059",
-      "english": "breathe",
-      "phonetic": "bri:ð",
-      "chinese": "呼吸",
-      "example": "",
-      "example_cn": "",
-      "category": "emergency",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0060",
-      "english": "cost",
-      "phonetic": "kɒst",
-      "chinese": "代价",
-      "example": "",
-      "example_cn": "",
-      "category": "shopping",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0061",
-      "english": "elevator",
-      "phonetic": "'eliveitә",
-      "chinese": "电梯",
-      "example": "",
-      "example_cn": "",
-      "category": "hotel",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0062",
-      "english": "eye",
-      "phonetic": "ai",
-      "chinese": "眼睛",
-      "example": "",
-      "example_cn": "",
-      "category": "emergency",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0063",
-      "english": "nearby",
-      "phonetic": "'niәbai",
-      "chinese": "附近的",
-      "example": "",
-      "example_cn": "",
-      "category": "direction",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0064",
-      "english": "purchase",
-      "phonetic": "'pә:tʃәs",
-      "chinese": "购买",
-      "example": "",
-      "example_cn": "",
-      "category": "shopping",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0065",
-      "english": "route",
-      "phonetic": "ru:t",
-      "chinese": "路径",
-      "example": "",
-      "example_cn": "",
-      "category": "direction",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0066",
-      "english": "view",
-      "phonetic": "vju:",
-      "chinese": "视野",
-      "example": "",
-      "example_cn": "",
-      "category": "entertainment",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0067",
-      "english": "call",
-      "phonetic": "kɒ:l",
-      "chinese": "呼叫, 访问, 打电话, 号召, 召集, 要求\\nvt. 呼叫, 召集, 打电话\\nvi. 叫喊, 访问, 叫牌\\n[计] 调用",
-      "example": "",
-      "example_cn": "",
-      "category": "general",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0068",
-      "english": "cloth",
-      "phonetic": "klɒ:θ. klɒθ",
-      "chinese": "布料",
-      "example": "",
-      "example_cn": "",
-      "category": "shopping",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0069",
-      "english": "fresh",
-      "phonetic": "freʃ",
-      "chinese": "新鲜的",
-      "example": "",
-      "example_cn": "",
-      "category": "restaurant",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0070",
-      "english": "locate",
-      "phonetic": "'lәukeit",
-      "chinese": "找出",
-      "example": "",
-      "example_cn": "",
-      "category": "direction",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0071",
-      "english": "lost",
-      "phonetic": "lɒst",
-      "chinese": "失去的",
-      "example": "",
-      "example_cn": "",
-      "category": "emergency",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0072",
-      "english": "river",
-      "phonetic": "'rivә",
-      "chinese": "河, 江\\n[法]",
-      "example": "",
-      "example_cn": "",
-      "category": "entertainment",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0073",
-      "english": "straight",
-      "phonetic": "streit",
-      "chinese": "直线",
-      "example": "",
-      "example_cn": "",
-      "category": "direction",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0074",
-      "english": "car",
-      "phonetic": "kɑ:",
-      "chinese": "汽车",
-      "example": "",
-      "example_cn": "",
-      "category": "transportation",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0075",
-      "english": "cut",
-      "phonetic": "kʌt",
-      "chinese": "切口",
-      "example": "",
-      "example_cn": "",
-      "category": "emergency",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0076",
-      "english": "empty",
-      "phonetic": "'empti",
-      "chinese": "空的",
-      "example": "",
-      "example_cn": "",
-      "category": "general",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0077",
-      "english": "exit",
-      "phonetic": "'eksit",
-      "chinese": "出口, 退场, 离去, 去世\\nvi. 退出, 脱离, 去世\\n[计] 退出",
-      "example": "",
-      "example_cn": "",
-      "category": "direction",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0078",
-      "english": "pack",
-      "phonetic": "pæk",
-      "chinese": "包裹",
-      "example": "",
-      "example_cn": "",
-      "category": "airport",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0079",
-      "english": "police",
-      "phonetic": "pә'li:s",
-      "chinese": "警察",
-      "example": "",
-      "example_cn": "",
-      "category": "emergency",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0080",
-      "english": "week",
-      "phonetic": "wi:k",
-      "chinese": "星期",
-      "example": "",
-      "example_cn": "",
-      "category": "general",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0081",
-      "english": "buy",
-      "phonetic": "bai",
-      "chinese": "买, 获得\\nvi.",
-      "example": "",
-      "example_cn": "",
-      "category": "shopping",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0082",
-      "english": "today",
-      "phonetic": "tә'dei",
-      "chinese": "今天",
-      "example": "",
-      "example_cn": "",
-      "category": "general",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0083",
-      "english": "cheese",
-      "phonetic": "tʃi:z",
-      "chinese": "乳酪\\n[化] 干酪",
-      "example": "",
-      "example_cn": "",
-      "category": "restaurant",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0084",
-      "english": "colour",
-      "phonetic": "'kʌlә",
-      "chinese": "颜色",
-      "example": "",
-      "example_cn": "",
-      "category": "shopping",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0085",
-      "english": "follow",
-      "phonetic": "'fɒlәu",
-      "chinese": "跟随",
-      "example": "",
-      "example_cn": "",
-      "category": "direction",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0086",
-      "english": "hill",
-      "phonetic": "hil",
-      "chinese": "小山",
-      "example": "",
-      "example_cn": "",
-      "category": "entertainment",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0087",
-      "english": "lunch",
-      "phonetic": "lʌntʃ",
-      "chinese": "午餐",
-      "example": "",
-      "example_cn": "",
-      "category": "restaurant",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0088",
-      "english": "open",
-      "phonetic": "'әupәn",
-      "chinese": "公开, 户外, 空旷\\na. 开着的, 开放的, 开阔的, 营业着的, 公开的, 悬而未决的\\nvt. 打开, 公开, 开放\\nvi. 展开, 开始, 展现\\n[计] 打开指令",
-      "example": "",
-      "example_cn": "",
-      "category": "general",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0089",
-      "english": "price",
-      "phonetic": "prais",
-      "chinese": "价格",
-      "example": "",
-      "example_cn": "",
-      "category": "shopping",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0090",
-      "english": "tooth",
-      "phonetic": "tu:θ",
-      "chinese": "牙齿",
-      "example": "",
-      "example_cn": "",
-      "category": "emergency",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0091",
-      "english": "amount",
-      "phonetic": "ә'maunt",
-      "chinese": "总数",
-      "example": "",
-      "example_cn": "",
-      "category": "shopping",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0092",
-      "english": "bill",
-      "phonetic": "bil",
-      "chinese": "帐单",
-      "example": "",
-      "example_cn": "",
-      "category": "restaurant",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0093",
-      "english": "chocolate",
-      "phonetic": "'tʃɒkәlit",
-      "chinese": "巧克力\\na. 巧克",
-      "example": "",
-      "example_cn": "",
-      "category": "restaurant",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0094",
-      "english": "complaint",
-      "phonetic": "kәm'pleint",
-      "chinese": "诉苦, 抱怨, 控诉\\n[医] 陈诉",
-      "example": "",
-      "example_cn": "",
-      "category": "hotel",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0095",
-      "english": "get",
-      "phonetic": "get",
-      "chinese": "得到",
-      "example": "",
-      "example_cn": "",
-      "category": "general",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0096",
-      "english": "menu",
-      "phonetic": "'menju:",
-      "chinese": "菜单",
-      "example": "",
-      "example_cn": "",
-      "category": "restaurant",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0097",
-      "english": "noise",
-      "phonetic": "nɒiz",
-      "chinese": "噪音",
-      "example": "",
-      "example_cn": "",
-      "category": "hotel",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0098",
-      "english": "question",
-      "phonetic": "'kwestʃәn",
-      "chinese": "问题",
-      "example": "",
-      "example_cn": "",
-      "category": "general",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0099",
-      "english": "guide",
-      "phonetic": "gaid",
-      "chinese": "引导者",
-      "example": "",
-      "example_cn": "",
-      "category": "entertainment",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0100",
-      "english": "location",
-      "phonetic": "lәu'keiʃәn",
-      "chinese": "位置",
-      "example": "",
-      "example_cn": "",
-      "category": "direction",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0101",
-      "english": "long",
-      "phonetic": "lɒŋ",
-      "chinese": "长的",
-      "example": "",
-      "example_cn": "",
-      "category": "general",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0102",
-      "english": "night",
-      "phonetic": "nait",
-      "chinese": "夜, 夜晚, 晚上,",
-      "example": "",
-      "example_cn": "",
-      "category": "general",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0103",
-      "english": "passenger",
-      "phonetic": "'pæsindʒә",
-      "chinese": "乘客",
-      "example": "",
-      "example_cn": "",
-      "category": "transportation",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0104",
-      "english": "quiet",
-      "phonetic": "'kwaiәt",
-      "chinese": "安静",
-      "example": "",
-      "example_cn": "",
-      "category": "hotel",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0105",
-      "english": "turn",
-      "phonetic": "tә:n",
-      "chinese": "转弯",
-      "example": "",
-      "example_cn": "",
-      "category": "direction",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0106",
-      "english": "vegetable",
-      "phonetic": "'vedʒәtәbl",
-      "chinese": "蔬菜",
-      "example": "",
-      "example_cn": "",
-      "category": "restaurant",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0107",
-      "english": "cycle",
-      "phonetic": "'saikl",
-      "chinese": "周期, 循环, 自行车, 一段时间, 整套\\nvi. 循环, 轮转, 骑自行车\\nvt. 使循环, 使轮转\\n[计] 环路",
-      "example": "",
-      "example_cn": "",
-      "category": "transportation",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0108",
-      "english": "knife",
-      "phonetic": "naif",
-      "chinese": "小刀",
-      "example": "",
-      "example_cn": "",
-      "category": "restaurant",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0109",
-      "english": "light",
-      "phonetic": "lait",
-      "chinese": "光, 光亮, 灯,",
-      "example": "",
-      "example_cn": "",
-      "category": "general",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0110",
-      "english": "ship",
-      "phonetic": "ʃip",
-      "chinese": "船, 舰\\nvt.",
-      "example": "",
-      "example_cn": "",
-      "category": "transportation",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0111",
-      "english": "spicy",
-      "phonetic": "'spaisi",
-      "chinese": "香的",
-      "example": "",
-      "example_cn": "",
-      "category": "restaurant",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0112",
-      "english": "visit",
-      "phonetic": "'vizit",
-      "chinese": "拜访",
-      "example": "",
-      "example_cn": "",
-      "category": "entertainment",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0113",
-      "english": "weight",
-      "phonetic": "weit",
-      "chinese": "重, 重量, 体重,",
-      "example": "",
-      "example_cn": "",
-      "category": "airport",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0114",
-      "english": "wrap",
-      "phonetic": "ræp",
-      "chinese": "外套",
-      "example": "",
-      "example_cn": "",
-      "category": "shopping",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0115",
-      "english": "bicycle",
-      "phonetic": "'baisikl",
-      "chinese": "自行车",
-      "example": "",
-      "example_cn": "",
-      "category": "transportation",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0116",
-      "english": "doctor",
-      "phonetic": "'dɒktә",
-      "chinese": "医生",
-      "example": "",
-      "example_cn": "",
-      "category": "emergency",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0117",
-      "english": "leave",
-      "phonetic": "li:v",
-      "chinese": "许可",
-      "example": "",
-      "example_cn": "",
-      "category": "general",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0118",
-      "english": "swallow",
-      "phonetic": "'swɒlәu",
-      "chinese": "燕子",
-      "example": "",
-      "example_cn": "",
-      "category": "emergency",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0119",
-      "english": "adventure",
-      "phonetic": "әd'ventʃә",
-      "chinese": "冒险",
-      "example": "",
-      "example_cn": "",
-      "category": "entertainment",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0120",
-      "english": "direction",
-      "phonetic": "di'rekʃәn",
-      "chinese": "方向, 指导, 趋势\\n[计] 方向",
-      "example": "",
-      "example_cn": "",
-      "category": "direction",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0121",
-      "english": "ear",
-      "phonetic": "iә",
-      "chinese": "耳朵",
-      "example": "",
-      "example_cn": "",
-      "category": "emergency",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0122",
-      "english": "lake",
-      "phonetic": "leik",
-      "chinese": "湖, 池, 色淀\\n",
-      "example": "",
-      "example_cn": "",
-      "category": "entertainment",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0123",
-      "english": "soap",
-      "phonetic": "sәup",
-      "chinese": "肥皂",
-      "example": "",
-      "example_cn": "",
-      "category": "hotel",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0124",
-      "english": "air",
-      "phonetic": "єә",
-      "chinese": "空气",
-      "example": "",
-      "example_cn": "",
-      "category": "airport",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0125",
-      "english": "broken",
-      "phonetic": "'brәukәn",
-      "chinese": "坏掉的",
-      "example": "",
-      "example_cn": "",
-      "category": "emergency",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0126",
-      "english": "desert",
-      "phonetic": "'dezәt. di'sә:t",
-      "chinese": "沙漠",
-      "example": "",
-      "example_cn": "",
-      "category": "entertainment",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0127",
-      "english": "far",
-      "phonetic": "fɑ:",
-      "chinese": "远的",
-      "example": "",
-      "example_cn": "",
-      "category": "direction",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0128",
-      "english": "hurry",
-      "phonetic": "'hʌri",
-      "chinese": "匆忙",
-      "example": "",
-      "example_cn": "",
-      "category": "direction",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0129",
-      "english": "important",
-      "phonetic": "im'pɒ:tәnt",
-      "chinese": "重要的",
-      "example": "",
-      "example_cn": "",
-      "category": "general",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0130",
-      "english": "key",
-      "phonetic": "ki:",
-      "chinese": "钥匙",
-      "example": "",
-      "example_cn": "",
-      "category": "hotel",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0131",
-      "english": "milk",
-      "phonetic": "milk",
-      "chinese": "奶, 乳状物\\nvt",
-      "example": "",
-      "example_cn": "",
-      "category": "restaurant",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0132",
-      "english": "cinema",
-      "phonetic": "'sinәmә",
-      "chinese": "电影院",
-      "example": "",
-      "example_cn": "",
-      "category": "entertainment",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0133",
-      "english": "family",
-      "phonetic": "'fæmәli",
-      "chinese": "家庭",
-      "example": "",
-      "example_cn": "",
-      "category": "general",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0134",
-      "english": "history",
-      "phonetic": "'histәri",
-      "chinese": "历史",
-      "example": "",
-      "example_cn": "",
-      "category": "entertainment",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0135",
-      "english": "safe",
-      "phonetic": "seif",
-      "chinese": "保险箱",
-      "example": "",
-      "example_cn": "",
-      "category": "emergency",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0136",
-      "english": "second",
-      "phonetic": "'sekәnd",
-      "chinese": "秒, 瞬间, 第二名",
-      "example": "",
-      "example_cn": "",
-      "category": "general",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0137",
-      "english": "together",
-      "phonetic": "tә'geðә",
-      "chinese": "一起",
-      "example": "",
-      "example_cn": "",
-      "category": "general",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0138",
-      "english": "around",
-      "phonetic": "ә'raund",
-      "chinese": "包围",
-      "example": "",
-      "example_cn": "",
-      "category": "general",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0139",
-      "english": "bread",
-      "phonetic": "bred",
-      "chinese": "面包",
-      "example": "",
-      "example_cn": "",
-      "category": "restaurant",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0140",
-      "english": "cook",
-      "phonetic": "kuk",
-      "chinese": "厨子",
-      "example": "",
-      "example_cn": "",
-      "category": "restaurant",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0141",
-      "english": "park",
-      "phonetic": "pɑ:k",
-      "chinese": "公园",
-      "example": "",
-      "example_cn": "",
-      "category": "entertainment",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0142",
-      "english": "restaurant",
-      "phonetic": "'restәrɒŋ",
-      "chinese": "餐馆",
-      "example": "",
-      "example_cn": "",
-      "category": "restaurant",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0143",
-      "english": "sale",
-      "phonetic": "seil",
-      "chinese": "出售, 卖, 拍卖, 销售额, 廉价出售\\n[经] 卖, 出售",
-      "example": "",
-      "example_cn": "",
-      "category": "shopping",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0144",
-      "english": "baggage",
-      "phonetic": "'bægidʒ",
-      "chinese": "行李\\n[经] 行李",
-      "example": "",
-      "example_cn": "",
-      "category": "airport",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0145",
-      "english": "big",
-      "phonetic": "big",
-      "chinese": "大的",
-      "example": "",
-      "example_cn": "",
-      "category": "general",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0146",
-      "english": "cash",
-      "phonetic": "kæʃ",
-      "chinese": "现金\\nvt. 兑现",
-      "example": "",
-      "example_cn": "",
-      "category": "shopping",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0147",
-      "english": "form",
-      "phonetic": "fɒ:m",
-      "chinese": "形状",
-      "example": "",
-      "example_cn": "",
-      "category": "airport",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0148",
-      "english": "number",
-      "phonetic": "'nʌmbә",
-      "chinese": "数, 数字, 数目,",
-      "example": "",
-      "example_cn": "",
-      "category": "general",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0149",
-      "english": "seat",
-      "phonetic": "si:t",
-      "chinese": "座, 座位, 位子,",
-      "example": "",
-      "example_cn": "",
-      "category": "transportation",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0150",
-      "english": "trip",
-      "phonetic": "trip",
-      "chinese": "旅行",
-      "example": "",
-      "example_cn": "",
-      "category": "airport",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0151",
-      "english": "bake",
-      "phonetic": "beik",
-      "chinese": "烘焙",
-      "example": "",
-      "example_cn": "",
-      "category": "restaurant",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0152",
-      "english": "blood",
-      "phonetic": "blʌd",
-      "chinese": "血, 血统, 流血,",
-      "example": "",
-      "example_cn": "",
-      "category": "emergency",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0153",
-      "english": "emergency",
-      "phonetic": "i'mә:dʒәnsi",
-      "chinese": "紧急状况",
-      "example": "",
-      "example_cn": "",
-      "category": "emergency",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0154",
-      "english": "label",
-      "phonetic": "'leibl",
-      "chinese": "标签, 称号, 商标, 标志\\nvt. 贴标签于, 标注\\n[计] 标志",
-      "example": "",
-      "example_cn": "",
-      "category": "shopping",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0155",
-      "english": "many",
-      "phonetic": "'meni",
-      "chinese": "多数",
-      "example": "",
-      "example_cn": "",
-      "category": "general",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0156",
-      "english": "nice",
-      "phonetic": "nais",
-      "chinese": "美好的",
-      "example": "",
-      "example_cn": "",
-      "category": "general",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0157",
-      "english": "nut",
-      "phonetic": "nʌt",
-      "chinese": "坚果",
-      "example": "",
-      "example_cn": "",
-      "category": "restaurant",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0158",
-      "english": "platform",
-      "phonetic": "'plætfɒ:m",
-      "chinese": "站台",
-      "example": "",
-      "example_cn": "",
-      "category": "transportation",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0159",
-      "english": "accident",
-      "phonetic": "'æksidәnt",
-      "chinese": "意外事件, 机遇, 事故, 次要方面\\n[化] 意外事故",
-      "example": "",
-      "example_cn": "",
-      "category": "emergency",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0160",
-      "english": "port",
-      "phonetic": "pɒ:t",
-      "chinese": "港口",
-      "example": "",
-      "example_cn": "",
-      "category": "transportation",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0161",
-      "english": "recommend",
-      "phonetic": ".rekә'mend",
-      "chinese": "推荐",
-      "example": "",
-      "example_cn": "",
-      "category": "restaurant",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0162",
-      "english": "steal",
-      "phonetic": "sti:l",
-      "chinese": "剽窃",
-      "example": "",
-      "example_cn": "",
-      "category": "emergency",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0163",
-      "english": "ticket",
-      "phonetic": "'tikit",
-      "chinese": "票, 券, 车票,",
-      "example": "",
-      "example_cn": "",
-      "category": "transportation",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0164",
-      "english": "customs",
-      "phonetic": "",
-      "chinese": "海关",
-      "example": "",
-      "example_cn": "",
-      "category": "airport",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0165",
-      "english": "dish",
-      "phonetic": "diʃ",
-      "chinese": "盘子",
-      "example": "",
-      "example_cn": "",
-      "category": "restaurant",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0166",
-      "english": "drive",
-      "phonetic": "draiv",
-      "chinese": "驾车",
-      "example": "",
-      "example_cn": "",
-      "category": "transportation",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0167",
-      "english": "meat",
-      "phonetic": "mi:t",
-      "chinese": "肉, 餐, 食物\\n",
-      "example": "",
-      "example_cn": "",
-      "category": "restaurant",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0168",
-      "english": "back",
-      "phonetic": "bæk",
-      "chinese": "后面的\\nvt. 使后退",
-      "example": "",
-      "example_cn": "",
-      "category": "emergency",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0169",
-      "english": "credit",
-      "phonetic": "'kredit",
-      "chinese": "信用",
-      "example": "",
-      "example_cn": "",
-      "category": "shopping",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0170",
       "english": "fast",
       "phonetic": "fɑ:st",
       "chinese": "快速的",
@@ -1704,2497 +14,7 @@
       "source": "oxford3000"
     },
     {
-      "id": "travel_0171",
-      "english": "fever",
-      "phonetic": "'fi:vә",
-      "chinese": "发烧",
-      "example": "",
-      "example_cn": "",
-      "category": "emergency",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0172",
-      "english": "information",
-      "phonetic": ".infә'meiʃәn",
-      "chinese": "消息",
-      "example": "",
-      "example_cn": "",
-      "category": "general",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0173",
-      "english": "wear",
-      "phonetic": "wєә",
-      "chinese": "穿着",
-      "example": "",
-      "example_cn": "",
-      "category": "shopping",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0174",
-      "english": "arrive",
-      "phonetic": "ә'raiv",
-      "chinese": "到达",
-      "example": "",
-      "example_cn": "",
-      "category": "airport",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0175",
-      "english": "beyond",
-      "phonetic": "bi'jɒnd",
-      "chinese": "超过",
-      "example": "",
-      "example_cn": "",
-      "category": "direction",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0176",
-      "english": "fork",
-      "phonetic": "fɒ:k",
-      "chinese": "叉子",
-      "example": "",
-      "example_cn": "",
-      "category": "restaurant",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0177",
-      "english": "island",
-      "phonetic": "'ailәnd",
-      "chinese": "岛, 岛屿, 孤立地",
-      "example": "",
-      "example_cn": "",
-      "category": "entertainment",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0178",
-      "english": "lemon",
-      "phonetic": "'lemәn",
-      "chinese": "柠檬",
-      "example": "",
-      "example_cn": "",
-      "category": "restaurant",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0179",
-      "english": "rain",
-      "phonetic": "rein",
-      "chinese": "雨, 下雨, 雨天\\",
-      "example": "",
-      "example_cn": "",
-      "category": "general",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0180",
-      "english": "shower",
-      "phonetic": "'ʃauә",
-      "chinese": "阵雨",
-      "example": "",
-      "example_cn": "",
-      "category": "hotel",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0181",
-      "english": "temperature",
-      "phonetic": "'temprәtʃә",
-      "chinese": "温度",
-      "example": "",
-      "example_cn": "",
-      "category": "hotel",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0182",
-      "english": "address",
-      "phonetic": "ә'dres",
-      "chinese": "住址",
-      "example": "",
-      "example_cn": "",
-      "category": "direction",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0183",
-      "english": "chest",
-      "phonetic": "tʃest",
-      "chinese": "胸, 胸部, 衣柜,",
-      "example": "",
-      "example_cn": "",
-      "category": "emergency",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0184",
-      "english": "picture",
-      "phonetic": "'piktʃә",
-      "chinese": "图画, 照片, 景色, 美丽如画的人(或物), 化身, 生动的描述, 想像, 形象思维\\nvt. 画, 拍摄, 用图说明, 描写, 想像\\n[计] 图象",
-      "example": "",
-      "example_cn": "",
-      "category": "general",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0185",
-      "english": "store",
-      "phonetic": "stɒ:",
-      "chinese": "商店, 贮藏, 仓库, 备用品, 存储器\\nvt. 储存, 贮藏, 供给\\nvi. 贮藏\\na. 贮藏的, 现成的\\n[计] 存储器操作",
-      "example": "",
-      "example_cn": "",
-      "category": "shopping",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0186",
-      "english": "timetable",
-      "phonetic": "'taimteibl",
-      "chinese": "时间表",
-      "example": "",
-      "example_cn": "",
-      "category": "transportation",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0187",
-      "english": "breakfast",
-      "phonetic": "'brekfәst",
-      "chinese": "早餐",
-      "example": "",
-      "example_cn": "",
-      "category": "restaurant",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0188",
-      "english": "bus",
-      "phonetic": "bʌs",
-      "chinese": "公共汽车\\n[计] 总线",
-      "example": "",
-      "example_cn": "",
-      "category": "transportation",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0189",
-      "english": "child",
-      "phonetic": "tʃaild",
-      "chinese": "孩子",
-      "example": "",
-      "example_cn": "",
-      "category": "general",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0190",
-      "english": "gate",
-      "phonetic": "geit",
-      "chinese": "门, 牌楼, 大门, 通道, 闸\\nvt. 装门于\\n[计] 门",
-      "example": "",
-      "example_cn": "",
-      "category": "airport",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0191",
-      "english": "item",
-      "phonetic": "'aitәm",
-      "chinese": "项目",
-      "example": "",
-      "example_cn": "",
-      "category": "shopping",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0192",
-      "english": "market",
-      "phonetic": "'mɑ:kit",
-      "chinese": "市场",
-      "example": "",
-      "example_cn": "",
-      "category": "shopping",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0193",
-      "english": "pilot",
-      "phonetic": "'pailәt",
-      "chinese": "飞行员",
-      "example": "",
-      "example_cn": "",
-      "category": "airport",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0194",
-      "english": "station",
-      "phonetic": "'steiʃәn",
-      "chinese": "车站",
-      "example": "",
-      "example_cn": "",
-      "category": "transportation",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0195",
-      "english": "border",
-      "phonetic": "'bɒ:dә",
-      "chinese": "边缘",
-      "example": "",
-      "example_cn": "",
-      "category": "airport",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0196",
-      "english": "confirm",
-      "phonetic": "kәn'fә:m",
-      "chinese": "证实",
-      "example": "",
-      "example_cn": "",
-      "category": "hotel",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0197",
-      "english": "expensive",
-      "phonetic": "ik'spensiv",
-      "chinese": "贵的",
-      "example": "",
-      "example_cn": "",
-      "category": "shopping",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0198",
-      "english": "food",
-      "phonetic": "fu:d",
-      "chinese": "食物",
-      "example": "",
-      "example_cn": "",
-      "category": "restaurant",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0199",
-      "english": "head",
-      "phonetic": "hed",
-      "chinese": "头, 头脑, 领袖, 脑袋, 最前的部分\\nvt. 为首, 朝向, 前进, 用头顶\\nvi. 朝特定方向行进, (作物)结穗\\na. 头的, 在顶端的, 主要的\\n[计] 磁头",
-      "example": "",
-      "example_cn": "",
-      "category": "emergency",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0200",
-      "english": "highway",
-      "phonetic": "'haiwei",
-      "chinese": "公路",
-      "example": "",
-      "example_cn": "",
-      "category": "direction",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0201",
-      "english": "motor",
-      "phonetic": "'mәutә",
-      "chinese": "马达",
-      "example": "",
-      "example_cn": "",
-      "category": "transportation",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0202",
-      "english": "photo",
-      "phonetic": "'fәutәu",
-      "chinese": "相片",
-      "example": "",
-      "example_cn": "",
-      "category": "entertainment",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0203",
-      "english": "carry",
-      "phonetic": "'kæri",
-      "chinese": "进位, 射程, 运载\\nvt. 携带, 运送, 支持, 传送, 包含\\nvi. 被携带, 能达到\\n[计] 进位",
-      "example": "",
-      "example_cn": "",
-      "category": "shopping",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0204",
-      "english": "dirty",
-      "phonetic": "'dә:ti",
-      "chinese": "肮脏的",
-      "example": "",
-      "example_cn": "",
-      "category": "hotel",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0205",
-      "english": "evening",
-      "phonetic": "'i:vniŋ",
-      "chinese": "傍晚",
-      "example": "",
-      "example_cn": "",
-      "category": "general",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0206",
-      "english": "return",
-      "phonetic": "ri'tә:n",
-      "chinese": "回来",
-      "example": "",
-      "example_cn": "",
-      "category": "general",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0207",
-      "english": "stay",
-      "phonetic": "stei",
-      "chinese": "停留",
-      "example": "",
-      "example_cn": "",
-      "category": "hotel",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0208",
-      "english": "west",
-      "phonetic": "west",
-      "chinese": "西方",
-      "example": "",
-      "example_cn": "",
-      "category": "direction",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0209",
-      "english": "bridge",
-      "phonetic": "bridʒ",
-      "chinese": "桥, 舰桥, 桥梁,",
-      "example": "",
-      "example_cn": "",
-      "category": "direction",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0210",
-      "english": "festival",
-      "phonetic": "'festәvәl",
-      "chinese": "节日的",
-      "example": "",
-      "example_cn": "",
-      "category": "entertainment",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0211",
-      "english": "old",
-      "phonetic": "әuld",
-      "chinese": "以前",
-      "example": "",
-      "example_cn": "",
-      "category": "general",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0212",
-      "english": "opposite",
-      "phonetic": "'ɒpәzit",
-      "chinese": "相对的",
-      "example": "",
-      "example_cn": "",
-      "category": "direction",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0213",
-      "english": "south",
-      "phonetic": "sauθ",
-      "chinese": "南方",
-      "example": "",
-      "example_cn": "",
-      "category": "direction",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0214",
-      "english": "wait",
-      "phonetic": "weit",
-      "chinese": "等待",
-      "example": "",
-      "example_cn": "",
-      "category": "general",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0215",
-      "english": "charge",
-      "phonetic": "tʃɑ:dʒ",
-      "chinese": "指控",
-      "example": "",
-      "example_cn": "",
-      "category": "shopping",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0216",
-      "english": "goodbye",
-      "phonetic": "gud'bai",
-      "chinese": "interj. 再见",
-      "example": "",
-      "example_cn": "",
-      "category": "general",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0217",
-      "english": "international",
-      "phonetic": ".intә'næʃәnәl",
-      "chinese": "国际的\\nn. 国别",
-      "example": "",
-      "example_cn": "",
-      "category": "airport",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0218",
-      "english": "next",
-      "phonetic": "'nekst",
-      "chinese": "下一个\\na. 下一个的",
-      "example": "",
-      "example_cn": "",
-      "category": "general",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0219",
-      "english": "order",
-      "phonetic": "'ɒ:dә",
-      "chinese": "次序",
-      "example": "",
-      "example_cn": "",
-      "category": "restaurant",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0220",
-      "english": "sauce",
-      "phonetic": "sɒ:s",
-      "chinese": "酱油",
-      "example": "",
-      "example_cn": "",
-      "category": "restaurant",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0221",
-      "english": "short",
-      "phonetic": "ʃɒ:t",
-      "chinese": "短的",
-      "example": "",
-      "example_cn": "",
-      "category": "general",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0222",
-      "english": "wine",
-      "phonetic": "wain",
-      "chinese": "葡萄酒",
-      "example": "",
-      "example_cn": "",
-      "category": "restaurant",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0223",
-      "english": "beer",
-      "phonetic": "biә",
-      "chinese": "啤酒\\n[化] 啤酒",
-      "example": "",
-      "example_cn": "",
-      "category": "restaurant",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0224",
-      "english": "come",
-      "phonetic": "kʌm",
-      "chinese": "过来",
-      "example": "",
-      "example_cn": "",
-      "category": "general",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0225",
-      "english": "comfortable",
-      "phonetic": "'kʌmfәtәbl",
-      "chinese": "舒服的",
-      "example": "",
-      "example_cn": "",
-      "category": "hotel",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0226",
-      "english": "journey",
-      "phonetic": "'dʒә:ni",
-      "chinese": "旅程",
-      "example": "",
-      "example_cn": "",
-      "category": "airport",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0227",
-      "english": "month",
-      "phonetic": "mʌnθ",
-      "chinese": "月\\n[经] 月",
-      "example": "",
-      "example_cn": "",
-      "category": "general",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0228",
-      "english": "tunnel",
-      "phonetic": "'tʌnl",
-      "chinese": "隧道",
-      "example": "",
-      "example_cn": "",
-      "category": "direction",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0229",
-      "english": "understand",
-      "phonetic": ".ʌndә'stænd",
-      "chinese": "理解",
-      "example": "",
-      "example_cn": "",
-      "category": "general",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0230",
-      "english": "yesterday",
-      "phonetic": "'jestәdi",
-      "chinese": "昨天\\nadv. 昨",
-      "example": "",
-      "example_cn": "",
-      "category": "general",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0231",
-      "english": "accommodation",
-      "phonetic": "ә.kɒmә'deiʃәn",
-      "chinese": "膳宿, 预订铺位, 适应性调节, 调和, 贷款\\n[医] 调节(眼)",
-      "example": "",
-      "example_cn": "",
-      "category": "hotel",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0232",
-      "english": "enough",
-      "phonetic": "i'nʌf",
-      "chinese": "充足",
-      "example": "",
-      "example_cn": "",
-      "category": "general",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0233",
-      "english": "photograph",
-      "phonetic": "'fәutәgrɑ:f",
-      "chinese": "相片",
-      "example": "",
-      "example_cn": "",
-      "category": "entertainment",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0234",
-      "english": "plane",
-      "phonetic": "plein",
-      "chinese": "平面",
-      "example": "",
-      "example_cn": "",
-      "category": "airport",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0235",
-      "english": "raw",
-      "phonetic": "rɒ:",
-      "chinese": "擦伤处",
-      "example": "",
-      "example_cn": "",
-      "category": "restaurant",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0236",
-      "english": "stomach",
-      "phonetic": "'stʌmәk",
-      "chinese": "胃, 食欲, 欲望,",
-      "example": "",
-      "example_cn": "",
-      "category": "emergency",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0237",
-      "english": "suitcase",
-      "phonetic": "'sju:tkeis",
-      "chinese": "手提箱",
-      "example": "",
-      "example_cn": "",
-      "category": "airport",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0238",
-      "english": "thank",
-      "phonetic": "θæŋk",
-      "chinese": "谢意",
-      "example": "",
-      "example_cn": "",
-      "category": "general",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0239",
-      "english": "bank",
-      "phonetic": "bæŋk",
-      "chinese": "银行",
-      "example": "",
-      "example_cn": "",
-      "category": "shopping",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0240",
-      "english": "nature",
-      "phonetic": "'neitʃә",
-      "chinese": "自然, 大自然, 本性, 性格, 性质\\n[医] 自然, 大自然",
-      "example": "",
-      "example_cn": "",
-      "category": "entertainment",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0241",
-      "english": "no",
-      "phonetic": "nәu",
-      "chinese": "不, 拒绝, 否决票",
-      "example": "",
-      "example_cn": "",
-      "category": "general",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0242",
-      "english": "nurse",
-      "phonetic": "nә:s",
-      "chinese": "护士",
-      "example": "",
-      "example_cn": "",
-      "category": "emergency",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0243",
-      "english": "ocean",
-      "phonetic": "'әuʃәn",
-      "chinese": "海洋",
-      "example": "",
-      "example_cn": "",
-      "category": "entertainment",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0244",
-      "english": "photography",
-      "phonetic": "fә'tɒgrәfi",
-      "chinese": "摄影",
-      "example": "",
-      "example_cn": "",
-      "category": "entertainment",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0245",
-      "english": "time",
-      "phonetic": "taim",
-      "chinese": "时间",
-      "example": "",
-      "example_cn": "",
-      "category": "general",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0246",
-      "english": "train",
-      "phonetic": "trein",
-      "chinese": "火车",
-      "example": "",
-      "example_cn": "",
-      "category": "transportation",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0247",
-      "english": "between",
-      "phonetic": "bi'twi:n",
-      "chinese": "在...之间",
-      "example": "",
-      "example_cn": "",
-      "category": "direction",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0248",
-      "english": "diet",
-      "phonetic": "'daiәt",
-      "chinese": "日常饮食",
-      "example": "",
-      "example_cn": "",
-      "category": "restaurant",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0249",
-      "english": "flight",
-      "phonetic": "flait",
-      "chinese": "飞行",
-      "example": "",
-      "example_cn": "",
-      "category": "airport",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0250",
-      "english": "sick",
-      "phonetic": "sik",
-      "chinese": "病人\\na. 不舒服",
-      "example": "",
-      "example_cn": "",
-      "category": "emergency",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0251",
-      "english": "through",
-      "phonetic": "θru:",
-      "chinese": "穿越",
-      "example": "",
-      "example_cn": "",
-      "category": "general",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0252",
-      "english": "apartment",
-      "phonetic": "ә'pɑ:tmәnt",
-      "chinese": "房间",
-      "example": "",
-      "example_cn": "",
-      "category": "hotel",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0253",
-      "english": "beside",
-      "phonetic": "bi'said",
-      "chinese": "在旁边",
-      "example": "",
-      "example_cn": "",
-      "category": "direction",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0254",
-      "english": "camera",
-      "phonetic": "'kæmәrә",
-      "chinese": "照相机",
-      "example": "",
-      "example_cn": "",
-      "category": "entertainment",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0255",
-      "english": "document",
-      "phonetic": "'dɒkjumәnt",
-      "chinese": "文件",
-      "example": "",
-      "example_cn": "",
-      "category": "airport",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0256",
-      "english": "hotel",
-      "phonetic": "hәu'tel",
-      "chinese": "旅馆",
-      "example": "",
-      "example_cn": "",
-      "category": "hotel",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0257",
-      "english": "look",
-      "phonetic": "luk",
-      "chinese": "一看",
-      "example": "",
-      "example_cn": "",
-      "category": "general",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0258",
-      "english": "problem",
-      "phonetic": "'prɒblәm",
-      "chinese": "问题",
-      "example": "",
-      "example_cn": "",
-      "category": "general",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0259",
-      "english": "sign",
-      "phonetic": "sain",
-      "chinese": "符号, 招牌, 征兆, 正负号, 手势\\nvt. 签名, 打手势表达\\nvi. 签名\\n[计] 正负号",
-      "example": "",
-      "example_cn": "",
-      "category": "direction",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0260",
-      "english": "afternoon",
-      "phonetic": "'ɑ:ftә'nu:n",
-      "chinese": "午后",
-      "example": "",
-      "example_cn": "",
-      "category": "general",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0261",
-      "english": "chicken",
-      "phonetic": "'tʃikin",
-      "chinese": "小鸡",
-      "example": "",
-      "example_cn": "",
-      "category": "restaurant",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0262",
-      "english": "juice",
-      "phonetic": "dʒu:s",
-      "chinese": "汁, 活力, 体液\\",
-      "example": "",
-      "example_cn": "",
-      "category": "restaurant",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0263",
-      "english": "salt",
-      "phonetic": "sɒ:lt",
-      "chinese": "盐, 风趣, 刺激\\",
-      "example": "",
-      "example_cn": "",
-      "category": "restaurant",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0264",
-      "english": "small",
-      "phonetic": "smɒ:l",
-      "chinese": "小的",
-      "example": "",
-      "example_cn": "",
-      "category": "general",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0265",
-      "english": "stamp",
-      "phonetic": "stæmp",
-      "chinese": "印, 邮票, 打印器",
-      "example": "",
-      "example_cn": "",
-      "category": "airport",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0266",
-      "english": "yes",
-      "phonetic": "jes",
-      "chinese": "是\\nn. 是",
-      "example": "",
-      "example_cn": "",
-      "category": "general",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0267",
-      "english": "across",
-      "phonetic": "ә'krɒs",
-      "chinese": "越过",
-      "example": "",
-      "example_cn": "",
-      "category": "direction",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0268",
-      "english": "alcohol",
-      "phonetic": "'ælkәhɒl",
-      "chinese": "酒精, 酒\\n[化] 醇",
-      "example": "",
-      "example_cn": "",
-      "category": "restaurant",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0269",
-      "english": "concert",
-      "phonetic": "'kɒnsәt",
-      "chinese": "音乐会",
-      "example": "",
-      "example_cn": "",
-      "category": "entertainment",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0270",
-      "english": "cup",
-      "phonetic": "kʌp",
-      "chinese": "杯子",
-      "example": "",
-      "example_cn": "",
-      "category": "restaurant",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0271",
-      "english": "disease",
-      "phonetic": "di'zi:z",
-      "chinese": "疾病",
-      "example": "",
-      "example_cn": "",
-      "category": "emergency",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0272",
-      "english": "schedule",
-      "phonetic": "'skedʒuәl",
-      "chinese": "时间表",
-      "example": "",
-      "example_cn": "",
-      "category": "transportation",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0273",
-      "english": "shopping",
-      "phonetic": "'ʃɒpiŋ",
-      "chinese": "买东西",
-      "example": "",
-      "example_cn": "",
-      "category": "shopping",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0274",
-      "english": "tourist",
-      "phonetic": "'tuәrist",
-      "chinese": "观光客",
-      "example": "",
-      "example_cn": "",
-      "category": "entertainment",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0275",
-      "english": "departure",
-      "phonetic": "di'pɑ:tʃә",
-      "chinese": "离开",
-      "example": "",
-      "example_cn": "",
-      "category": "airport",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0276",
-      "english": "late",
-      "phonetic": "leit",
-      "chinese": "迟的",
-      "example": "",
-      "example_cn": "",
-      "category": "general",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0277",
-      "english": "sorry",
-      "phonetic": "'sɒri",
-      "chinese": "难过的",
-      "example": "",
-      "example_cn": "",
-      "category": "general",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0278",
-      "english": "clock",
-      "phonetic": "klɒk",
-      "chinese": "时钟",
-      "example": "",
-      "example_cn": "",
-      "category": "general",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0279",
-      "english": "drink",
-      "phonetic": "driŋk",
-      "chinese": "饮料",
-      "example": "",
-      "example_cn": "",
-      "category": "restaurant",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0280",
-      "english": "driver",
-      "phonetic": "'draivә",
-      "chinese": "驾驶员",
-      "example": "",
-      "example_cn": "",
-      "category": "transportation",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0281",
-      "english": "landscape",
-      "phonetic": "'lændskeip",
-      "chinese": "风景",
-      "example": "",
-      "example_cn": "",
-      "category": "entertainment",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0282",
-      "english": "man",
-      "phonetic": "mæn",
-      "chinese": "男人",
-      "example": "",
-      "example_cn": "",
-      "category": "general",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0283",
-      "english": "onion",
-      "phonetic": "'ʌnjәn",
-      "chinese": "洋葱\\nvt. 因洋",
-      "example": "",
-      "example_cn": "",
-      "category": "restaurant",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0284",
-      "english": "walk",
-      "phonetic": "wɒ:k",
-      "chinese": "走, 散步, 步行,",
-      "example": "",
-      "example_cn": "",
-      "category": "direction",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0285",
-      "english": "write",
-      "phonetic": "rait",
-      "chinese": "书写",
-      "example": "",
-      "example_cn": "",
-      "category": "general",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0286",
-      "english": "danger",
-      "phonetic": "'deindʒә",
-      "chinese": "危险",
-      "example": "",
-      "example_cn": "",
-      "category": "emergency",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0287",
-      "english": "group",
-      "phonetic": "gru:p",
-      "chinese": "团体, 组, 团, 群\\nv. 聚合, 成群\\n[计] 创建组",
-      "example": "",
-      "example_cn": "",
-      "category": "general",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0288",
-      "english": "leg",
-      "phonetic": "leg",
-      "chinese": "腿, 假腿, 路程\\",
-      "example": "",
-      "example_cn": "",
-      "category": "emergency",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0289",
-      "english": "luggage",
-      "phonetic": "'lʌgidʒ",
-      "chinese": "行李",
-      "example": "",
-      "example_cn": "",
-      "category": "airport",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0290",
-      "english": "rice",
-      "phonetic": "rais",
-      "chinese": "米, 米饭, 稻\\n",
-      "example": "",
-      "example_cn": "",
-      "category": "restaurant",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0291",
-      "english": "style",
-      "phonetic": "stail",
-      "chinese": "风格",
-      "example": "",
-      "example_cn": "",
-      "category": "shopping",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0292",
-      "english": "arm",
-      "phonetic": "ɑ:m",
-      "chinese": "手臂, 袖子, 狭长港湾, 武器\\nvt. 武装, 装备\\nvi. 武装起来\\n[计] 异步应答方式",
-      "example": "",
-      "example_cn": "",
-      "category": "emergency",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0293",
-      "english": "hello",
-      "phonetic": "hә'lәu",
-      "chinese": "interj. 喂",
-      "example": "",
-      "example_cn": "",
-      "category": "general",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0294",
-      "english": "coin",
-      "phonetic": "kɒin",
-      "chinese": "硬币",
-      "example": "",
-      "example_cn": "",
-      "category": "shopping",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0295",
-      "english": "discount",
-      "phonetic": "'diskaunt",
-      "chinese": "折扣",
-      "example": "",
-      "example_cn": "",
-      "category": "shopping",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0296",
-      "english": "good",
-      "phonetic": "gud",
-      "chinese": "善行",
-      "example": "",
-      "example_cn": "",
-      "category": "general",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0297",
-      "english": "payment",
-      "phonetic": "'peimәnt",
-      "chinese": "付款",
-      "example": "",
-      "example_cn": "",
-      "category": "shopping",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0298",
-      "english": "pepper",
-      "phonetic": "'pepә",
-      "chinese": "胡椒粉, 胡椒, 辣椒\\n[化] 胡椒",
-      "example": "",
-      "example_cn": "",
-      "category": "restaurant",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0299",
-      "english": "read",
-      "phonetic": "ri:d",
-      "chinese": "读, 阅读, 理解\\",
-      "example": "",
-      "example_cn": "",
-      "category": "general",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0300",
-      "english": "soup",
-      "phonetic": "su:p",
-      "chinese": "汤, 马力\\nvt.",
-      "example": "",
-      "example_cn": "",
-      "category": "restaurant",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0301",
-      "english": "tax",
-      "phonetic": "tæks",
-      "chinese": "税, 税款, 重负,",
-      "example": "",
-      "example_cn": "",
-      "category": "shopping",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0302",
-      "english": "city",
-      "phonetic": "'siti",
-      "chinese": "城市",
-      "example": "",
-      "example_cn": "",
-      "category": "direction",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0303",
-      "english": "dance",
-      "phonetic": "dæns. dɑ:ns",
-      "chinese": "跳舞",
-      "example": "",
-      "example_cn": "",
-      "category": "entertainment",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0304",
-      "english": "deliver",
-      "phonetic": "di'livә",
-      "chinese": "递送",
-      "example": "",
-      "example_cn": "",
-      "category": "shopping",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0305",
-      "english": "protect",
-      "phonetic": "prә'tekt",
-      "chinese": "防卫",
-      "example": "",
-      "example_cn": "",
-      "category": "emergency",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0306",
-      "english": "rent",
-      "phonetic": "rent",
-      "chinese": "租金",
-      "example": "",
-      "example_cn": "",
-      "category": "transportation",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0307",
-      "english": "waiter",
-      "phonetic": "'weitә",
-      "chinese": "侍者",
-      "example": "",
-      "example_cn": "",
-      "category": "restaurant",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0308",
-      "english": "window",
-      "phonetic": "'windәu",
-      "chinese": "窗户",
-      "example": "",
-      "example_cn": "",
-      "category": "airport",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0309",
-      "english": "cream",
-      "phonetic": "kri:m",
-      "chinese": "乳酪, 奶油, 面霜\\n[医] 乳油, 乳皮",
-      "example": "",
-      "example_cn": "",
-      "category": "restaurant",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0310",
-      "english": "first",
-      "phonetic": "fә:st",
-      "chinese": "首先",
-      "example": "",
-      "example_cn": "",
-      "category": "general",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0311",
-      "english": "illness",
-      "phonetic": "'ilnis",
-      "chinese": "疾病",
-      "example": "",
-      "example_cn": "",
-      "category": "emergency",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0312",
-      "english": "stop",
-      "phonetic": "stɒp",
-      "chinese": "停止",
-      "example": "",
-      "example_cn": "",
-      "category": "general",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0313",
-      "english": "art",
-      "phonetic": "ɑ:t",
-      "chinese": "艺术",
-      "example": "",
-      "example_cn": "",
-      "category": "entertainment",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0314",
-      "english": "attraction",
-      "phonetic": "ә'trækʃәn",
-      "chinese": "吸引",
-      "example": "",
-      "example_cn": "",
-      "category": "entertainment",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0315",
-      "english": "beef",
-      "phonetic": "bi:f",
-      "chinese": "牛肉",
-      "example": "",
-      "example_cn": "",
-      "category": "restaurant",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0316",
-      "english": "block",
-      "phonetic": "blɒk",
-      "chinese": "街区",
-      "example": "",
-      "example_cn": "",
-      "category": "direction",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0317",
-      "english": "cancel",
-      "phonetic": "'kænsәl",
-      "chinese": "取消",
-      "example": "",
-      "example_cn": "",
-      "category": "airport",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0318",
-      "english": "hour",
-      "phonetic": "auә",
-      "chinese": "小时",
-      "example": "",
-      "example_cn": "",
-      "category": "general",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0319",
-      "english": "new",
-      "phonetic": "nju:",
-      "chinese": "新的",
-      "example": "",
-      "example_cn": "",
-      "category": "general",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0320",
-      "english": "room",
-      "phonetic": "ru:m",
-      "chinese": "房间",
-      "example": "",
-      "example_cn": "",
-      "category": "hotel",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0321",
-      "english": "bad",
-      "phonetic": "bæd",
-      "chinese": "坏的\\nn. 坏\\n",
-      "example": "",
-      "example_cn": "",
-      "category": "general",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0322",
-      "english": "centre",
-      "phonetic": "'sentә",
-      "chinese": "中心",
-      "example": "",
-      "example_cn": "",
-      "category": "direction",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0323",
-      "english": "east",
-      "phonetic": "i:st",
-      "chinese": "东方",
-      "example": "",
-      "example_cn": "",
-      "category": "direction",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0324",
-      "english": "land",
-      "phonetic": "lænd",
-      "chinese": "陆地, 地面, 地界, 地产, 国土, 土地\\nvi. 登陆, 登岸, 到达\\nvt. 使上岸, 使登陆, 使到达\\n[计] 连接盘",
-      "example": "",
-      "example_cn": "",
-      "category": "airport",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0325",
-      "english": "minute",
-      "phonetic": "'minit. mai'nju:t",
-      "chinese": "分, 分钟, 片刻,",
-      "example": "",
-      "example_cn": "",
-      "category": "general",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0326",
-      "english": "speed",
-      "phonetic": "spi:d",
-      "chinese": "速率",
-      "example": "",
-      "example_cn": "",
-      "category": "transportation",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0327",
-      "english": "use",
-      "phonetic": "ju:s",
-      "chinese": "使用",
-      "example": "",
-      "example_cn": "",
-      "category": "general",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0328",
-      "english": "welcome",
-      "phonetic": "'welkәm",
-      "chinese": "欢迎",
-      "example": "",
-      "example_cn": "",
-      "category": "hotel",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0329",
-      "english": "airport",
-      "phonetic": "'єәpɒ:t",
-      "chinese": "飞机场\\n[机] 航空站",
-      "example": "",
-      "example_cn": "",
-      "category": "airport",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0330",
-      "english": "cheap",
-      "phonetic": "tʃi:p",
-      "chinese": "便宜的",
-      "example": "",
-      "example_cn": "",
-      "category": "shopping",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0331",
-      "english": "distance",
-      "phonetic": "'distәns",
-      "chinese": "距离",
-      "example": "",
-      "example_cn": "",
-      "category": "direction",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0332",
-      "english": "egg",
-      "phonetic": "eg",
-      "chinese": "蛋, 卵\\nvt.",
-      "example": "",
-      "example_cn": "",
-      "category": "restaurant",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0333",
-      "english": "entrance",
-      "phonetic": "'entrәns",
-      "chinese": "入口",
-      "example": "",
-      "example_cn": "",
-      "category": "direction",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0334",
-      "english": "give",
-      "phonetic": "giv",
-      "chinese": "弹性",
-      "example": "",
-      "example_cn": "",
-      "category": "general",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0335",
-      "english": "heavy",
-      "phonetic": "'hevi",
-      "chinese": "重的",
-      "example": "",
-      "example_cn": "",
-      "category": "general",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0336",
-      "english": "hurt",
-      "phonetic": "hә:t",
-      "chinese": "伤害",
-      "example": "",
-      "example_cn": "",
-      "category": "emergency",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0337",
-      "english": "explore",
-      "phonetic": "ik'splɒ:",
-      "chinese": "探险",
-      "example": "",
-      "example_cn": "",
-      "category": "entertainment",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0338",
-      "english": "local",
-      "phonetic": "'lәukәl",
-      "chinese": "地方性的, 当地的, 局部的, 乡土的, 本地的\\nn. 当地居民, 本地新闻, 局部\\n[计] 本地的",
-      "example": "",
-      "example_cn": "",
-      "category": "entertainment",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0339",
-      "english": "lift",
-      "phonetic": "lift",
-      "chinese": "举起",
-      "example": "",
-      "example_cn": "",
-      "category": "hotel",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0340",
-      "english": "museum",
-      "phonetic": "mju:'ziәm",
-      "chinese": "博物馆",
-      "example": "",
-      "example_cn": "",
-      "category": "entertainment",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0341",
-      "english": "people",
-      "phonetic": "'pi:pl",
-      "chinese": "人, 人民, 民族,",
-      "example": "",
-      "example_cn": "",
-      "category": "general",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0342",
-      "english": "relaxing",
-      "phonetic": "",
-      "chinese": "令人轻松的",
-      "example": "",
-      "example_cn": "",
-      "category": "entertainment",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0343",
-      "english": "sell",
-      "phonetic": "sel",
-      "chinese": "卖, 背叛, 销售,",
-      "example": "",
-      "example_cn": "",
-      "category": "shopping",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0344",
-      "english": "sun",
-      "phonetic": "sʌn",
-      "chinese": "太阳",
-      "example": "",
-      "example_cn": "",
-      "category": "general",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0345",
-      "english": "exchange",
-      "phonetic": "iks'tʃeindʒ",
-      "chinese": "交换, (电话)交换局, 交换机, 汇兑, 交易所\\nv. 交换, 交易, 兑换\\n[计] 交换",
-      "example": "",
-      "example_cn": "",
-      "category": "shopping",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0346",
-      "english": "health",
-      "phonetic": "'helθ",
-      "chinese": "健康",
-      "example": "",
-      "example_cn": "",
-      "category": "emergency",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0347",
-      "english": "hire",
-      "phonetic": "haiә",
-      "chinese": "租金",
-      "example": "",
-      "example_cn": "",
-      "category": "transportation",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0348",
-      "english": "hospital",
-      "phonetic": "'hɒspitәl",
-      "chinese": "医院\\n[医] 医院",
-      "example": "",
-      "example_cn": "",
-      "category": "emergency",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0349",
-      "english": "language",
-      "phonetic": "'læŋgwidʒ",
-      "chinese": "语言",
-      "example": "",
-      "example_cn": "",
-      "category": "entertainment",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0350",
-      "english": "meal",
-      "phonetic": "mi:l",
-      "chinese": "一餐",
-      "example": "",
-      "example_cn": "",
-      "category": "restaurant",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0351",
-      "english": "music",
-      "phonetic": "'mju:zik",
-      "chinese": "音乐",
-      "example": "",
-      "example_cn": "",
-      "category": "entertainment",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0352",
-      "english": "towards",
-      "phonetic": "tә'wɔ:dz",
-      "chinese": "向, 对于, 为了",
-      "example": "",
-      "example_cn": "",
-      "category": "direction",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0353",
-      "english": "beach",
-      "phonetic": "bi:tʃ",
-      "chinese": "海滩",
-      "example": "",
-      "example_cn": "",
-      "category": "entertainment",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0354",
-      "english": "map",
-      "phonetic": "mæp",
-      "chinese": "地图",
-      "example": "",
-      "example_cn": "",
-      "category": "direction",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0355",
-      "english": "towel",
-      "phonetic": "'tauәl",
-      "chinese": "手巾",
-      "example": "",
-      "example_cn": "",
-      "category": "hotel",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0356",
-      "english": "transfer",
-      "phonetic": "træns'fә:",
-      "chinese": "迁移",
-      "example": "",
-      "example_cn": "",
-      "category": "transportation",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0357",
-      "english": "valley",
-      "phonetic": "'væli",
-      "chinese": "山谷",
-      "example": "",
-      "example_cn": "",
-      "category": "entertainment",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0358",
-      "english": "vehicle",
-      "phonetic": "'vi:ikl",
-      "chinese": "交通工具, 车辆, 传播媒介\\n[化] 载体",
-      "example": "",
-      "example_cn": "",
-      "category": "transportation",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0359",
-      "english": "water",
-      "phonetic": "'wɒ:tә",
-      "chinese": "水, 雨水, 海水,",
-      "example": "",
-      "example_cn": "",
-      "category": "restaurant",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0360",
-      "english": "way",
-      "phonetic": "wei",
-      "chinese": "路, 路线, 路途,",
-      "example": "",
-      "example_cn": "",
-      "category": "direction",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0361",
-      "english": "arrival",
-      "phonetic": "ә'raivl",
-      "chinese": "到达",
-      "example": "",
-      "example_cn": "",
-      "category": "airport",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0362",
-      "english": "crowded",
-      "phonetic": "'kraudid",
-      "chinese": "拥挤的",
-      "example": "",
-      "example_cn": "",
-      "category": "entertainment",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0363",
-      "english": "culture",
-      "phonetic": "'kʌltʃә",
-      "chinese": "文化",
-      "example": "",
-      "example_cn": "",
-      "category": "entertainment",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0364",
-      "english": "declare",
-      "phonetic": "di'klєә",
-      "chinese": "宣布",
-      "example": "",
-      "example_cn": "",
-      "category": "airport",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0365",
-      "english": "hungry",
-      "phonetic": "'hʌŋgi",
-      "chinese": "饥饿的",
-      "example": "",
-      "example_cn": "",
-      "category": "restaurant",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0366",
-      "english": "need",
-      "phonetic": "ni:d",
-      "chinese": "需要",
-      "example": "",
-      "example_cn": "",
-      "category": "general",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0367",
-      "english": "service",
-      "phonetic": "'sә:vis",
-      "chinese": "服务",
-      "example": "",
-      "example_cn": "",
-      "category": "hotel",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0368",
-      "english": "clean",
-      "phonetic": "kli:n",
-      "chinese": "干净的",
-      "example": "",
-      "example_cn": "",
-      "category": "hotel",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0369",
-      "english": "climb",
-      "phonetic": "klaim",
-      "chinese": "攀登",
-      "example": "",
-      "example_cn": "",
-      "category": "entertainment",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0370",
-      "english": "deal",
-      "phonetic": "di:l",
-      "chinese": "交易",
-      "example": "",
-      "example_cn": "",
-      "category": "shopping",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0371",
-      "english": "early",
-      "phonetic": "'ә:li",
-      "chinese": "早的",
-      "example": "",
-      "example_cn": "",
-      "category": "general",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0372",
-      "english": "fashion",
-      "phonetic": "'fæʃәn",
-      "chinese": "流行",
-      "example": "",
-      "example_cn": "",
-      "category": "shopping",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0373",
-      "english": "sweet",
-      "phonetic": "swi:t",
-      "chinese": "甜蜜",
-      "example": "",
-      "example_cn": "",
-      "category": "restaurant",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0374",
-      "english": "taste",
-      "phonetic": "teist",
-      "chinese": "味道",
-      "example": "",
-      "example_cn": "",
-      "category": "restaurant",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0375",
-      "english": "travel",
-      "phonetic": "'trævl",
-      "chinese": "旅行",
-      "example": "",
-      "example_cn": "",
-      "category": "airport",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0376",
-      "english": "gift",
-      "phonetic": "gift",
-      "chinese": "礼物",
-      "example": "",
-      "example_cn": "",
-      "category": "shopping",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0377",
-      "english": "office",
-      "phonetic": "'ɒfis",
-      "chinese": "办公室",
-      "example": "",
-      "example_cn": "",
-      "category": "general",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0378",
-      "english": "street",
-      "phonetic": "stri:t",
-      "chinese": "街道",
-      "example": "",
-      "example_cn": "",
-      "category": "direction",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0379",
-      "english": "alone",
-      "phonetic": "ә'lәun",
-      "chinese": "孤独的",
-      "example": "",
-      "example_cn": "",
-      "category": "general",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0380",
-      "english": "money",
-      "phonetic": "'mʌni",
-      "chinese": "金钱",
-      "example": "",
-      "example_cn": "",
-      "category": "shopping",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0381",
-      "english": "morning",
-      "phonetic": "'mɒ:niŋ",
-      "chinese": "早晨",
-      "example": "",
-      "example_cn": "",
-      "category": "general",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0382",
-      "english": "resort",
-      "phonetic": "ri'zɒ:t",
-      "chinese": "度假胜地",
-      "example": "",
-      "example_cn": "",
-      "category": "hotel",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0383",
-      "english": "tea",
-      "phonetic": "ti:",
-      "chinese": "茶, 茶叶\\n[医]",
-      "example": "",
-      "example_cn": "",
-      "category": "restaurant",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0384",
-      "english": "warm",
-      "phonetic": "wɒ:m",
-      "chinese": "暖和的",
-      "example": "",
-      "example_cn": "",
-      "category": "general",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0385",
-      "english": "ambulance",
-      "phonetic": "'æmbjulәns",
-      "chinese": "救护车\\n[医] 救",
-      "example": "",
-      "example_cn": "",
-      "category": "emergency",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0386",
-      "english": "bed",
-      "phonetic": "bed",
-      "chinese": "床, 睡眠处, 河床",
-      "example": "",
-      "example_cn": "",
-      "category": "hotel",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0387",
-      "english": "path",
-      "phonetic": "pɑ:θ",
-      "chinese": "路径, 小路, 道路, 途径, 路线, 轨道\\n[计] 路径",
-      "example": "",
-      "example_cn": "",
-      "category": "direction",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0388",
-      "english": "sugar",
-      "phonetic": "'ʃugә",
-      "chinese": "糖, 糖块, 甜言蜜",
-      "example": "",
-      "example_cn": "",
-      "category": "restaurant",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0389",
-      "english": "underground",
-      "phonetic": "'ʌndәgraund",
-      "chinese": "地下",
-      "example": "",
-      "example_cn": "",
-      "category": "transportation",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0390",
-      "english": "aircraft",
-      "phonetic": "'єәkræft",
-      "chinese": "航空器",
-      "example": "",
-      "example_cn": "",
-      "category": "airport",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0391",
-      "english": "foreign",
-      "phonetic": "'fɒ:rin",
-      "chinese": "外国的",
-      "example": "",
-      "example_cn": "",
-      "category": "airport",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0392",
-      "english": "free",
-      "phonetic": "fri:",
-      "chinese": "自由的",
-      "example": "",
-      "example_cn": "",
-      "category": "shopping",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0393",
-      "english": "friend",
-      "phonetic": "frend",
-      "chinese": "朋友",
-      "example": "",
-      "example_cn": "",
-      "category": "general",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0394",
-      "english": "ill",
-      "phonetic": "il",
-      "chinese": "疾病",
-      "example": "",
-      "example_cn": "",
-      "category": "emergency",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0395",
-      "english": "miss",
-      "phonetic": "mis",
-      "chinese": "失误",
-      "example": "",
-      "example_cn": "",
-      "category": "airport",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0396",
-      "english": "near",
-      "phonetic": "niә",
-      "chinese": "近的",
-      "example": "",
-      "example_cn": "",
-      "category": "general",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0397",
-      "english": "repeat",
-      "phonetic": "ri'pi:t",
-      "chinese": "重复",
-      "example": "",
-      "example_cn": "",
-      "category": "general",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0398",
-      "english": "behind",
-      "phonetic": "bi'haind",
-      "chinese": "在后地\\nprep.",
-      "example": "",
-      "example_cn": "",
-      "category": "direction",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0399",
-      "english": "bottle",
-      "phonetic": "'bɒtl",
-      "chinese": "瓶子",
-      "example": "",
-      "example_cn": "",
-      "category": "restaurant",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0400",
-      "english": "butter",
-      "phonetic": "'bʌtә",
-      "chinese": "奶油",
-      "example": "",
-      "example_cn": "",
-      "category": "restaurant",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0401",
-      "english": "cake",
-      "phonetic": "keik",
-      "chinese": "蛋糕",
-      "example": "",
-      "example_cn": "",
-      "category": "restaurant",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0402",
-      "english": "safety",
-      "phonetic": "'seifti",
-      "chinese": "安全",
-      "example": "",
-      "example_cn": "",
-      "category": "emergency",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0403",
-      "english": "see",
-      "phonetic": "si:",
-      "chinese": "看见",
-      "example": "",
-      "example_cn": "",
-      "category": "general",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0404",
-      "english": "slow",
-      "phonetic": "slәu",
-      "chinese": "慢的",
-      "example": "",
-      "example_cn": "",
-      "category": "general",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0405",
-      "english": "speak",
-      "phonetic": "spi:k",
-      "chinese": "说, 说话, 演说,",
-      "example": "",
-      "example_cn": "",
-      "category": "general",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0406",
-      "english": "corner",
-      "phonetic": "'kɒ:nә",
-      "chinese": "角落",
-      "example": "",
-      "example_cn": "",
-      "category": "direction",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0407",
-      "english": "delay",
-      "phonetic": "di'lei",
-      "chinese": "耽搁",
-      "example": "",
-      "example_cn": "",
-      "category": "airport",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0408",
-      "english": "eat",
-      "phonetic": "i:t",
-      "chinese": "吃, 腐蚀",
-      "example": "",
-      "example_cn": "",
-      "category": "restaurant",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0409",
-      "english": "mountain",
-      "phonetic": "'mauntin",
-      "chinese": "山, 山脉, 大堆",
-      "example": "",
-      "example_cn": "",
-      "category": "entertainment",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0410",
-      "english": "much",
-      "phonetic": "mʌtʃ",
-      "chinese": "大量",
-      "example": "",
-      "example_cn": "",
-      "category": "general",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0411",
-      "english": "repair",
-      "phonetic": "ri'pєә",
-      "chinese": "修理",
-      "example": "",
-      "example_cn": "",
-      "category": "hotel",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0412",
-      "english": "right",
-      "phonetic": "rait",
-      "chinese": "权利",
-      "example": "",
-      "example_cn": "",
-      "category": "direction",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0413",
-      "english": "bargain",
-      "phonetic": "'bɑ:gin",
-      "chinese": "交易",
-      "example": "",
-      "example_cn": "",
-      "category": "shopping",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0414",
-      "english": "faint",
-      "phonetic": "feint",
-      "chinese": "昏厥",
-      "example": "",
-      "example_cn": "",
-      "category": "emergency",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0415",
-      "english": "full",
-      "phonetic": "ful",
-      "chinese": "全部",
-      "example": "",
-      "example_cn": "",
-      "category": "general",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0416",
-      "english": "glass",
-      "phonetic": "glɑ:s",
-      "chinese": "玻璃",
-      "example": "",
-      "example_cn": "",
-      "category": "restaurant",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0417",
-      "english": "hot",
-      "phonetic": "hɒt",
-      "chinese": "热的",
-      "example": "",
-      "example_cn": "",
-      "category": "general",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0418",
-      "english": "more",
-      "phonetic": "mɒ:",
-      "chinese": "更多\\na. 多的",
-      "example": "",
-      "example_cn": "",
-      "category": "general",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0419",
-      "english": "pass",
-      "phonetic": "pæs",
-      "chinese": "经过",
-      "example": "",
-      "example_cn": "",
-      "category": "transportation",
-      "source": "oxford3000"
-    },
-    {
-      "id": "travel_0420",
+      "id": "travel_0002",
       "english": "sport",
       "phonetic": "spɒ:t",
       "chinese": "运动",
@@ -4204,7 +24,497 @@
       "source": "oxford3000"
     },
     {
-      "id": "travel_0421",
+      "id": "travel_0003",
+      "english": "vegetable",
+      "phonetic": "'vedʒәtәbl",
+      "chinese": "蔬菜",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0004",
+      "english": "bake",
+      "phonetic": "beik",
+      "chinese": "烘焙",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0005",
+      "english": "coffee",
+      "phonetic": "'kɒfi",
+      "chinese": "咖啡",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0006",
+      "english": "coin",
+      "phonetic": "kɒin",
+      "chinese": "硬币",
+      "example": "",
+      "example_cn": "",
+      "category": "shopping",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0007",
+      "english": "get",
+      "phonetic": "get",
+      "chinese": "得到",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0008",
+      "english": "milk",
+      "phonetic": "milk",
+      "chinese": "奶, 乳状物",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0009",
+      "english": "protect",
+      "phonetic": "prә'tekt",
+      "chinese": "防卫",
+      "example": "",
+      "example_cn": "",
+      "category": "emergency",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0010",
+      "english": "restaurant",
+      "phonetic": "'restәrɒŋ",
+      "chinese": "餐馆",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0011",
+      "english": "stamp",
+      "phonetic": "stæmp",
+      "chinese": "印, 邮票, 打印器",
+      "example": "",
+      "example_cn": "",
+      "category": "airport",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0012",
+      "english": "breathe",
+      "phonetic": "bri:ð",
+      "chinese": "呼吸",
+      "example": "",
+      "example_cn": "",
+      "category": "emergency",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0013",
+      "english": "crowded",
+      "phonetic": "'kraudid",
+      "chinese": "拥挤的",
+      "example": "",
+      "example_cn": "",
+      "category": "entertainment",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0014",
+      "english": "emergency",
+      "phonetic": "i'mә:dʒәnsi",
+      "chinese": "紧急状况",
+      "example": "",
+      "example_cn": "",
+      "category": "emergency",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0015",
+      "english": "road",
+      "phonetic": "rәud",
+      "chinese": "路, 道路, 公路,",
+      "example": "",
+      "example_cn": "",
+      "category": "direction",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0016",
+      "english": "route",
+      "phonetic": "ru:t",
+      "chinese": "路径",
+      "example": "",
+      "example_cn": "",
+      "category": "direction",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0017",
+      "english": "throat",
+      "phonetic": "θrәut",
+      "chinese": "咽喉",
+      "example": "",
+      "example_cn": "",
+      "category": "emergency",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0018",
+      "english": "time",
+      "phonetic": "taim",
+      "chinese": "时间",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0019",
+      "english": "yesterday",
+      "phonetic": "'jestәdi",
+      "chinese": "昨天",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0020",
+      "english": "alone",
+      "phonetic": "ә'lәun",
+      "chinese": "孤独的",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0021",
+      "english": "cost",
+      "phonetic": "kɒst",
+      "chinese": "代价",
+      "example": "",
+      "example_cn": "",
+      "category": "shopping",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0022",
+      "english": "hello",
+      "phonetic": "hә'lәu",
+      "chinese": "interj. 喂",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0023",
+      "english": "name",
+      "phonetic": "neim",
+      "chinese": "名字",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0024",
+      "english": "north",
+      "phonetic": "nɒ:θ",
+      "chinese": "北方",
+      "example": "",
+      "example_cn": "",
+      "category": "direction",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0025",
+      "english": "right",
+      "phonetic": "rait",
+      "chinese": "权利",
+      "example": "",
+      "example_cn": "",
+      "category": "direction",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0026",
+      "english": "temperature",
+      "phonetic": "'temprәtʃә",
+      "chinese": "温度",
+      "example": "",
+      "example_cn": "",
+      "category": "hotel",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0027",
+      "english": "cinema",
+      "phonetic": "'sinәmә",
+      "chinese": "电影院",
+      "example": "",
+      "example_cn": "",
+      "category": "entertainment",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0028",
+      "english": "health",
+      "phonetic": "'helθ",
+      "chinese": "健康",
+      "example": "",
+      "example_cn": "",
+      "category": "emergency",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0029",
+      "english": "leg",
+      "phonetic": "leg",
+      "chinese": "腿, 假腿, 路程",
+      "example": "",
+      "example_cn": "",
+      "category": "emergency",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0030",
+      "english": "accident",
+      "phonetic": "'æksidәnt",
+      "chinese": "意外事件",
+      "example": "",
+      "example_cn": "",
+      "category": "emergency",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0031",
+      "english": "clock",
+      "phonetic": "klɒk",
+      "chinese": "时钟",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0032",
+      "english": "credit",
+      "phonetic": "'kredit",
+      "chinese": "信用",
+      "example": "",
+      "example_cn": "",
+      "category": "shopping",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0033",
+      "english": "faint",
+      "phonetic": "feint",
+      "chinese": "昏厥",
+      "example": "",
+      "example_cn": "",
+      "category": "emergency",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0034",
+      "english": "room",
+      "phonetic": "ru:m",
+      "chinese": "房间",
+      "example": "",
+      "example_cn": "",
+      "category": "hotel",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0035",
+      "english": "area",
+      "phonetic": "'єәriә",
+      "chinese": "区域",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0036",
+      "english": "document",
+      "phonetic": "'dɒkjumәnt",
+      "chinese": "文件",
+      "example": "",
+      "example_cn": "",
+      "category": "airport",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0037",
+      "english": "east",
+      "phonetic": "i:st",
+      "chinese": "东方",
+      "example": "",
+      "example_cn": "",
+      "category": "direction",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0038",
+      "english": "first",
+      "phonetic": "fә:st",
+      "chinese": "首先",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0039",
+      "english": "flight",
+      "phonetic": "flait",
+      "chinese": "飞行",
+      "example": "",
+      "example_cn": "",
+      "category": "airport",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0040",
+      "english": "help",
+      "phonetic": "help",
+      "chinese": "帮忙",
+      "example": "",
+      "example_cn": "",
+      "category": "emergency",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0041",
+      "english": "many",
+      "phonetic": "'meni",
+      "chinese": "多数",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0042",
+      "english": "potato",
+      "phonetic": "pә'teitәu",
+      "chinese": "马铃薯",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0043",
+      "english": "discount",
+      "phonetic": "'diskaunt",
+      "chinese": "折扣",
+      "example": "",
+      "example_cn": "",
+      "category": "shopping",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0044",
+      "english": "hungry",
+      "phonetic": "'hʌŋgi",
+      "chinese": "饥饿的",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0045",
+      "english": "morning",
+      "phonetic": "'mɒ:niŋ",
+      "chinese": "早晨",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0046",
+      "english": "next",
+      "phonetic": "'nekst",
+      "chinese": "下一个",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0047",
+      "english": "week",
+      "phonetic": "wi:k",
+      "chinese": "星期",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0048",
+      "english": "comfortable",
+      "phonetic": "'kʌmfәtәbl",
+      "chinese": "舒服的",
+      "example": "",
+      "example_cn": "",
+      "category": "hotel",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0049",
+      "english": "cream",
+      "phonetic": "kri:m",
+      "chinese": "乳酪",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0050",
+      "english": "key",
+      "phonetic": "ki:",
+      "chinese": "钥匙",
+      "example": "",
+      "example_cn": "",
+      "category": "hotel",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0051",
+      "english": "beside",
+      "phonetic": "bi'said",
+      "chinese": "在旁边",
+      "example": "",
+      "example_cn": "",
+      "category": "direction",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0052",
       "english": "brand",
       "phonetic": "brænd",
       "chinese": "商标",
@@ -4214,37 +524,407 @@
       "source": "oxford3000"
     },
     {
-      "id": "travel_0422",
-      "english": "find",
-      "phonetic": "faind",
-      "chinese": "发现, 感到, 找到, 认为, 得到\\nvi. 裁决\\nn. 发现\\n[计] 查找",
+      "id": "travel_0053",
+      "english": "floor",
+      "phonetic": "flɒ:",
+      "chinese": "地板",
       "example": "",
       "example_cn": "",
-      "category": "general",
+      "category": "hotel",
       "source": "oxford3000"
     },
     {
-      "id": "travel_0423",
-      "english": "last",
-      "phonetic": "lɑ:st",
-      "chinese": "最后的",
+      "id": "travel_0054",
+      "english": "gate",
+      "phonetic": "geit",
+      "chinese": "门, 牌楼, 大门,",
       "example": "",
       "example_cn": "",
-      "category": "general",
+      "category": "airport",
       "source": "oxford3000"
     },
     {
-      "id": "travel_0424",
-      "english": "quality",
-      "phonetic": "'kwɒlәti",
-      "chinese": "品质",
+      "id": "travel_0055",
+      "english": "medicine",
+      "phonetic": "'medisin",
+      "chinese": "药, 医学, 内科",
+      "example": "",
+      "example_cn": "",
+      "category": "emergency",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0056",
+      "english": "transport",
+      "phonetic": "træns'pɒ:t",
+      "chinese": "运输",
+      "example": "",
+      "example_cn": "",
+      "category": "transportation",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0057",
+      "english": "between",
+      "phonetic": "bi'twi:n",
+      "chinese": "在...之间",
+      "example": "",
+      "example_cn": "",
+      "category": "direction",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0058",
+      "english": "customs",
+      "phonetic": "",
+      "chinese": "海关",
+      "example": "",
+      "example_cn": "",
+      "category": "airport",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0059",
+      "english": "cycle",
+      "phonetic": "'saikl",
+      "chinese": "周期",
+      "example": "",
+      "example_cn": "",
+      "category": "transportation",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0060",
+      "english": "elevator",
+      "phonetic": "'eliveitә",
+      "chinese": "电梯",
+      "example": "",
+      "example_cn": "",
+      "category": "hotel",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0061",
+      "english": "money",
+      "phonetic": "'mʌni",
+      "chinese": "金钱",
       "example": "",
       "example_cn": "",
       "category": "shopping",
       "source": "oxford3000"
     },
     {
-      "id": "travel_0425",
+      "id": "travel_0062",
+      "english": "swim",
+      "phonetic": "swim",
+      "chinese": "游泳",
+      "example": "",
+      "example_cn": "",
+      "category": "entertainment",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0063",
+      "english": "yes",
+      "phonetic": "jes",
+      "chinese": "是",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0064",
+      "english": "apartment",
+      "phonetic": "ә'pɑ:tmәnt",
+      "chinese": "房间",
+      "example": "",
+      "example_cn": "",
+      "category": "hotel",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0065",
+      "english": "cook",
+      "phonetic": "kuk",
+      "chinese": "厨子",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0066",
+      "english": "full",
+      "phonetic": "ful",
+      "chinese": "全部",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0067",
+      "english": "river",
+      "phonetic": "'rivә",
+      "chinese": "河, 江",
+      "example": "",
+      "example_cn": "",
+      "category": "entertainment",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0068",
+      "english": "sea",
+      "phonetic": "si:",
+      "chinese": "海, 海洋, 海浪,",
+      "example": "",
+      "example_cn": "",
+      "category": "entertainment",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0069",
+      "english": "towards",
+      "phonetic": "tә'wɔ:dz",
+      "chinese": "向, 对于, 为了",
+      "example": "",
+      "example_cn": "",
+      "category": "direction",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0070",
+      "english": "abroad",
+      "phonetic": "ә'brɒ:d",
+      "chinese": "往国外",
+      "example": "",
+      "example_cn": "",
+      "category": "airport",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0071",
+      "english": "evening",
+      "phonetic": "'i:vniŋ",
+      "chinese": "傍晚",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0072",
+      "english": "family",
+      "phonetic": "'fæmәli",
+      "chinese": "家庭",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0073",
+      "english": "new",
+      "phonetic": "nju:",
+      "chinese": "新的",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0074",
+      "english": "timetable",
+      "phonetic": "'taimteibl",
+      "chinese": "时间表",
+      "example": "",
+      "example_cn": "",
+      "category": "transportation",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0075",
+      "english": "train",
+      "phonetic": "trein",
+      "chinese": "火车",
+      "example": "",
+      "example_cn": "",
+      "category": "transportation",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0076",
+      "english": "use",
+      "phonetic": "ju:s",
+      "chinese": "使用",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0077",
+      "english": "view",
+      "phonetic": "vju:",
+      "chinese": "视野",
+      "example": "",
+      "example_cn": "",
+      "category": "entertainment",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0078",
+      "english": "form",
+      "phonetic": "fɒ:m",
+      "chinese": "形状",
+      "example": "",
+      "example_cn": "",
+      "category": "airport",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0079",
+      "english": "mountain",
+      "phonetic": "'mauntin",
+      "chinese": "山, 山脉, 大堆",
+      "example": "",
+      "example_cn": "",
+      "category": "entertainment",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0080",
+      "english": "ship",
+      "phonetic": "ʃip",
+      "chinese": "船, 舰",
+      "example": "",
+      "example_cn": "",
+      "category": "transportation",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0081",
+      "english": "size",
+      "phonetic": "saiz",
+      "chinese": "大小",
+      "example": "",
+      "example_cn": "",
+      "category": "shopping",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0082",
+      "english": "through",
+      "phonetic": "θru:",
+      "chinese": "穿越",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0083",
+      "english": "write",
+      "phonetic": "rait",
+      "chinese": "书写",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0084",
+      "english": "island",
+      "phonetic": "'ailәnd",
+      "chinese": "岛, 岛屿, 孤立地",
+      "example": "",
+      "example_cn": "",
+      "category": "entertainment",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0085",
+      "english": "open",
+      "phonetic": "'әupәn",
+      "chinese": "公开",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0086",
+      "english": "repeat",
+      "phonetic": "ri'pi:t",
+      "chinese": "重复",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0087",
+      "english": "sauce",
+      "phonetic": "sɒ:s",
+      "chinese": "酱油",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0088",
+      "english": "call",
+      "phonetic": "kɒ:l",
+      "chinese": "呼叫",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0089",
+      "english": "cheap",
+      "phonetic": "tʃi:p",
+      "chinese": "便宜的",
+      "example": "",
+      "example_cn": "",
+      "category": "shopping",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0090",
+      "english": "behind",
+      "phonetic": "bi'haind",
+      "chinese": "在后地",
+      "example": "",
+      "example_cn": "",
+      "category": "direction",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0091",
+      "english": "sale",
+      "phonetic": "seil",
+      "chinese": "出售",
+      "example": "",
+      "example_cn": "",
+      "category": "shopping",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0092",
+      "english": "sick",
+      "phonetic": "sik",
+      "chinese": "病人",
+      "example": "",
+      "example_cn": "",
+      "category": "emergency",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0093",
       "english": "tour",
       "phonetic": "tuә",
       "chinese": "旅游",
@@ -4254,7 +934,507 @@
       "source": "oxford3000"
     },
     {
-      "id": "travel_0426",
+      "id": "travel_0094",
+      "english": "trip",
+      "phonetic": "trip",
+      "chinese": "旅行",
+      "example": "",
+      "example_cn": "",
+      "category": "airport",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0095",
+      "english": "adventure",
+      "phonetic": "әd'ventʃә",
+      "chinese": "冒险",
+      "example": "",
+      "example_cn": "",
+      "category": "entertainment",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0096",
+      "english": "baggage",
+      "phonetic": "'bægidʒ",
+      "chinese": "行李",
+      "example": "",
+      "example_cn": "",
+      "category": "airport",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0097",
+      "english": "bed",
+      "phonetic": "bed",
+      "chinese": "床, 睡眠处, 河床",
+      "example": "",
+      "example_cn": "",
+      "category": "hotel",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0098",
+      "english": "drink",
+      "phonetic": "driŋk",
+      "chinese": "饮料",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0099",
+      "english": "motor",
+      "phonetic": "'mәutә",
+      "chinese": "马达",
+      "example": "",
+      "example_cn": "",
+      "category": "transportation",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0100",
+      "english": "please",
+      "phonetic": "pli:z",
+      "chinese": "请",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0101",
+      "english": "see",
+      "phonetic": "si:",
+      "chinese": "看见",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0102",
+      "english": "amount",
+      "phonetic": "ә'maunt",
+      "chinese": "总数",
+      "example": "",
+      "example_cn": "",
+      "category": "shopping",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0103",
+      "english": "buy",
+      "phonetic": "bai",
+      "chinese": "买, 获得",
+      "example": "",
+      "example_cn": "",
+      "category": "shopping",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0104",
+      "english": "corner",
+      "phonetic": "'kɒ:nә",
+      "chinese": "角落",
+      "example": "",
+      "example_cn": "",
+      "category": "direction",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0105",
+      "english": "minute",
+      "phonetic": "'minit. mai'nju:t",
+      "chinese": "分, 分钟, 片刻,",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0106",
+      "english": "port",
+      "phonetic": "pɒ:t",
+      "chinese": "港口",
+      "example": "",
+      "example_cn": "",
+      "category": "transportation",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0107",
+      "english": "slow",
+      "phonetic": "slәu",
+      "chinese": "慢的",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0108",
+      "english": "waiter",
+      "phonetic": "'weitә",
+      "chinese": "侍者",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0109",
+      "english": "forest",
+      "phonetic": "'fɒrist",
+      "chinese": "森林",
+      "example": "",
+      "example_cn": "",
+      "category": "entertainment",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0110",
+      "english": "nature",
+      "phonetic": "'neitʃә",
+      "chinese": "自然",
+      "example": "",
+      "example_cn": "",
+      "category": "entertainment",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0111",
+      "english": "ocean",
+      "phonetic": "'әuʃәn",
+      "chinese": "海洋",
+      "example": "",
+      "example_cn": "",
+      "category": "entertainment",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0112",
+      "english": "photography",
+      "phonetic": "fә'tɒgrәfi",
+      "chinese": "摄影",
+      "example": "",
+      "example_cn": "",
+      "category": "entertainment",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0113",
+      "english": "suitcase",
+      "phonetic": "'sju:tkeis",
+      "chinese": "手提箱",
+      "example": "",
+      "example_cn": "",
+      "category": "airport",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0114",
+      "english": "together",
+      "phonetic": "tә'geðә",
+      "chinese": "一起",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0115",
+      "english": "afternoon",
+      "phonetic": "'ɑ:ftә'nu:n",
+      "chinese": "午后",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0116",
+      "english": "blood",
+      "phonetic": "blʌd",
+      "chinese": "血, 血统, 流血,",
+      "example": "",
+      "example_cn": "",
+      "category": "emergency",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0117",
+      "english": "complaint",
+      "phonetic": "kәm'pleint",
+      "chinese": "诉苦",
+      "example": "",
+      "example_cn": "",
+      "category": "hotel",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0118",
+      "english": "enough",
+      "phonetic": "i'nʌf",
+      "chinese": "充足",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0119",
+      "english": "find",
+      "phonetic": "faind",
+      "chinese": "发现",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0120",
+      "english": "insurance",
+      "phonetic": "in'ʃurәns",
+      "chinese": "保险",
+      "example": "",
+      "example_cn": "",
+      "category": "emergency",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0121",
+      "english": "talk",
+      "phonetic": "tɒ:k",
+      "chinese": "谈话",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0122",
+      "english": "bicycle",
+      "phonetic": "'baisikl",
+      "chinese": "自行车",
+      "example": "",
+      "example_cn": "",
+      "category": "transportation",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0123",
+      "english": "dirty",
+      "phonetic": "'dә:ti",
+      "chinese": "肮脏的",
+      "example": "",
+      "example_cn": "",
+      "category": "hotel",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0124",
+      "english": "fever",
+      "phonetic": "'fi:vә",
+      "chinese": "发烧",
+      "example": "",
+      "example_cn": "",
+      "category": "emergency",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0125",
+      "english": "sun",
+      "phonetic": "sʌn",
+      "chinese": "太阳",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0126",
+      "english": "arm",
+      "phonetic": "ɑ:m",
+      "chinese": "手臂",
+      "example": "",
+      "example_cn": "",
+      "category": "emergency",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0127",
+      "english": "bowl",
+      "phonetic": "bәul",
+      "chinese": "碗, 木球, 大酒杯",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0128",
+      "english": "culture",
+      "phonetic": "'kʌltʃә",
+      "chinese": "文化",
+      "example": "",
+      "example_cn": "",
+      "category": "entertainment",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0129",
+      "english": "fish",
+      "phonetic": "fiʃ",
+      "chinese": "鱼, 鱼肉, 鱼类,",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0130",
+      "english": "fresh",
+      "phonetic": "freʃ",
+      "chinese": "新鲜的",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0131",
+      "english": "goodbye",
+      "phonetic": "gud'bai",
+      "chinese": "interj. 再见",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0132",
+      "english": "hire",
+      "phonetic": "haiә",
+      "chinese": "租金",
+      "example": "",
+      "example_cn": "",
+      "category": "transportation",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0133",
+      "english": "history",
+      "phonetic": "'histәri",
+      "chinese": "历史",
+      "example": "",
+      "example_cn": "",
+      "category": "entertainment",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0134",
+      "english": "beef",
+      "phonetic": "bi:f",
+      "chinese": "牛肉",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0135",
+      "english": "fashion",
+      "phonetic": "'fæʃәn",
+      "chinese": "流行",
+      "example": "",
+      "example_cn": "",
+      "category": "shopping",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0136",
+      "english": "free",
+      "phonetic": "fri:",
+      "chinese": "自由的",
+      "example": "",
+      "example_cn": "",
+      "category": "shopping",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0137",
+      "english": "hurry",
+      "phonetic": "'hʌri",
+      "chinese": "匆忙",
+      "example": "",
+      "example_cn": "",
+      "category": "direction",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0138",
+      "english": "much",
+      "phonetic": "mʌtʃ",
+      "chinese": "大量",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0139",
+      "english": "old",
+      "phonetic": "әuld",
+      "chinese": "以前",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0140",
+      "english": "park",
+      "phonetic": "pɑ:k",
+      "chinese": "公园",
+      "example": "",
+      "example_cn": "",
+      "category": "entertainment",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0141",
+      "english": "photo",
+      "phonetic": "'fәutәu",
+      "chinese": "相片",
+      "example": "",
+      "example_cn": "",
+      "category": "entertainment",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0142",
+      "english": "beyond",
+      "phonetic": "bi'jɒnd",
+      "chinese": "超过",
+      "example": "",
+      "example_cn": "",
+      "category": "direction",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0143",
+      "english": "boat",
+      "phonetic": "bәut",
+      "chinese": "船",
+      "example": "",
+      "example_cn": "",
+      "category": "transportation",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0144",
       "english": "book",
       "phonetic": "buk",
       "chinese": "书, 书籍, 帐簿,",
@@ -4264,13 +1444,2833 @@
       "source": "oxford3000"
     },
     {
-      "id": "travel_0427",
+      "id": "travel_0145",
+      "english": "arrive",
+      "phonetic": "ә'raiv",
+      "chinese": "到达",
+      "example": "",
+      "example_cn": "",
+      "category": "airport",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0146",
+      "english": "back",
+      "phonetic": "bæk",
+      "chinese": "后面的",
+      "example": "",
+      "example_cn": "",
+      "category": "emergency",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0147",
+      "english": "explore",
+      "phonetic": "ik'splɒ:",
+      "chinese": "探险",
+      "example": "",
+      "example_cn": "",
+      "category": "entertainment",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0148",
+      "english": "follow",
+      "phonetic": "'fɒlәu",
+      "chinese": "跟随",
+      "example": "",
+      "example_cn": "",
+      "category": "direction",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0149",
+      "english": "hour",
+      "phonetic": "auә",
+      "chinese": "小时",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0150",
+      "english": "bargain",
+      "phonetic": "'bɑ:gin",
+      "chinese": "交易",
+      "example": "",
+      "example_cn": "",
+      "category": "shopping",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0151",
+      "english": "centre",
+      "phonetic": "'sentә",
+      "chinese": "中心",
+      "example": "",
+      "example_cn": "",
+      "category": "direction",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0152",
+      "english": "chest",
+      "phonetic": "tʃest",
+      "chinese": "胸, 胸部, 衣柜,",
+      "example": "",
+      "example_cn": "",
+      "category": "emergency",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0153",
+      "english": "come",
+      "phonetic": "kʌm",
+      "chinese": "过来",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0154",
+      "english": "disease",
+      "phonetic": "di'zi:z",
+      "chinese": "疾病",
+      "example": "",
+      "example_cn": "",
+      "category": "emergency",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0155",
+      "english": "landscape",
+      "phonetic": "'lændskeip",
+      "chinese": "风景",
+      "example": "",
+      "example_cn": "",
+      "category": "entertainment",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0156",
+      "english": "local",
+      "phonetic": "'lәukәl",
+      "chinese": "地方性的",
+      "example": "",
+      "example_cn": "",
+      "category": "entertainment",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0157",
+      "english": "number",
+      "phonetic": "'nʌmbә",
+      "chinese": "数, 数字, 数目,",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0158",
+      "english": "along",
+      "phonetic": "ә'lɒŋ",
+      "chinese": "平行地",
+      "example": "",
+      "example_cn": "",
+      "category": "direction",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0159",
+      "english": "bottle",
+      "phonetic": "'bɒtl",
+      "chinese": "瓶子",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0160",
+      "english": "last",
+      "phonetic": "lɑ:st",
+      "chinese": "最后的",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0161",
+      "english": "man",
+      "phonetic": "mæn",
+      "chinese": "男人",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0162",
+      "english": "passenger",
+      "phonetic": "'pæsindʒә",
+      "chinese": "乘客",
+      "example": "",
+      "example_cn": "",
+      "category": "transportation",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0163",
+      "english": "repair",
+      "phonetic": "ri'pєә",
+      "chinese": "修理",
+      "example": "",
+      "example_cn": "",
+      "category": "hotel",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0164",
+      "english": "sell",
+      "phonetic": "sel",
+      "chinese": "卖, 背叛, 销售,",
+      "example": "",
+      "example_cn": "",
+      "category": "shopping",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0165",
+      "english": "air",
+      "phonetic": "єә",
+      "chinese": "空气",
+      "example": "",
+      "example_cn": "",
+      "category": "airport",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0166",
+      "english": "clean",
+      "phonetic": "kli:n",
+      "chinese": "干净的",
+      "example": "",
+      "example_cn": "",
+      "category": "hotel",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0167",
+      "english": "dinner",
+      "phonetic": "'dinә",
+      "chinese": "晚餐",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0168",
+      "english": "meat",
+      "phonetic": "mi:t",
+      "chinese": "肉, 餐, 食物",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0169",
+      "english": "shower",
+      "phonetic": "'ʃauә",
+      "chinese": "阵雨",
+      "example": "",
+      "example_cn": "",
+      "category": "hotel",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0170",
+      "english": "sign",
+      "phonetic": "sain",
+      "chinese": "符号",
+      "example": "",
+      "example_cn": "",
+      "category": "direction",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0171",
+      "english": "station",
+      "phonetic": "'steiʃәn",
+      "chinese": "车站",
+      "example": "",
+      "example_cn": "",
+      "category": "transportation",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0172",
+      "english": "swallow",
+      "phonetic": "'swɒlәu",
+      "chinese": "燕子",
+      "example": "",
+      "example_cn": "",
+      "category": "emergency",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0173",
+      "english": "address",
+      "phonetic": "ә'dres",
+      "chinese": "住址",
+      "example": "",
+      "example_cn": "",
+      "category": "direction",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0174",
+      "english": "aid",
+      "phonetic": "eid",
+      "chinese": "帮助",
+      "example": "",
+      "example_cn": "",
+      "category": "emergency",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0175",
+      "english": "egg",
+      "phonetic": "eg",
+      "chinese": "蛋, 卵",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0176",
+      "english": "hot",
+      "phonetic": "hɒt",
+      "chinese": "热的",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0177",
+      "english": "lemon",
+      "phonetic": "'lemәn",
+      "chinese": "柠檬",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0178",
+      "english": "rice",
+      "phonetic": "rais",
+      "chinese": "米, 米饭, 稻",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0179",
+      "english": "south",
+      "phonetic": "sauθ",
+      "chinese": "南方",
+      "example": "",
+      "example_cn": "",
+      "category": "direction",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0180",
+      "english": "stomach",
+      "phonetic": "'stʌmәk",
+      "chinese": "胃, 食欲, 欲望,",
+      "example": "",
+      "example_cn": "",
+      "category": "emergency",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0181",
+      "english": "cake",
+      "phonetic": "keik",
+      "chinese": "蛋糕",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0182",
+      "english": "cup",
+      "phonetic": "kʌp",
+      "chinese": "杯子",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0183",
+      "english": "driver",
+      "phonetic": "'draivә",
+      "chinese": "驾驶员",
+      "example": "",
+      "example_cn": "",
+      "category": "transportation",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0184",
+      "english": "land",
+      "phonetic": "lænd",
+      "chinese": "陆地",
+      "example": "",
+      "example_cn": "",
+      "category": "airport",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0185",
+      "english": "recommend",
+      "phonetic": ".rekә'mend",
+      "chinese": "推荐",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0186",
+      "english": "street",
+      "phonetic": "stri:t",
+      "chinese": "街道",
+      "example": "",
+      "example_cn": "",
+      "category": "direction",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0187",
+      "english": "ticket",
+      "phonetic": "'tikit",
+      "chinese": "票, 券, 车票,",
+      "example": "",
+      "example_cn": "",
+      "category": "transportation",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0188",
+      "english": "wait",
+      "phonetic": "weit",
+      "chinese": "等待",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0189",
+      "english": "climb",
+      "phonetic": "klaim",
+      "chinese": "攀登",
+      "example": "",
+      "example_cn": "",
+      "category": "entertainment",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0190",
+      "english": "cold",
+      "phonetic": "kәuld",
+      "chinese": "感冒",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0191",
+      "english": "far",
+      "phonetic": "fɑ:",
+      "chinese": "远的",
+      "example": "",
+      "example_cn": "",
+      "category": "direction",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0192",
+      "english": "hospital",
+      "phonetic": "'hɒspitәl",
+      "chinese": "医院",
+      "example": "",
+      "example_cn": "",
+      "category": "emergency",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0193",
+      "english": "path",
+      "phonetic": "pɑ:θ",
+      "chinese": "路径",
+      "example": "",
+      "example_cn": "",
+      "category": "direction",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0194",
+      "english": "rain",
+      "phonetic": "rein",
+      "chinese": "雨, 下雨, 雨天",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0195",
+      "english": "raw",
+      "phonetic": "rɒ:",
+      "chinese": "擦伤处",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0196",
+      "english": "shop",
+      "phonetic": "ʃɒp",
+      "chinese": "商店",
+      "example": "",
+      "example_cn": "",
+      "category": "shopping",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0197",
+      "english": "airport",
+      "phonetic": "'єәpɒ:t",
+      "chinese": "飞机场",
+      "example": "",
+      "example_cn": "",
+      "category": "airport",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0198",
       "english": "duty",
       "phonetic": "'dju:ti",
       "chinese": "责任",
       "example": "",
       "example_cn": "",
       "category": "airport",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0199",
+      "english": "people",
+      "phonetic": "'pi:pl",
+      "chinese": "人, 人民, 民族,",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0200",
+      "english": "sugar",
+      "phonetic": "'ʃugә",
+      "chinese": "糖, 糖块, 甜言蜜",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0201",
+      "english": "tea",
+      "phonetic": "ti:",
+      "chinese": "茶, 茶叶",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0202",
+      "english": "way",
+      "phonetic": "wei",
+      "chinese": "路, 路线, 路途,",
+      "example": "",
+      "example_cn": "",
+      "category": "direction",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0203",
+      "english": "border",
+      "phonetic": "'bɒ:dә",
+      "chinese": "边缘",
+      "example": "",
+      "example_cn": "",
+      "category": "airport",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0204",
+      "english": "around",
+      "phonetic": "ә'raund",
+      "chinese": "包围",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0205",
+      "english": "bad",
+      "phonetic": "bæd",
+      "chinese": "坏的",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0206",
+      "english": "accommodation",
+      "phonetic": "ә.kɒmә'deiʃәn",
+      "chinese": "膳宿",
+      "example": "",
+      "example_cn": "",
+      "category": "hotel",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0207",
+      "english": "picture",
+      "phonetic": "'piktʃә",
+      "chinese": "图画",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0208",
+      "english": "plate",
+      "phonetic": "pleit",
+      "chinese": "碟, 盘子, 盆中物",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0209",
+      "english": "rent",
+      "phonetic": "rent",
+      "chinese": "租金",
+      "example": "",
+      "example_cn": "",
+      "category": "transportation",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0210",
+      "english": "speak",
+      "phonetic": "spi:k",
+      "chinese": "说, 说话, 演说,",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0211",
+      "english": "alcohol",
+      "phonetic": "'ælkәhɒl",
+      "chinese": "酒精",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0212",
+      "english": "bread",
+      "phonetic": "bred",
+      "chinese": "面包",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0213",
+      "english": "cheese",
+      "phonetic": "tʃi:z",
+      "chinese": "乳酪",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0214",
+      "english": "dance",
+      "phonetic": "dæns. dɑ:ns",
+      "chinese": "跳舞",
+      "example": "",
+      "example_cn": "",
+      "category": "entertainment",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0215",
+      "english": "injury",
+      "phonetic": "'indʒәri",
+      "chinese": "伤害",
+      "example": "",
+      "example_cn": "",
+      "category": "emergency",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0216",
+      "english": "miss",
+      "phonetic": "mis",
+      "chinese": "失误",
+      "example": "",
+      "example_cn": "",
+      "category": "airport",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0217",
+      "english": "opposite",
+      "phonetic": "'ɒpәzit",
+      "chinese": "相对的",
+      "example": "",
+      "example_cn": "",
+      "category": "direction",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0218",
+      "english": "safe",
+      "phonetic": "seif",
+      "chinese": "保险箱",
+      "example": "",
+      "example_cn": "",
+      "category": "emergency",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0219",
+      "english": "concert",
+      "phonetic": "'kɒnsәt",
+      "chinese": "音乐会",
+      "example": "",
+      "example_cn": "",
+      "category": "entertainment",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0220",
+      "english": "expensive",
+      "phonetic": "ik'spensiv",
+      "chinese": "贵的",
+      "example": "",
+      "example_cn": "",
+      "category": "shopping",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0221",
+      "english": "know",
+      "phonetic": "nәu",
+      "chinese": "知道",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0222",
+      "english": "late",
+      "phonetic": "leit",
+      "chinese": "迟的",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0223",
+      "english": "onion",
+      "phonetic": "'ʌnjәn",
+      "chinese": "洋葱",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0224",
+      "english": "payment",
+      "phonetic": "'peimәnt",
+      "chinese": "付款",
+      "example": "",
+      "example_cn": "",
+      "category": "shopping",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0225",
+      "english": "question",
+      "phonetic": "'kwestʃәn",
+      "chinese": "问题",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0226",
+      "english": "quiet",
+      "phonetic": "'kwaiәt",
+      "chinese": "安静",
+      "example": "",
+      "example_cn": "",
+      "category": "hotel",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0227",
+      "english": "art",
+      "phonetic": "ɑ:t",
+      "chinese": "艺术",
+      "example": "",
+      "example_cn": "",
+      "category": "entertainment",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0228",
+      "english": "cross",
+      "phonetic": "krɒs",
+      "chinese": "十字架",
+      "example": "",
+      "example_cn": "",
+      "category": "direction",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0229",
+      "english": "delay",
+      "phonetic": "di'lei",
+      "chinese": "耽搁",
+      "example": "",
+      "example_cn": "",
+      "category": "airport",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0230",
+      "english": "group",
+      "phonetic": "gru:p",
+      "chinese": "团体",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0231",
+      "english": "purchase",
+      "phonetic": "'pә:tʃәs",
+      "chinese": "购买",
+      "example": "",
+      "example_cn": "",
+      "category": "shopping",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0232",
+      "english": "taste",
+      "phonetic": "teist",
+      "chinese": "味道",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0233",
+      "english": "thank",
+      "phonetic": "θæŋk",
+      "chinese": "谢意",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0234",
+      "english": "tip",
+      "phonetic": "tip",
+      "chinese": "顶, 尖端, 梢,",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0235",
+      "english": "ambulance",
+      "phonetic": "'æmbjulәns",
+      "chinese": "救护车",
+      "example": "",
+      "example_cn": "",
+      "category": "emergency",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0236",
+      "english": "bring",
+      "phonetic": "briŋ",
+      "chinese": "带来",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0237",
+      "english": "declare",
+      "phonetic": "di'klєә",
+      "chinese": "宣布",
+      "example": "",
+      "example_cn": "",
+      "category": "airport",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0238",
+      "english": "distance",
+      "phonetic": "'distәns",
+      "chinese": "距离",
+      "example": "",
+      "example_cn": "",
+      "category": "direction",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0239",
+      "english": "drive",
+      "phonetic": "draiv",
+      "chinese": "驾车",
+      "example": "",
+      "example_cn": "",
+      "category": "transportation",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0240",
+      "english": "pain",
+      "phonetic": "pein",
+      "chinese": "痛苦",
+      "example": "",
+      "example_cn": "",
+      "category": "emergency",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0241",
+      "english": "photograph",
+      "phonetic": "'fәutәgrɑ:f",
+      "chinese": "相片",
+      "example": "",
+      "example_cn": "",
+      "category": "entertainment",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0242",
+      "english": "walk",
+      "phonetic": "wɒ:k",
+      "chinese": "走, 散步, 步行,",
+      "example": "",
+      "example_cn": "",
+      "category": "direction",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0243",
+      "english": "foreign",
+      "phonetic": "'fɒ:rin",
+      "chinese": "外国的",
+      "example": "",
+      "example_cn": "",
+      "category": "airport",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0244",
+      "english": "heavy",
+      "phonetic": "'hevi",
+      "chinese": "重的",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0245",
+      "english": "illness",
+      "phonetic": "'ilnis",
+      "chinese": "疾病",
+      "example": "",
+      "example_cn": "",
+      "category": "emergency",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0246",
+      "english": "locate",
+      "phonetic": "'lәukeit",
+      "chinese": "找出",
+      "example": "",
+      "example_cn": "",
+      "category": "direction",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0247",
+      "english": "pepper",
+      "phonetic": "'pepә",
+      "chinese": "胡椒粉",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0248",
+      "english": "soap",
+      "phonetic": "sәup",
+      "chinese": "肥皂",
+      "example": "",
+      "example_cn": "",
+      "category": "hotel",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0249",
+      "english": "stop",
+      "phonetic": "stɒp",
+      "chinese": "停止",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0250",
+      "english": "visit",
+      "phonetic": "'vizit",
+      "chinese": "拜访",
+      "example": "",
+      "example_cn": "",
+      "category": "entertainment",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0251",
+      "english": "big",
+      "phonetic": "big",
+      "chinese": "大的",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0252",
+      "english": "information",
+      "phonetic": ".infә'meiʃәn",
+      "chinese": "消息",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0253",
+      "english": "left",
+      "phonetic": "left",
+      "chinese": "左边的",
+      "example": "",
+      "example_cn": "",
+      "category": "direction",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0254",
+      "english": "no",
+      "phonetic": "nәu",
+      "chinese": "不, 拒绝, 否决票",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0255",
+      "english": "shopping",
+      "phonetic": "'ʃɒpiŋ",
+      "chinese": "买东西",
+      "example": "",
+      "example_cn": "",
+      "category": "shopping",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0256",
+      "english": "store",
+      "phonetic": "stɒ:",
+      "chinese": "商店",
+      "example": "",
+      "example_cn": "",
+      "category": "shopping",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0257",
+      "english": "sweet",
+      "phonetic": "swi:t",
+      "chinese": "甜蜜",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0258",
+      "english": "wine",
+      "phonetic": "wain",
+      "chinese": "葡萄酒",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0259",
+      "english": "departure",
+      "phonetic": "di'pɑ:tʃә",
+      "chinese": "离开",
+      "example": "",
+      "example_cn": "",
+      "category": "airport",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0260",
+      "english": "diet",
+      "phonetic": "'daiәt",
+      "chinese": "日常饮食",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0261",
+      "english": "item",
+      "phonetic": "'aitәm",
+      "chinese": "项目",
+      "example": "",
+      "example_cn": "",
+      "category": "shopping",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0262",
+      "english": "night",
+      "phonetic": "nait",
+      "chinese": "夜, 夜晚, 晚上,",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0263",
+      "english": "resort",
+      "phonetic": "ri'zɒ:t",
+      "chinese": "度假胜地",
+      "example": "",
+      "example_cn": "",
+      "category": "hotel",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0264",
+      "english": "short",
+      "phonetic": "ʃɒ:t",
+      "chinese": "短的",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0265",
+      "english": "underground",
+      "phonetic": "'ʌndәgraund",
+      "chinese": "地下",
+      "example": "",
+      "example_cn": "",
+      "category": "transportation",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0266",
+      "english": "water",
+      "phonetic": "'wɒ:tә",
+      "chinese": "水, 雨水, 海水,",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0267",
+      "english": "bus",
+      "phonetic": "bʌs",
+      "chinese": "公共汽车",
+      "example": "",
+      "example_cn": "",
+      "category": "transportation",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0268",
+      "english": "cash",
+      "phonetic": "kæʃ",
+      "chinese": "现金",
+      "example": "",
+      "example_cn": "",
+      "category": "shopping",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0269",
+      "english": "bar",
+      "phonetic": "bɑ:",
+      "chinese": "条, 棒, 酒吧,",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0270",
+      "english": "car",
+      "phonetic": "kɑ:",
+      "chinese": "汽车",
+      "example": "",
+      "example_cn": "",
+      "category": "transportation",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0271",
+      "english": "charge",
+      "phonetic": "tʃɑ:dʒ",
+      "chinese": "指控",
+      "example": "",
+      "example_cn": "",
+      "category": "shopping",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0272",
+      "english": "eat",
+      "phonetic": "i:t",
+      "chinese": "吃, 腐蚀",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0273",
+      "english": "festival",
+      "phonetic": "'festәvәl",
+      "chinese": "节日的",
+      "example": "",
+      "example_cn": "",
+      "category": "entertainment",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0274",
+      "english": "give",
+      "phonetic": "giv",
+      "chinese": "弹性",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0275",
+      "english": "meal",
+      "phonetic": "mi:l",
+      "chinese": "一餐",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0276",
+      "english": "office",
+      "phonetic": "'ɒfis",
+      "chinese": "办公室",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0277",
+      "english": "colour",
+      "phonetic": "'kʌlә",
+      "chinese": "颜色",
+      "example": "",
+      "example_cn": "",
+      "category": "shopping",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0278",
+      "english": "entrance",
+      "phonetic": "'entrәns",
+      "chinese": "入口",
+      "example": "",
+      "example_cn": "",
+      "category": "direction",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0279",
+      "english": "food",
+      "phonetic": "fu:d",
+      "chinese": "食物",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0280",
+      "english": "head",
+      "phonetic": "hed",
+      "chinese": "头, 头脑, 领袖,",
+      "example": "",
+      "example_cn": "",
+      "category": "emergency",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0281",
+      "english": "plane",
+      "phonetic": "plein",
+      "chinese": "平面",
+      "example": "",
+      "example_cn": "",
+      "category": "airport",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0282",
+      "english": "salt",
+      "phonetic": "sɒ:lt",
+      "chinese": "盐, 风趣, 刺激",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0283",
+      "english": "show",
+      "phonetic": "ʃәu",
+      "chinese": "显示",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0284",
+      "english": "spicy",
+      "phonetic": "'spaisi",
+      "chinese": "香的",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0285",
+      "english": "connect",
+      "phonetic": "kә'nekt",
+      "chinese": "连接",
+      "example": "",
+      "example_cn": "",
+      "category": "airport",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0286",
+      "english": "doctor",
+      "phonetic": "'dɒktә",
+      "chinese": "医生",
+      "example": "",
+      "example_cn": "",
+      "category": "emergency",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0287",
+      "english": "hotel",
+      "phonetic": "hәu'tel",
+      "chinese": "旅馆",
+      "example": "",
+      "example_cn": "",
+      "category": "hotel",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0288",
+      "english": "label",
+      "phonetic": "'leibl",
+      "chinese": "标签",
+      "example": "",
+      "example_cn": "",
+      "category": "shopping",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0289",
+      "english": "location",
+      "phonetic": "lәu'keiʃәn",
+      "chinese": "位置",
+      "example": "",
+      "example_cn": "",
+      "category": "direction",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0290",
+      "english": "long",
+      "phonetic": "lɒŋ",
+      "chinese": "长的",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0291",
+      "english": "tax",
+      "phonetic": "tæks",
+      "chinese": "税, 税款, 重负,",
+      "example": "",
+      "example_cn": "",
+      "category": "shopping",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0292",
+      "english": "understand",
+      "phonetic": ".ʌndә'stænd",
+      "chinese": "理解",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0293",
+      "english": "attraction",
+      "phonetic": "ә'trækʃәn",
+      "chinese": "吸引",
+      "example": "",
+      "example_cn": "",
+      "category": "entertainment",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0294",
+      "english": "afford",
+      "phonetic": "ә'fɒ:d",
+      "chinese": "买得起",
+      "example": "",
+      "example_cn": "",
+      "category": "shopping",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0295",
+      "english": "danger",
+      "phonetic": "'deindʒә",
+      "chinese": "危险",
+      "example": "",
+      "example_cn": "",
+      "category": "emergency",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0296",
+      "english": "exhibition",
+      "phonetic": ".eksi'biʃәn",
+      "chinese": "表现",
+      "example": "",
+      "example_cn": "",
+      "category": "entertainment",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0297",
+      "english": "exit",
+      "phonetic": "'eksit",
+      "chinese": "出口",
+      "example": "",
+      "example_cn": "",
+      "category": "direction",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0298",
+      "english": "light",
+      "phonetic": "lait",
+      "chinese": "光, 光亮, 灯,",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0299",
+      "english": "lost",
+      "phonetic": "lɒst",
+      "chinese": "失去的",
+      "example": "",
+      "example_cn": "",
+      "category": "emergency",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0300",
+      "english": "lunch",
+      "phonetic": "lʌntʃ",
+      "chinese": "午餐",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0301",
+      "english": "child",
+      "phonetic": "tʃaild",
+      "chinese": "孩子",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0302",
+      "english": "deal",
+      "phonetic": "di:l",
+      "chinese": "交易",
+      "example": "",
+      "example_cn": "",
+      "category": "shopping",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0303",
+      "english": "dish",
+      "phonetic": "diʃ",
+      "chinese": "盘子",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0304",
+      "english": "quality",
+      "phonetic": "'kwɒlәti",
+      "chinese": "品质",
+      "example": "",
+      "example_cn": "",
+      "category": "shopping",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0305",
+      "english": "stay",
+      "phonetic": "stei",
+      "chinese": "停留",
+      "example": "",
+      "example_cn": "",
+      "category": "hotel",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0306",
+      "english": "tooth",
+      "phonetic": "tu:θ",
+      "chinese": "牙齿",
+      "example": "",
+      "example_cn": "",
+      "category": "emergency",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0307",
+      "english": "welcome",
+      "phonetic": "'welkәm",
+      "chinese": "欢迎",
+      "example": "",
+      "example_cn": "",
+      "category": "hotel",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0308",
+      "english": "fork",
+      "phonetic": "fɒ:k",
+      "chinese": "叉子",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0309",
+      "english": "fruit",
+      "phonetic": "fru:t",
+      "chinese": "水果",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0310",
+      "english": "service",
+      "phonetic": "'sә:vis",
+      "chinese": "服务",
+      "example": "",
+      "example_cn": "",
+      "category": "hotel",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0311",
+      "english": "weather",
+      "phonetic": "'weðә",
+      "chinese": "天气",
+      "example": "",
+      "example_cn": "",
+      "category": "entertainment",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0312",
+      "english": "desert",
+      "phonetic": "'dezәt. di'sә:t",
+      "chinese": "沙漠",
+      "example": "",
+      "example_cn": "",
+      "category": "entertainment",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0313",
+      "english": "map",
+      "phonetic": "mæp",
+      "chinese": "地图",
+      "example": "",
+      "example_cn": "",
+      "category": "direction",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0314",
+      "english": "menu",
+      "phonetic": "'menju:",
+      "chinese": "菜单",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0315",
+      "english": "music",
+      "phonetic": "'mju:zik",
+      "chinese": "音乐",
+      "example": "",
+      "example_cn": "",
+      "category": "entertainment",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0316",
+      "english": "price",
+      "phonetic": "prais",
+      "chinese": "价格",
+      "example": "",
+      "example_cn": "",
+      "category": "shopping",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0317",
+      "english": "straight",
+      "phonetic": "streit",
+      "chinese": "直线",
+      "example": "",
+      "example_cn": "",
+      "category": "direction",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0318",
+      "english": "tourist",
+      "phonetic": "'tuәrist",
+      "chinese": "观光客",
+      "example": "",
+      "example_cn": "",
+      "category": "entertainment",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0319",
+      "english": "wrap",
+      "phonetic": "ræp",
+      "chinese": "外套",
+      "example": "",
+      "example_cn": "",
+      "category": "shopping",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0320",
+      "english": "breakfast",
+      "phonetic": "'brekfәst",
+      "chinese": "早餐",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0321",
+      "english": "beach",
+      "phonetic": "bi:tʃ",
+      "chinese": "海滩",
+      "example": "",
+      "example_cn": "",
+      "category": "entertainment",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0322",
+      "english": "friend",
+      "phonetic": "frend",
+      "chinese": "朋友",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0323",
+      "english": "ill",
+      "phonetic": "il",
+      "chinese": "疾病",
+      "example": "",
+      "example_cn": "",
+      "category": "emergency",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0324",
+      "english": "journey",
+      "phonetic": "'dʒә:ni",
+      "chinese": "旅程",
+      "example": "",
+      "example_cn": "",
+      "category": "airport",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0325",
+      "english": "look",
+      "phonetic": "luk",
+      "chinese": "一看",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0326",
+      "english": "turn",
+      "phonetic": "tә:n",
+      "chinese": "转弯",
+      "example": "",
+      "example_cn": "",
+      "category": "direction",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0327",
+      "english": "bag",
+      "phonetic": "bæg",
+      "chinese": "袋子",
+      "example": "",
+      "example_cn": "",
+      "category": "airport",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0328",
+      "english": "butter",
+      "phonetic": "'bʌtә",
+      "chinese": "奶油",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0329",
+      "english": "cancel",
+      "phonetic": "'kænsәl",
+      "chinese": "取消",
+      "example": "",
+      "example_cn": "",
+      "category": "airport",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0330",
+      "english": "ear",
+      "phonetic": "iә",
+      "chinese": "耳朵",
+      "example": "",
+      "example_cn": "",
+      "category": "emergency",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0331",
+      "english": "glass",
+      "phonetic": "glɑ:s",
+      "chinese": "玻璃",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0332",
+      "english": "nut",
+      "phonetic": "nʌt",
+      "chinese": "坚果",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0333",
+      "english": "seat",
+      "phonetic": "si:t",
+      "chinese": "座, 座位, 位子,",
+      "example": "",
+      "example_cn": "",
+      "category": "transportation",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0334",
+      "english": "spoon",
+      "phonetic": "spu:n",
+      "chinese": "匙, 调羹, 匙形工",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0335",
+      "english": "across",
+      "phonetic": "ә'krɒs",
+      "chinese": "越过",
+      "example": "",
+      "example_cn": "",
+      "category": "direction",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0336",
+      "english": "direction",
+      "phonetic": "di'rekʃәn",
+      "chinese": "方向",
+      "example": "",
+      "example_cn": "",
+      "category": "direction",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0337",
+      "english": "early",
+      "phonetic": "'ә:li",
+      "chinese": "早的",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0338",
+      "english": "eye",
+      "phonetic": "ai",
+      "chinese": "眼睛",
+      "example": "",
+      "example_cn": "",
+      "category": "emergency",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0339",
+      "english": "gift",
+      "phonetic": "gift",
+      "chinese": "礼物",
+      "example": "",
+      "example_cn": "",
+      "category": "shopping",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0340",
+      "english": "important",
+      "phonetic": "im'pɒ:tәnt",
+      "chinese": "重要的",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0341",
+      "english": "month",
+      "phonetic": "mʌnθ",
+      "chinese": "月",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0342",
+      "english": "schedule",
+      "phonetic": "'skedʒuәl",
+      "chinese": "时间表",
+      "example": "",
+      "example_cn": "",
+      "category": "transportation",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0343",
+      "english": "near",
+      "phonetic": "niә",
+      "chinese": "近的",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0344",
+      "english": "pack",
+      "phonetic": "pæk",
+      "chinese": "包裹",
+      "example": "",
+      "example_cn": "",
+      "category": "airport",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0345",
+      "english": "person",
+      "phonetic": "'pә:sn",
+      "chinese": "人, 人身, 人称",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0346",
+      "english": "second",
+      "phonetic": "'sekәnd",
+      "chinese": "秒, 瞬间, 第二名",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0347",
+      "english": "single",
+      "phonetic": "'siŋgl",
+      "chinese": "单身的",
+      "example": "",
+      "example_cn": "",
+      "category": "hotel",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0348",
+      "english": "small",
+      "phonetic": "smɒ:l",
+      "chinese": "小的",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0349",
+      "english": "soup",
+      "phonetic": "su:p",
+      "chinese": "汤, 马力",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0350",
+      "english": "valley",
+      "phonetic": "'væli",
+      "chinese": "山谷",
+      "example": "",
+      "example_cn": "",
+      "category": "entertainment",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0351",
+      "english": "arrival",
+      "phonetic": "ә'raivl",
+      "chinese": "到达",
+      "example": "",
+      "example_cn": "",
+      "category": "airport",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0352",
+      "english": "confirm",
+      "phonetic": "kәn'fә:m",
+      "chinese": "证实",
+      "example": "",
+      "example_cn": "",
+      "category": "hotel",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0353",
+      "english": "oil",
+      "phonetic": "ɒil",
+      "chinese": "油, 石油, 油画颜",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0354",
+      "english": "relaxing",
+      "phonetic": "",
+      "chinese": "令人轻松的",
+      "example": "",
+      "example_cn": "",
+      "category": "entertainment",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0355",
+      "english": "travel",
+      "phonetic": "'trævl",
+      "chinese": "旅行",
+      "example": "",
+      "example_cn": "",
+      "category": "airport",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0356",
+      "english": "warm",
+      "phonetic": "wɒ:m",
+      "chinese": "暖和的",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0357",
+      "english": "weight",
+      "phonetic": "weit",
+      "chinese": "重, 重量, 体重,",
+      "example": "",
+      "example_cn": "",
+      "category": "airport",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0358",
+      "english": "broken",
+      "phonetic": "'brәukәn",
+      "chinese": "坏掉的",
+      "example": "",
+      "example_cn": "",
+      "category": "emergency",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0359",
+      "english": "good",
+      "phonetic": "gud",
+      "chinese": "善行",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0360",
+      "english": "knife",
+      "phonetic": "naif",
+      "chinese": "小刀",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0361",
+      "english": "lift",
+      "phonetic": "lift",
+      "chinese": "举起",
+      "example": "",
+      "example_cn": "",
+      "category": "hotel",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0362",
+      "english": "order",
+      "phonetic": "'ɒ:dә",
+      "chinese": "次序",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0363",
+      "english": "transfer",
+      "phonetic": "træns'fә:",
+      "chinese": "迁移",
+      "example": "",
+      "example_cn": "",
+      "category": "transportation",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0364",
+      "english": "guide",
+      "phonetic": "gaid",
+      "chinese": "引导者",
+      "example": "",
+      "example_cn": "",
+      "category": "entertainment",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0365",
+      "english": "hurt",
+      "phonetic": "hә:t",
+      "chinese": "伤害",
+      "example": "",
+      "example_cn": "",
+      "category": "emergency",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0366",
+      "english": "nice",
+      "phonetic": "nais",
+      "chinese": "美好的",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0367",
+      "english": "problem",
+      "phonetic": "'prɒblәm",
+      "chinese": "问题",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0368",
+      "english": "return",
+      "phonetic": "ri'tә:n",
+      "chinese": "回来",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0369",
+      "english": "today",
+      "phonetic": "tә'dei",
+      "chinese": "今天",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0370",
+      "english": "exchange",
+      "phonetic": "iks'tʃeindʒ",
+      "chinese": "交换",
+      "example": "",
+      "example_cn": "",
+      "category": "shopping",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0371",
+      "english": "luggage",
+      "phonetic": "'lʌgidʒ",
+      "chinese": "行李",
+      "example": "",
+      "example_cn": "",
+      "category": "airport",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0372",
+      "english": "spend",
+      "phonetic": "spend",
+      "chinese": "花费",
+      "example": "",
+      "example_cn": "",
+      "category": "shopping",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0373",
+      "english": "steal",
+      "phonetic": "sti:l",
+      "chinese": "剽窃",
+      "example": "",
+      "example_cn": "",
+      "category": "emergency",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0374",
+      "english": "thirsty",
+      "phonetic": "'θә:sti",
+      "chinese": "口渴的",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0375",
+      "english": "window",
+      "phonetic": "'windәu",
+      "chinese": "窗户",
+      "example": "",
+      "example_cn": "",
+      "category": "airport",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0376",
+      "english": "bill",
+      "phonetic": "bil",
+      "chinese": "帐单",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0377",
+      "english": "camera",
+      "phonetic": "'kæmәrә",
+      "chinese": "照相机",
+      "example": "",
+      "example_cn": "",
+      "category": "entertainment",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0378",
+      "english": "leave",
+      "phonetic": "li:v",
+      "chinese": "许可",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0379",
+      "english": "more",
+      "phonetic": "mɒ:",
+      "chinese": "更多",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0380",
+      "english": "pay",
+      "phonetic": "pei",
+      "chinese": "薪资",
+      "example": "",
+      "example_cn": "",
+      "category": "shopping",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0381",
+      "english": "speed",
+      "phonetic": "spi:d",
+      "chinese": "速率",
+      "example": "",
+      "example_cn": "",
+      "category": "transportation",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0382",
+      "english": "take",
+      "phonetic": "teik",
+      "chinese": "拿, 取, 抓, 带",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0383",
+      "english": "towel",
+      "phonetic": "'tauәl",
+      "chinese": "手巾",
+      "example": "",
+      "example_cn": "",
+      "category": "hotel",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0384",
+      "english": "empty",
+      "phonetic": "'empti",
+      "chinese": "空的",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0385",
+      "english": "market",
+      "phonetic": "'mɑ:kit",
+      "chinese": "市场",
+      "example": "",
+      "example_cn": "",
+      "category": "shopping",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0386",
+      "english": "read",
+      "phonetic": "ri:d",
+      "chinese": "读, 阅读, 理解",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0387",
+      "english": "try",
+      "phonetic": "trai",
+      "chinese": "尝试",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0388",
+      "english": "tunnel",
+      "phonetic": "'tʌnl",
+      "chinese": "隧道",
+      "example": "",
+      "example_cn": "",
+      "category": "direction",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0389",
+      "english": "wear",
+      "phonetic": "wєә",
+      "chinese": "穿着",
+      "example": "",
+      "example_cn": "",
+      "category": "shopping",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0390",
+      "english": "bank",
+      "phonetic": "bæŋk",
+      "chinese": "银行",
+      "example": "",
+      "example_cn": "",
+      "category": "shopping",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0391",
+      "english": "carry",
+      "phonetic": "'kæri",
+      "chinese": "进位",
+      "example": "",
+      "example_cn": "",
+      "category": "shopping",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0392",
+      "english": "hill",
+      "phonetic": "hil",
+      "chinese": "小山",
+      "example": "",
+      "example_cn": "",
+      "category": "entertainment",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0393",
+      "english": "language",
+      "phonetic": "'læŋgwidʒ",
+      "chinese": "语言",
+      "example": "",
+      "example_cn": "",
+      "category": "entertainment",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0394",
+      "english": "need",
+      "phonetic": "ni:d",
+      "chinese": "需要",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0395",
+      "english": "platform",
+      "phonetic": "'plætfɒ:m",
+      "chinese": "站台",
+      "example": "",
+      "example_cn": "",
+      "category": "transportation",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0396",
+      "english": "think",
+      "phonetic": "θiŋk",
+      "chinese": "想, 考虑, 想起,",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0397",
+      "english": "west",
+      "phonetic": "west",
+      "chinese": "西方",
+      "example": "",
+      "example_cn": "",
+      "category": "direction",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0398",
+      "english": "answer",
+      "phonetic": "'ɑ:nsә",
+      "chinese": "答案",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0399",
+      "english": "chicken",
+      "phonetic": "'tʃikin",
+      "chinese": "小鸡",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0400",
+      "english": "chocolate",
+      "phonetic": "'tʃɒkәlit",
+      "chinese": "巧克力",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0401",
+      "english": "museum",
+      "phonetic": "mju:'ziәm",
+      "chinese": "博物馆",
+      "example": "",
+      "example_cn": "",
+      "category": "entertainment",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0402",
+      "english": "nearby",
+      "phonetic": "'niәbai",
+      "chinese": "附近的",
+      "example": "",
+      "example_cn": "",
+      "category": "direction",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0403",
+      "english": "pilot",
+      "phonetic": "'pailәt",
+      "chinese": "飞行员",
+      "example": "",
+      "example_cn": "",
+      "category": "airport",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0404",
+      "english": "safety",
+      "phonetic": "'seifti",
+      "chinese": "安全",
+      "example": "",
+      "example_cn": "",
+      "category": "emergency",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0405",
+      "english": "block",
+      "phonetic": "blɒk",
+      "chinese": "街区",
+      "example": "",
+      "example_cn": "",
+      "category": "direction",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0406",
+      "english": "city",
+      "phonetic": "'siti",
+      "chinese": "城市",
+      "example": "",
+      "example_cn": "",
+      "category": "direction",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0407",
+      "english": "cloth",
+      "phonetic": "klɒ:θ. klɒθ",
+      "chinese": "布料",
+      "example": "",
+      "example_cn": "",
+      "category": "shopping",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0408",
+      "english": "go",
+      "phonetic": "gou",
+      "chinese": "去, 走, 达到,",
+      "example": "",
+      "example_cn": "",
+      "category": "direction",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0409",
+      "english": "noise",
+      "phonetic": "nɒiz",
+      "chinese": "噪音",
+      "example": "",
+      "example_cn": "",
+      "category": "hotel",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0410",
+      "english": "tomorrow",
+      "phonetic": "tә'mɒ:rәu",
+      "chinese": "明天",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0411",
+      "english": "cut",
+      "phonetic": "kʌt",
+      "chinese": "切口",
+      "example": "",
+      "example_cn": "",
+      "category": "emergency",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0412",
+      "english": "express",
+      "phonetic": "ik'spres",
+      "chinese": "快车",
+      "example": "",
+      "example_cn": "",
+      "category": "transportation",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0413",
+      "english": "highway",
+      "phonetic": "'haiwei",
+      "chinese": "公路",
+      "example": "",
+      "example_cn": "",
+      "category": "direction",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0414",
+      "english": "lake",
+      "phonetic": "leik",
+      "chinese": "湖, 池, 色淀",
+      "example": "",
+      "example_cn": "",
+      "category": "entertainment",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0415",
+      "english": "police",
+      "phonetic": "pә'li:s",
+      "chinese": "警察",
+      "example": "",
+      "example_cn": "",
+      "category": "emergency",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0416",
+      "english": "bridge",
+      "phonetic": "bridʒ",
+      "chinese": "桥, 舰桥, 桥梁,",
+      "example": "",
+      "example_cn": "",
+      "category": "direction",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0417",
+      "english": "international",
+      "phonetic": ".intә'næʃәnәl",
+      "chinese": "国际的",
+      "example": "",
+      "example_cn": "",
+      "category": "airport",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0418",
+      "english": "juice",
+      "phonetic": "dʒu:s",
+      "chinese": "汁, 活力, 体液",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0419",
+      "english": "nurse",
+      "phonetic": "nә:s",
+      "chinese": "护士",
+      "example": "",
+      "example_cn": "",
+      "category": "emergency",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0420",
+      "english": "beer",
+      "phonetic": "biә",
+      "chinese": "啤酒",
+      "example": "",
+      "example_cn": "",
+      "category": "restaurant",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0421",
+      "english": "deliver",
+      "phonetic": "di'livә",
+      "chinese": "递送",
+      "example": "",
+      "example_cn": "",
+      "category": "shopping",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0422",
+      "english": "style",
+      "phonetic": "stail",
+      "chinese": "风格",
+      "example": "",
+      "example_cn": "",
+      "category": "shopping",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0423",
+      "english": "vehicle",
+      "phonetic": "'vi:ikl",
+      "chinese": "交通工具",
+      "example": "",
+      "example_cn": "",
+      "category": "transportation",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0424",
+      "english": "woman",
+      "phonetic": "'wumәn",
+      "chinese": "女人",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0425",
+      "english": "aircraft",
+      "phonetic": "'єәkræft",
+      "chinese": "航空器",
+      "example": "",
+      "example_cn": "",
+      "category": "airport",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0426",
+      "english": "pass",
+      "phonetic": "pæs",
+      "chinese": "经过",
+      "example": "",
+      "example_cn": "",
+      "category": "transportation",
+      "source": "oxford3000"
+    },
+    {
+      "id": "travel_0427",
+      "english": "sorry",
+      "phonetic": "'sɒri",
+      "chinese": "难过的",
+      "example": "",
+      "example_cn": "",
+      "category": "general",
       "source": "oxford3000"
     },
     {

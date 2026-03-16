@@ -1446,8 +1446,8 @@ func cleanTranslation(raw string) string {
 	if raw == "" {
 		return ""
 	}
-	// 按换行符分割，逐行处理
-	lines := strings.Split(raw, "\n")
+	// ECDICT 翻译字段内用字面量 \n（反斜杠+n）作为行分隔符，而非真换行符
+	lines := strings.Split(raw, `\n`)
 	for _, line := range lines {
 		line = strings.TrimSpace(line)
 		if line == "" {
