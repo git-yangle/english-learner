@@ -214,9 +214,16 @@ let dictHistory = []; // 已完成的默写记录 [{id, chinese, correct}]
 // ──────────────────── localStorage 会话持久化 ────────────────────
 function saveQuizSession() {
   const today = new Date().toISOString().split('T')[0];
+  // 按 wordID 保存结果，避免依赖题目顺序（词库重建后 ID 可能重排）
+  const resultsByWordID = {};
+  quizQuestions.forEach((q, i) => {
+    if (quizResults[i] !== null) resultsByWordID[q.word_id] = quizResults[i];
+  });
   try {
     localStorage.setItem('quiz_session', JSON.stringify({
-      date: today, questions: quizQuestions, results: quizResults, idx: quizIdx,
+      date: today,
+      resultsByWordID,
+      currentWordID: quizIdx < quizQuestions.length ? quizQuestions[quizIdx].word_id : null,
     }));
   } catch(e) {}
 }
@@ -392,17 +399,7 @@ async function markWord(wordID, known) {
 async function renderQuiz() {
   await loadTodayProgress();
 
-  // 优先从 localStorage 恢复今日测试会话
-  const saved = loadQuizSession();
-  if (saved && saved.questions && saved.questions.length > 0) {
-    quizQuestions = saved.questions;
-    quizResults = saved.results;
-    quizIdx = saved.idx;
-    quizCorrect = quizResults.filter(r => r && r.correct).length;
-    renderQuizQuestion(); // 若 idx >= length 则自动进结果页
-    return;
-  }
-
+  // 每次都从 API 重新获取最新题目，避免缓存旧题目导致 wordID 错位
   quizQuestions = await api('GET', '/study/quiz?count=10');
   quizIdx = 0;
   quizCorrect = 0;
@@ -410,8 +407,24 @@ async function renderQuiz() {
     document.getElementById('content').innerHTML = '<div class="empty">今日没有学习内容，请先浏览单词</div>';
     return;
   }
-  // 初始化每题结果为 null（未作答）
   quizResults = new Array(quizQuestions.length).fill(null);
+
+  // 从 localStorage 按 wordID 恢复今日已答结果
+  const saved = loadQuizSession();
+  if (saved && saved.resultsByWordID) {
+    quizQuestions.forEach((q, i) => {
+      if (saved.resultsByWordID[q.word_id]) quizResults[i] = saved.resultsByWordID[q.word_id];
+    });
+    quizCorrect = quizResults.filter(r => r && r.correct).length;
+    // 定位到上次作答的题目
+    if (saved.currentWordID) {
+      const idx = quizQuestions.findIndex(q => q.word_id === saved.currentWordID);
+      if (idx >= 0) quizIdx = idx;
+    }
+    // 若所有题都已答完，直接进结果页
+    if (quizResults.every(r => r !== null)) quizIdx = quizQuestions.length;
+  }
+
   renderQuizQuestion();
 }
 
