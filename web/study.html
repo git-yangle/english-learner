@@ -624,13 +624,15 @@ function buildDictNavWithCurrent(activeIdx) {
 function renderDictCard() {
   if (!dictCurrent) return;
   const q = dictCurrent;
-  // 例句作为提示，默认隐藏
-  const hintHtml = q.example ? `
+  // 提示：有例句时显示例句，否则显示音标（单词场景）
+  const hintContent = q.example
+    ? `<div class="dict-ex">${escHtml(q.example)}</div>${q.example_cn ? `<div style="font-size:12px;color:#94a3b8;font-style:italic;margin-top:2px">${escHtml(q.example_cn)}</div>` : ''}`
+    : (q.phonetic ? `<div style="font-size:16px;color:#94a3b8;letter-spacing:1px">${escHtml(q.phonetic)}</div>` : '');
+  const hintHtml = hintContent ? `
     <div style="margin-top:10px;text-align:center">
       <button id="dictHintBtn" class="btn btn-ghost" style="font-size:13px;padding:5px 14px" onclick="showDictHint()">💡 查看提示</button>
       <div id="dictHintContent" style="display:none;margin-top:6px">
-        <div class="dict-ex">${escHtml(q.example)}</div>
-        ${q.example_cn ? `<div style="font-size:12px;color:#94a3b8;font-style:italic;margin-top:2px">${escHtml(q.example_cn)}</div>` : ''}
+        ${hintContent}
       </div>
     </div>` : '';
 

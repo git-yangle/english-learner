@@ -31,6 +31,7 @@ type QuizResult struct {
 type DictationQuestion struct {
 	WordID    string `json:"word_id"`
 	Chinese   string `json:"chinese"`
+	Phonetic  string `json:"phonetic"`
 	Example   string `json:"example"`
 	ExampleCN string `json:"example_cn"`
 }
@@ -366,10 +367,11 @@ func (s *studyService) GetDictationWord() (*DictationQuestion, error) {
 		selected = wordsWithStats[idx].word
 	}
 
-	// 4. 返回默写题目（隐藏英文，只展示中文和例句）
+	// 4. 返回默写题目（隐藏英文，只展示中文、音标和例句）
 	return &DictationQuestion{
 		WordID:    selected.ID,
 		Chinese:   selected.Chinese,
+		Phonetic:  selected.Phonetic,
 		Example:   selected.Example,
 		ExampleCN: selected.ExampleCN,
 	}, nil
